@@ -769,4 +769,4 @@ See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-pu
 
 ## Testing v2/event
 
-In order to test whether v2/events are being received on Branch's backend, check out [Liveview](exports/pba-liveview). Be sure you have opted into the new [People-Based Attribution](/dashboard/people-based-attribution/).
+In order to test whether v2/events are being received on Branch's backend, check out [Liveview](/exports/pba-liveview).
