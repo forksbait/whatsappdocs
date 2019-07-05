@@ -1,6 +1,6 @@
 ## Overview
 
-![Apptilaus](https://cdn.branch.io/branch-assets/ad-partner-manager//a39dd9a34b9c-apptilaus_logo_2x-1559414393834.png)
+![Apptilaus - Subscription Analytics](https://cdn.branch.io/branch-assets/ad-partner-manager//apptilaus_logo-1562023417593.png)
 
 This guide will walk you through how to send your Branch data to **[Apptilaus](https://apptilaus.com/)** using Branch Data Intgeration **.
 
