@@ -169,6 +169,7 @@ nav:
       - Google Play: apps/android-launch.md
     - Advanced Configuration:
       - V2 Events: apps/v2event.md
+      - Logging Branch Events Using Google Tag Manager: apps/logging-branch-events-using-google-tag-manager.md
     - Version Histories:
       - Android Version History: version-histories/android-version-history.md
       - iOS Version History: version-histories/ios-version-history.md
@@ -794,7 +795,7 @@ nav:
       - Adobe Campaign Standard: emails/adobe-campaign-standard.md
       - Amazon Simple Email Service: emails/amazon-ses.md
       - Betaout: emails/betaout.md
-      - BlueCore: emails/bluecore.md
+      - Bluecore: emails/bluecore.md
       - Blueshift: emails/blueshift.md
       - Braze (via SendGrid): emails/braze.md
       - Braze (via Mailjet): emails/braze-mailjet.md
@@ -851,6 +852,7 @@ nav:
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
       - Eulerian: integrations/eulerian.md
+      - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
       - Insider: integrations/insider.md
@@ -883,6 +885,7 @@ nav:
     - Overview: exports/data-feeds-overview.md
     - Data Integrations: integrations/data-integrations-list.md
     - Webhooks: exports/ua-webhooks.md
+    - Custom Export API: exports/custom-export-api.md
     - Data Export API: exports/api-v3.md
     - Query API: exports/query-api.md
     - Supplemental Information:

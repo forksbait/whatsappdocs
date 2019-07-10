@@ -91,3 +91,9 @@ When viewing analytics, data is filterable by `Agency` via:
 
 !!! note "Viewing other Agencies Data"
 	Only Agencies given the ability to view other Agencies data will be able to filter analytics by Agency.
+
+### Agency Access to Export Sensitive Data via API
+
+By default, third parties - including Agencies - do not have access to export sensitive (i.e.log-level) data via the [Custom Export API](/exports/custom-export-api/).
+
+However, agencies may be [given access to the Custom Export API](/exports/custom-export-api/#providing-agencies-api-access) by contacting their advertiser or emailing [support@branch.io](mailto:support@branch.io).
