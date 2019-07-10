@@ -13,6 +13,10 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
     <img src="../../../_assets/img/pages/exports/webhook.png" />
     <p>Webhooks</p>
   </a>
+  <a href="/exports/custom-export-api/">
+    <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
+    <p>Custom Export API</p>
+  </a>
   <a href="/exports/api-v3/">
     <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
     <p>Data Export API</p>

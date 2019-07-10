@@ -884,6 +884,7 @@ nav:
     - Overview: exports/data-feeds-overview.md
     - Data Integrations: integrations/data-integrations-list.md
     - Webhooks: exports/ua-webhooks.md
+    - Custom Export API: exports/custom-export-api.md
     - Data Export API: exports/api-v3.md
     - Query API: exports/query-api.md
     - Supplemental Information:
