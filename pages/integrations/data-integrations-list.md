@@ -20,6 +20,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/_assets/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/integrations/clevertap/)**
 <a href="https://www.convertro.com/" target="_blank">![Convertro](/_assets/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/integrations/convertro/)**
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/_assets/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/integrations/eulerian/)**
+<a href="https://impact.com/ad-fraud-detection/" target="_blank">![Forensiq](https://cdn.branch.io/branch-assets/ad-partner-manager//b185ed648c28-Forensiq_logo_web_color-1561594656041.png)</a>|**[Forensiq](/integrations/forensiq/)**
 <a href="https://www.inmobi.com/" target="_blank">![Fraud Defense](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/FD_horizontal_png-1545435249497.png)</a>|**[Fraud Defense](/integrations/fraud-defense/)**
 <a href="https://analytics.google.com/" target="_blank">![Google Analytics](/_assets/img/pages/integrations/logos/google_analytics.png)</a>|**[Google Analytics](/integrations/google-analytics/)**
 <a href="https://useinsider.com/" target="_blank">![Insider](https://cdn.branch.io/branch-assets/ad-partner-manager//insider_logo_2x-1561003202055.png)</a>|**[Insider](/integrations/insider/)**
