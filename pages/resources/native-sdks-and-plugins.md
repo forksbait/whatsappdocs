@@ -77,6 +77,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
 
 ## Advanced Configuration
 - [v2 Events](/apps/v2event)
+- [Logging Branch Events using Google Tag Manager](/apps/logging-branch-events-using-google-tag-manager)
 
 ## Version Histories
 - [Android Version History](/version-histories/android-version-history)

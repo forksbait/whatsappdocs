@@ -169,6 +169,7 @@ nav:
       - Google Play: apps/android-launch.md
     - Advanced Configuration:
       - V2 Events: apps/v2event.md
+      - Logging Branch Events Using Google Tag Manager: apps/logging-branch-events-using-google-tag-manager.md
     - Version Histories:
       - Android Version History: version-histories/android-version-history.md
       - iOS Version History: version-histories/ios-version-history.md
