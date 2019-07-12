@@ -29,16 +29,19 @@
 	`public abstract void execute (Map<String, Object> parameters)`
 1. Within this function, read the parameters passed by GTM within the "execute" function and log a Branch standard /custom event. Please ensure you import the Branch library.
 	```
-	        let event_Name = parameters["event_name"] as! String
-	        let event = BranchEvent.customEvent(withName: event_Name)
+	@Keep
+	public class TagProviderImpl implements CustomTagProvider {
+	...
 
-	        parameters.keys.forEach { key in
-	            let a = parameters[key] as! String
-	            event.customData[key] = a
-	            print("*", a)
-	        }
-	        event.logEvent()
-	        return nil
+		@Keep
+		public void execute(Map<String, Object> variables) {
+			BranchEvent event = new BranchEvent("View Event");
+			for (String key: variables.keySet()) {
+				event.addCustomDataProperty(key, variables.get(key).toString());
+			}
+			event.logEvent(context);
+		}
+	}
 	```
 
 ## Setting up custom tags on iOS
