@@ -680,9 +680,8 @@ branch-banner .branch-banner-description::before
 The customization options available depend on the template chosen:
 
 - [Smart Banner](/web/journeys/#smart-banner)
-- [Full Screen Interstitial](/web/journeys/#full-screen-interstitial)
-- [Half Page Interstitial](/web/journeys/#full-screen-interstitial)
-- Floating Button
+- [Interstitial](/web/journeys/#full-screen-interstitial)
+- [Button Template](/web/journeys/#button-template)
 
 #### Smart Banner
 
@@ -832,6 +831,51 @@ The content block contains everything except for the background image. Dimension
 | Dismiss Journey configuration | Choose whether the user should be able to dismiss the Journey via a button and/or via text |
 | Dismiss Text | Text to show users wanting to continue to your mobile website instead of downloading the app.
 | Formatting Bar | WYSIWYG styling for dismiss button & text |
+
+#### Button Template
+
+##### Button Text
+
+![image](/_assets/img/pages/journeys/customize-button-template.png)
+
+| Option | Usage |
+| --- | --- |
+| Text Font | Specify the text font for the button |
+| Text Size | Specify the text size for the button |
+| Text Color | Specify the text color for for the button |
+| Background Color | Set the background color of the button |
+| Bold | Bold the text of the button |
+| Text Alignment | Control the alignment - left / center / right adjusted - of the button text |
+| Button Text - App Installed | The text of the button when the user already has the app installed on the device |
+| Button Text - App Not Installed | The text of the button when the user does not have the app installed on the device |
+| Auto-Open| When this box is checked, if a user views this Journey on your website and they have the app installed, the app will automatically open without them clicking |
+| Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
+| Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
+
+##### Dismiss
+
+![image](/_assets/img/pages/journeys/dismissal-button.png)
+
+| Option | Usage |
+| --- | --- |
+| Dismissal behavior | Choose what should happen when the Journey is dismissed |
+| Dismissal Period | Decide how long the Journey should be dismissed for, and whether that dismissal period should apply to all Journeys or just this one |
+
+#### Customizing the Template's Container (iFrame)
+
+!!! warning "Advanced Feature / CSS Knowledge Required"
+    Customizing a template's container (iFrame) may impact the way it displays on your website. Please test thoroughly before deploying Journeys with customized containers.
+
+To access the template's container (iFrame) CSS code:
+
+1. Once you've chosen a template for your Journey, click on the **Page Placement** tab.
+2. Under **Page Settings** on the **Page Placement** tab, click the **Customize Container (iFrame)** radio button.
+3. Modify the iFrame as you see fit and click **Save & Close**.
+
+![image](/_assets/img/pages/journeys/customize-container-iframe.png)
+
+!!! info "Access Required"
+    This advanced feature is currently only available upon request.  Please contact your Account Manager to request access.
 
 ### Limitations for apps with free accounts
 
