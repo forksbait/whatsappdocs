@@ -30,8 +30,9 @@ To provide an agency team member with access to the Custom Export API:
 4. In the **Edit Agency Team Member** modal:
     1. Under **Access Level**, check the **Export** box.
     2. Under **Permissions**, check the **Sensitive Data** box.
-    3. Under **Data Filters**, toggle the **Only Show Agency-Tagged Data** on/blue.
-5. Click **Save**.
+5. Optional: add data filters
+    1. Under **Data Filters**, toggle any necessary data filters on/blue. Exported data will be filtered accordingly.
+6. Click **Save**.
 
 ![image](/_assets/img/pages/exports/agency-export-access.png)
 
