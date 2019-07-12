@@ -26,7 +26,7 @@ To link Branch to your Google Ads account, please follow Google's **[Link a thir
 - You’ll need to create a different link ID for each app you track with Branch. Once you've generated the link ID and shared it with Branch you'll be able to import conversion events into Google Ads.
 - You must be an admin in your Google Ads account in order to generate link IDs.
 - If you manage campaigns for the same app in multiple Google Ads accounts either:
-	- Use [cross-account conversion tracking](https://support.google.com/google-ads/answer/3030657) and setting up a link ID with your third-party app analytics provider in your manager account. Ensure after setting up the link ID and conversions at MCC level, that you have appropriately set the manager as the conversion account for each sub-account you will run app ads on under Accounts>Management in Google Ads. 
+	- Use [cross-account conversion tracking](https://support.google.com/google-ads/answer/3030657) and setting up a link ID with your third-party app analytics provider in your manager account. Ensure after setting up the link ID and conversions at MCC level, that you have appropriately set the manager as the conversion account for each sub-account you will run app ads on under Accounts>Management in Google Ads.
 	- Share a single link ID with another Google Ads account.
 		- The account you share from will be the “owner” of the link ID. Only the “owner” of the link ID can share their link ID with other accounts. Any account that has accepted the owner's invite will be able to import conversions from the corresponding third-party app analytics provider for the app associated with the shared link ID.
 
@@ -58,11 +58,16 @@ For more information, please refer to Google's [About the "Include in 'Conversio
 
 ### Do I have to set attribution windows?
 
-For example, if a user clicked an ad 8 days ago, and Google claims credit for the resulting app install, we would *not* count the install attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use. Below is simply a **recommendation**:
+For example, if a user clicked an ad 8 days ago, and Google claims credit for the resulting app install, we would *not* count the install attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use.
 
-- Click to Install : 30 days
-- Click to Conversion Event : 90 days
-- Click to Open : 90 days
+Below is Google's **recommendation**:
+
+- Click to session start: 90
+- Click to install: 30
+- Click to conversion event: 90
+- Impression to session start: 1
+- Impression to install: 1
+- Impression to conversion event: 1
 
 ### How do I handle multiple Google Ads accounts?
 
