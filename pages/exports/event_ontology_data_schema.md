@@ -77,3 +77,13 @@ On each event, we provide a considerable amount of information. The following ta
 If you are building an integration with Branch or simply wish to learn more about the fields we offer, please download one of the CSV files below. They provide a comprehensive list of events and fields, along with definitions and data types.
 
 [Full Event Ontology for Webhooks, Data Integrations and Exports](webhook_export_di_export.csv)
+
+Additionally the Daily Export API CSVs will contain the following fields:
+
+| *field* | *format* | *definition* |
+| - | - | - |
+| timestamp_iso | string | timestamp as YYYY-MM-DD HH:MM:SS+0000 |
+| last_attributed_touch_timestamp_iso | string | last_attributed_touch_timestamp as YYYY-MM-DD HH:MM:SS+0000 |
+| last_cta_view_timestamp_iso | string | last_cta_view_timestamp as YYYY-MM-DD HH:MM:SS+0000 |
+| hash_version | string | whether certain sensitive fields are hashed or unhashed |
+
