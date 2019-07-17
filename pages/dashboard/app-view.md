@@ -87,7 +87,7 @@ When viewing analytics, data is filterable by `Agency` via:
 
 - Ads Analytics, Journeys Analytics, Quick Links and Sources
 - An advanced filter in Webhooks
-- An `agency_name` column in exported CSVs (Data Export API, dashboard CSV exports)
+- An `agency_name` column in exported CSVs (Daily Export API, dashboard CSV exports)
 
 !!! note "Viewing other Agencies Data"
 	Only Agencies given the ability to view other Agencies data will be able to filter analytics by Agency.

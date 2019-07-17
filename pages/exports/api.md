@@ -3,7 +3,7 @@
 
 ## Overview
 
-The data export API can be used to pull the data visible via the Liveview & Exports tab directly via an API. A couple important notes worthy of mention of this API:
+The Daily Export API can be used to pull the data visible via the Liveview & Exports tab directly via an API. A couple important notes worthy of mention of this API:
 
 - The data will only be retrievable for 7 days (but can be extended for very special use cases)
 - The data will only appear after end of day since it's processed every 24 hours

@@ -70,10 +70,10 @@ To add additional data - i.e. key-value pairs - to your Ad Link:
 !!! tip "Available Parameters"
 	For a full list of available parameters you can include in your Ad Link, refer to [TUNE <> Branch Mapped Fields](https://support.branch.io/support/solutions/articles/6000216765-tune-branch-mapped-fields).
 
-!!! info "Disabling Universal Links"
+!!! info "Force Open the App"
 	If you want to force the app to open, even if it risks showing an error message when the app is not installed, add `uri_redirect_mode` in the **Key** field and `2` in the **Value** field.
 
-	**NOTE**: By adding this key-value pair, only those who click on this link will have the app forced open regardless. Not available for links created on the TUNE domain.
+	**NOTE**: By adding this key-value pair, only those who click on this link will have the app forced open regardless. For links created on the TUNE domain, attach your `invoke_url` key with URL encoded URI scheme value (e.g. `invoke_url=branchsters%3A%2F%2F`) and set your app-level URI redirect mode to 'Aggressive'.
 
 #### Redirect
 

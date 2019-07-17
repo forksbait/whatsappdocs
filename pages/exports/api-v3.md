@@ -1,6 +1,8 @@
 ## Overview
 
-Branch’s new Data Export API for [People-Based Attribution](/dashboard/people-based-attribution/) can be used to pull granular Branch event data directly. A few important notes for this API:
+Branch’s Daily Exports pull granular Branch event data directly. You can do so either via the **Daily Exports** section in your Branch dashboard OR via API directly.
+
+A few important notes:
 
 - The data will only be retrievable for the last 7 days
 - The data will only appear after end of day since it's processed every 24 hours
@@ -8,16 +10,44 @@ Branch’s new Data Export API for [People-Based Attribution](/dashboard/people-
 - The data will only be visible for your live key (not your test key)
 
 !!! note "Data Feeds is a premium solution"
-    The Data Export API is included in Branch’s [Data Feeds](/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Daily Export API is included in Branch’s [Data Feeds](/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
 !!! warning "Third party access"
-	Any user with access to an account’s API keys will be able to access Branch’s Data Export API (and thus unfiltered, log-level data). As a result, we would recommend against providing third parties (agencies and ad partners) with the permissions required to view API keys - Sensitive Data and App-Level Settings - during the invitation process. 
+	Any user with access to an account’s API keys will be able to access Branch’s Daily Export API (and thus unfiltered, log-level data). As a result, we would recommend against providing third parties (agencies and ad partners) with the permissions required to view API keys - Sensitive Data and App-Level Settings - during the invitation process.
 
-    **If you are looking for the legacy Data Export API**, please see [these docs](/exports/api/).
+**If you are looking for the legacy Daily Export API**, please see [these docs](/exports/api/).
 
-## Setup
+## Requirements
 
-In order to use this API you must have an App ID and a Branch Public Key. You must also have a Data Feeds subscription. In order to enable the Data Export API, navigate to Data Import & Export in the Branch dashboard and then toggle on the Data Export API using the slider on the Manager page.
+- [x] You must have a **Data Feeds** subscription.
+- [x] Toggle on the **Data Export API** using the slider on the **Data Feeds Manager page**.
+
+## Access via Branch Dashboard
+
+Rather than accessing the Daily Export API directly, you can use the Daily Exports section in your Branch dashboard to request the appropriate data via CSVs.
+
+!!! info "CSV Delivery"
+    Any data you export via the dashboard will be included in a CSV attachment in an email.  Please ensure your email address is up to date in `Account Settings`.
+
+To request an export:
+
+1. In the left-hand navigation, under the **Setup & Testing** section, click **Data Import & Export**, then click on **Exports**.
+2. On the **Daily Exports** page, select the period of time you wish to export data for.
+    - Last 1 days
+    - Last 3 days
+    - Last 7 days
+    - Custom
+3. Select the type of events you want to export:
+  - Individually by clicking the respective **Download arrow**
+  - En masse by clicking the **Export All** button.
+
+![image](/_assets/img/pages/exports/daily-exports.png)
+
+Upon request, you will receive a confirmation email verifying the details of your request. Once we finish processing your export, you will receive another email that includes as CSV attachment. Please keep in mind larger exports require more processing time.
+
+## Access via API
+
+In order to use this API you must have an App ID and a Branch Public Key.
 
 You can find your keys in your [Account Settings](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 

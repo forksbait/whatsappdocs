@@ -124,8 +124,9 @@ nav:
           - App Level Access: dashboard/app-level-access.md
           - Channel Level Access: dashboard/channel-level-access.md
           - Link Level Access: dashboard/link-level-access.md
-          - Sensitive Data: dashboard/sensitive-data-access.md
           - Aggregate Data: dashboard/aggregate-data-access.md
+          - Sensitive Data: dashboard/sensitive-data-access.md
+          - Export Access: dashboard/export-access.md
     - Advanced Settings:
       - View Billing Information: dashboard/viewing-billing.md
       - Enable Single Sign On: dashboard/sso.md
@@ -895,8 +896,8 @@ nav:
     - Overview: exports/data-feeds-overview.md
     - Data Integrations: integrations/data-integrations-list.md
     - Webhooks: exports/ua-webhooks.md
-    - Custom Export API: exports/custom-export-api.md
-    - Data Export API: exports/api-v3.md
+    - Custom Exports: exports/custom-export-api.md
+    - Daily Exports: exports/api-v3.md
     - Query API: exports/query-api.md
     - Supplemental Information:
       - Query Recipe Book: exports/query-recipe-book.md

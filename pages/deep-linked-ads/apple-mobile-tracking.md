@@ -38,24 +38,6 @@ branch.initSession.....
 
 If you're concerned about the additional 1 second latency, the call to `delayInitToCheckForSearchAds` can be called conditionally at run time. So, if you want to only check on first install, or the like, then just don't call this method.
 
-#### Apple Search Ads Debug
-
-We've also added a debug mode which will demonstrate the functionality. You can enable it like so, but just remember to remove this before release!
-
-```obj-c
-Branch *branch = [Branch getInstance];
-[branch setAppleSearchAdsDebugMode];
-[branch delayInitToCheckForSearchAds];
-[branch initSession.....
-```
-
-```swift
-let branch: Branch = Branch.getInstance()
-branch.setAppleSearchAdsDebugMode()
-branch.delayInitToCheckForSearchAds()
-branch.initSession.....
-```
-
 ## Cost Data Setup
 
 1. Navigate to the [Apple Search Ads UI > Settings > API](https://app.searchads.apple.com/cm/app/settings/apicertificates). *Verify you have selected the correct account by using the account selector in the top right hand corner.*
