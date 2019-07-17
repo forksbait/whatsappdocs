@@ -157,8 +157,15 @@ Agencies can access Twitter data under the following circumstances:
 **Why am I seeing an onboarding error or not seeing an ad account?**
 
 - You must have permissions to configure ad accounts.
-- You must not have another MMP configured for your app/ad account combination.
 - You can only track apps that are configured with store IDs & package names in Link Settings.
+
+**What does the error `Missing app event tags` mean?**
+
+If you see the `Missing apop event tags` error while trying to enable the Twitter integration, please go through the onboarding flow in your Branch dashboard again.  If you continue to see this error, please [Contact Support](mailto:support@branch.io).
+
+**What does the error `Non-Branch app event provider configuration detected` mean?**
+
+If you see the `Non-Branch app event provider configuration detected` error while trting to enable the Twitter integration, this means you have another Twitter Mobile Measurement Partner configured for your app/ad account combination.  You must disable/delete any other MMP integration before enabling the Twitter integration in your Branch dashboard.
 
 **Why are there so many events?**
 
