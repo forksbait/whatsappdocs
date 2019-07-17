@@ -126,8 +126,8 @@ func application(_
 
 **Android**
 
-Before you initialize in your Application#onCreate or Deep Link Activity's #onStart.
-You will want to persist the value from #onCreate, or #onNewIntent. mIntentData is a String field defined in the activity.
+Before you initialize in your Application `onCreate` or Deep Link Activity's `onStart`.
+You will want to persist the value from `onCreate, or `onNewIntent`. mIntentData is a String field defined in the activity.
 
 ```java
 @Override
@@ -360,6 +360,8 @@ For example, if a customer clicks a Branch email link, and then clicks an ad, in
 If the customer then goes on to purchase an item on web within the attribution window, Branch will also attribute the web purchase to the same ad link, connecting the web and app actions taken by a single user for a more accurate view of your marketing channels and customer behavior.
 
 ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
+
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
 
 ## Advanced Configurations
 

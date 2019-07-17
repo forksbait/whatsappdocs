@@ -1,3 +1,6 @@
+!!! info "Current SDK Version 3.1.0"
+    Please see the [Android Version History](/version-histories/android-version-history) to view change log.
+
 ## Integrate Branch
 
 - ### Configure Branch
@@ -231,7 +234,7 @@
                 Branch.getInstance().initSession(object : BranchReferralInitListener {
                     override fun onInitFinished(referringParams: JSONObject, error: BranchError?) {
                         if (error == null) {
-                            Log.e("BRANCH SDK", referringParams.toString)
+                            Log.e("BRANCH SDK", referringParams.toString())
                             // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
                             // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
@@ -241,7 +244,8 @@
                 }, this.intent.data, this)
             }
 
-            public override fun onNewIntent(intent: Intent) {
+            override fun onNewIntent(intent: Intent) {
+                super.onNewIntent(intent)
                 this.intent = intent
             }
         }
@@ -271,7 +275,7 @@
                 super.onCreate();
 
                 // Branch logging for debugging
-                Branch.enableLogging();
+                Branch.enableDebugMode();
 
                 // Branch object initialization
                 Branch.getAutoInstance(this);
@@ -292,7 +296,7 @@
                 super.onCreate()
 
                 // Branch logging for debugging
-                Branch.enableLogging()
+                Branch.enableDebugMode()
 
                 // Branch object initialization
                 Branch.getAutoInstance(this)
@@ -842,7 +846,7 @@
     - *Java*
 
         ```java
-        Branch.enableLogging();
+        Branch.enableDebugMode();
         ```
 
 - ### Test your Branch Integration
@@ -872,13 +876,13 @@
             <meta-data android:name="io.branch.sdk.TestMode" android:value="true" />
             ```
             - Do not use `TestMode` in production or in the Google Play Store
-            
+
         **OR**
-        
+
         - add `Branch.enableSimulateInstalls()`; called before `initSession` in `onStart()`
-        
+
           - Can be used on Live and Test apps
-          
+
     - Uninstall your app from the device
 
     - Click on any Branch deep link (will navigate to the fallback URL since the app is not installed)

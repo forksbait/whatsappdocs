@@ -86,4 +86,3 @@ Additionally the Daily Export API CSVs will contain the following fields:
 | last_attributed_touch_timestamp_iso | string | last_attributed_touch_timestamp as YYYY-MM-DD HH:MM:SS+0000 |
 | last_cta_view_timestamp_iso | string | last_cta_view_timestamp as YYYY-MM-DD HH:MM:SS+0000 |
 | hash_version | string | whether certain sensitive fields are hashed or unhashed |
-

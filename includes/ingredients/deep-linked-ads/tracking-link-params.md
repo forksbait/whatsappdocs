@@ -44,6 +44,6 @@ Branch Parameter | Description
 
 Branch Parameter | Description
 --- | ---
-~cost_model | Cost Model
-~cost_value | Cost Value
-~cost_currency | Cost Currency
+~cost_model | Cost Model; e.g. CPI, eCPC
+~cost_value | Cost Value; e.g. 10.00
+~cost_currency | Cost Currency; e.g. USD

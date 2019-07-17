@@ -1,5 +1,3 @@
-# V2 Event
-
 ## Overview
 
 It's always been possible to track events with the Branch SDK, including installs, opens, purchases, and more. Now we're introducing a new way to track events that make reporting and analytics a whole lot better and easier.
@@ -36,15 +34,19 @@ As of now, any calls made through these SDK methods will **not** yet:
 
 Use the table below to quickly find the event you want to track.
 
-| Event Name | Event Category | iOS | Android | API
+| Event Name | Event Category | iOS | Android | Web and API
 | :-: | :-: | :-: | :-: | :-:
 | Add To Cart | [Commerce Event](#track-commerce-events) | BranchStandardEventAddToCart | BRANCH_STANDARD_EVENT.ADD_TO_CART | ADD_TO_CART
 | Add To Wishlist | [Commerce Event](#track-commerce-events) | BranchStandardEventAddToWishlist | BRANCH_STANDARD_EVENT.ADD_TO_WISHLIST | ADD_TO_WISHLIST
 | View Cart | [Commerce Event](#track-commerce-events) | BranchStandardEventViewCart | BRANCH_STANDARD_EVENT.VIEW_CART | VIEW_CART
 | Initiate Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventInitiatePurchase | BRANCH_STANDARD_EVENT.INITIATE_PURCHASE | INITIATE_PURCHASE
 | Add Payment Info | [Commerce Event](#track-commerce-events) | BranchStandardEventAddPaymentInfo | BRANCH_STANDARD_EVENT.ADD_PAYMENT_INFO | ADD_PAYMENT_INFO
+| Click Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventClickAd | BRANCH_STANDARD_EVENT.CLICK_AD | CLICK_AD
 | Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventPurchase | BRANCH_STANDARD_EVENT.PURCHASE | PURCHASE
 | Spend Credits | [Commerce Event](#track-commerce-events) | BranchStandardEventSpendCredits | BRANCH_STANDARD_EVENT.SPEND_CREDITS | SPEND_CREDITS
+| Start Trial | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
+| Subscribe | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
+| View Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventViewAd | BRANCH_STANDARD_EVENT.VIEW_AD | VIEW_AD
 | Search | [Content Event](#track-content-events) | BranchStandardEventSearch | BRANCH_STANDARD_EVENT.SEARCH | SEARCH
 | View Item | [Content Event](#track-content-events) | BranchStandardEventViewItem | BRANCH_STANDARD_EVENT.VIEW_ITEM | VIEW_ITEM
 | View Items | [Content Event](#track-content-events) | BranchStandardEventViewItems | BRANCH_STANDARD_EVENT.VIEW_ITEMS | VIEW_ITEMS
@@ -54,6 +56,9 @@ Use the table below to quickly find the event you want to track.
 | Complete Tutorial | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventCompleteTutorial | BRANCH_STANDARD_EVENT.COMPLETE_TUTORIAL | COMPLETE_TUTORIAL
 | Achieve Level | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventAchieveLevel | BRANCH_STANDARD_EVENT.ACHIEVE_LEVEL | ACHIEVE_LEVEL
 | Unlock Achievement | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventUnlockAchievement | BRANCH_STANDARD_EVENT.UNLOCK_ACHIEVEMENT | UNLOCK_ACHIEVEMENT
+| Invite | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventInvite | BRANCH_STANDARD_EVENT.INVITE | INVITE
+| Login | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventLogin | BRANCH_STANDARD_EVENT.LOGIN | LOGIN
+| Reserve | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventReserve | BRANCH_STANDARD_EVENT.RESERVE | RESERVE
 
 ## Track Commerce Events
 
@@ -203,6 +208,82 @@ new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
         .logEvent(context);
 ```
 
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1232343434",
+   "currency": "USD",
+   "revenue": 180.2,
+   "shipping": 10.5,
+   "tax": 13.5,
+   "coupon": "promo-1234",
+   "affiliation": "high_fi",
+   "description": "Preferred purchase",
+   "purchase_loc": "Palo Alto",
+   "store_pickup": "unavailable"
+};
+
+var content_items = [
+{
+   "$content_schema": "COMMERCE_PRODUCT",
+   "$og_title": "Nike Shoe",
+   "$og_description": "Start loving your steps",
+   "$og_image_url": "http://example.com/img1.jpg",
+   "$canonical_identifier": "nike/1234",
+   "$publicly_indexable": false,
+   "$price": 101.2,
+   "$locally_indexable": true,
+   "$quantity": 1,
+   "$sku": "1101123445",
+   "$product_name": "Runner",
+   "$product_brand": "Nike",
+   "$product_category": "Sporting Goods",
+   "$product_variant": "XL",
+   "$rating_average": 4.2,
+   "$rating_count": 5,
+   "$rating_max": 2.2,
+   "$creation_timestamp": 1499892854966,
+   "$exp_date": 1499892854966,
+   "$keywords": [ "sneakers", "shoes" ],
+   "$address_street": "230 South LaSalle Street",
+   "$address_city": "Chicago",
+   "$address_region": "IL",
+   "$address_country": "US",
+   "$address_postal_code": "60604",
+   "$latitude": 12.07,
+   "$longitude": -97.5,
+   "$image_captions": [ "my_img_caption1", "my_img_caption_2" ],
+   "$condition": "NEW",
+   "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+},
+{
+   "$og_title": "Nike Woolen Sox",
+   "$canonical_identifier": "nike/5324",
+   "$og_description": "Fine combed woolen sox for those who love your foot",
+   "$publicly_indexable": false,
+   "$price": 80.2,
+   "$locally_indexable": true,
+   "$quantity": 5,
+   "$sku": "110112467",
+   "$product_name": "Woolen Sox",
+   "$product_brand": "Nike",
+   "$product_category": "Apparel & Accessories",
+   "$product_variant": "Xl",
+   "$rating_average": 3.3,
+   "$rating_count": 5,
+   "$rating_max": 2.8,
+   "$creation_timestamp": 1499892854966
+}];
+
+branch.logEvent(
+   "PURCHASE",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
+
 ### HTTP API
 
 ```bash
@@ -341,6 +422,82 @@ Content events are events that occur when a user engages with your in-app conten
     .logEvent(context);
 ```
 
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1232343434",
+   "currency": "USD",
+   "revenue": 180.2,
+   "shipping": 10.5,
+   "tax": 13.5,
+   "coupon": "promo-1234",
+   "affiliation": "high_fi",
+   "description": "Preferred purchase",
+   "purchase_loc": "Palo Alto",
+   "store_pickup": "unavailable"
+};
+
+var content_items = [
+{
+   "$content_schema": "COMMERCE_PRODUCT",
+   "$og_title": "Nike Shoe",
+   "$og_description": "Start loving your steps",
+   "$og_image_url": "http://example.com/img1.jpg",
+   "$canonical_identifier": "nike/1234",
+   "$publicly_indexable": false,
+   "$price": 101.2,
+   "$locally_indexable": true,
+   "$quantity": 1,
+   "$sku": "1101123445",
+   "$product_name": "Runner",
+   "$product_brand": "Nike",
+   "$product_category": "Sporting Goods",
+   "$product_variant": "XL",
+   "$rating_average": 4.2,
+   "$rating_count": 5,
+   "$rating_max": 2.2,
+   "$creation_timestamp": 1499892854966,
+   "$exp_date": 1499892854966,
+   "$keywords": [ "sneakers", "shoes" ],
+   "$address_street": "230 South LaSalle Street",
+   "$address_city": "Chicago",
+   "$address_region": "IL",
+   "$address_country": "US",
+   "$address_postal_code": "60604",
+   "$latitude": 12.07,
+   "$longitude": -97.5,
+   "$image_captions": [ "my_img_caption1", "my_img_caption_2" ],
+   "$condition": "NEW",
+   "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+},
+{
+   "$og_title": "Nike Woolen Sox",
+   "$canonical_identifier": "nike/5324",
+   "$og_description": "Fine combed woolen sox for those who love your foot",
+   "$publicly_indexable": false,
+   "$price": 80.2,
+   "$locally_indexable": true,
+   "$quantity": 5,
+   "$sku": "110112467",
+   "$product_name": "Woolen Sox",
+   "$product_brand": "Nike",
+   "$product_category": "Apparel & Accessories",
+   "$product_variant": "Xl",
+   "$rating_average": 3.3,
+   "$rating_count": 5,
+   "$rating_max": 2.8,
+   "$creation_timestamp": 1499892854966
+}];
+
+branch.logEvent(
+   "VIEW_ITEMS",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
+
 ### HTTP API
 
 ```
@@ -470,6 +627,22 @@ new BranchEvent(BRANCH_STANDARD_EVENT.COMPLETE_REGISTRATION)
     .addCustomDataProperty("registrationID", "12345")
     .logEvent(context);
 ```
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1234",
+   "description": "Preferred purchase",
+   "registration_id": "12345"
+};
+
+branch.logEvent(
+   "COMPLETE_REGISTRATION",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
 
 ### HTTP
 
@@ -512,6 +685,8 @@ See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-pu
 If you want to track an event that isn't a predefined event, simply do the following:
 
 !!! warning "Custom Event Names"
+    The name `custom event` is reserved by Branch. Please ensure you give your custom event an actual name.
+
     We strongly recommend using custom event names that contain no more than 40 characters, contain only letters, numbers, hyphens, spaces and underscores, and do not start with a hyphen. Facebook will not accept events that violate these rules, and if you enable the Facebook integration, Branch may sanitize your event names to pass validation.
 
 ### iOS
@@ -542,6 +717,21 @@ new BranchEvent("Some Custom Event")
     .addCustomDataProperty("Custom_Event_Property_Key22", "Custom_Event_Property_val22")
     .logEvent(MainActivity.this);
 }
+```
+
+### Web
+
+```js
+var custom_data = {
+   "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+   "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
+};
+
+branch.logEvent(
+    event,
+    custom_data,
+    callback (err)
+);
 ```
 
 ### HTTP API
@@ -579,4 +769,4 @@ See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-pu
 
 ## Testing v2/event
 
-In order to test whether v2/events are being received on Branch's backend, check out [Liveview](exports/pba-liveview). Be sure you have opted into the new [People-Based Attribution](/dashboard/people-based-attribution/).
+In order to test whether v2/events are being received on Branch's backend, check out [Liveview](/exports/pba-liveview).

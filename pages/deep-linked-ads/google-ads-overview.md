@@ -1,7 +1,8 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- **Google Ads Overview (this page)**
 		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
-		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+		- [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
+		- [App Engagement Campaigns](/deep-linked-ads/google-ads-app-engagement/)
 		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
 		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
@@ -9,7 +10,7 @@
 
 With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)**, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dashboard.
 
-![image](/_assets/img/pages/deep-linked-ads/google/branch-google-ads.png)
+![image](/_assets/img/pages/deep-linked-ads/google/google-ads-branch-overview.png)
 
 ## Google Ads Campaign Support
 
@@ -18,16 +19,28 @@ With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)
 
 Our integration with Google Ads supports the following:
 
-### [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+### [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
 - Full attribution for:
-	- App Installs only
+	- App Installs
 - No 3rd Party Links
 - No Deep Linking
 - Destinations:
 	- App Stores only
 
-### [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
-- Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
+### [App Engagement Campaigns](/deep-linked-ads/google-ads-app-engagement/)
+- Full attribution for:
+	- In-app Events
+- No 3rd Party Links
+- Deep Linking via Universal Links (iOS), App Links (Android), custom URI Scheme
+- Destinations:
+	- In-app experiences
+
+!!! warning "Dynamic Remarketing Campaigns for Apps"
+	App Engagement Campaigns do not include dynamic remarketing campaigns for apps.  If you want to set up dynamic remarketing campaigns for people who have previously engaged with your app, you must create a **Web-based Ad** using the **Display Network**.
+
+### [Web-based Ads (non-App Campaigns)](/deep-linked-ads/google-ads-non-uac/)
+- Includes **Search**, **Display**, **Shopping** and **Video** Campaign types
+	- Dynamic Remarketing campaigns for Apps 
 - Full attribution for:
 	- App conversions (opens & in-app events)
 	- Web (Mobile & Desktop) conversions
@@ -49,6 +62,15 @@ campaign_name | ~campaign  | The advertiser-defined campaign name of the campaig
 ad_type | ~ad_format | The type of ad that resulted in the ad event. This value can be used to distinguish between various types of inventory as follows. | ClickToDownload<br/>AppDeepLink<br/>AppDeepLinkContinue<br/> Unknown
 network_type | ~channel | This field will identify the Google Ads advertising network the ad event occurred on. | Search<br/>Display<br/>YouTube
 network_subtype | ~secondary_publisher | This field will identify the “subtype” of the Google Ads advertising network the ad event occurred on. The possible values vary by primary network type. | Google Search, Search Partners, mGDN, Google AdMob, YouTubeVideos, YouTubeSearch, VideoPartners; `null` when campaign_type is UAC and network_type is Display.
+campaign_type | ~tags | This field will identify the type of campaign that produced the ad event. | UAC, UACe, Search, Display, Video, Shopping
+ad_group_id | ~ad_set_id | The numeric ID of the ad group that produced with the ad event. Only provided when campaign_type is not UAC. | Google Ads Ad Group ID
+creative_id | ~ad_id | The numeric ID of the creative ad unit that produced the ad event. Only provided when campaign_type is not UAC. | Google Ads Creative ID
+keyword | ~keyword | The search keyword associated with the ad event. Only provided when network_type is Search and campaign_type is not UAC. | Google Ads Keyword
+
+## Enabling and Segmenting View-Through Conversions in reporting
+
+By default, Google Ads includes View-Through Conversion counts in a separate column in reporting. If you have impression windows enabled in Branch, we can also attribute VTC installs and events (when there is not a matching click from another partner). Those will be grouped into the install and event counts, and can be segmented using the 'last attributed touch type' compare by in Branch reporting. You can manage settings to enable this attribution within the attribution settings tab of the Google AdWords partner management or by reaching out to support@branch.io
+
 
 ## Forwarding Events to Google Ads
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/J_bBfz8g-1533069311294.png)
+![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager//everflow_logo_color-1558546693505.png)
 
 This guide will walk you through how to setup your campaigns with **[Everflow Technologies](https://everflow.io/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
@@ -35,6 +35,8 @@ In the example attached, it would be 63,
 {! ingredients/deep-linked-ads/people-based-attribution.md !}
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
+
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
 
 ## Advanced
 

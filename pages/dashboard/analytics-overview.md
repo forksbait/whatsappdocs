@@ -11,6 +11,10 @@ Our reporting layer balances speed and efficiency with completeness and complexi
     <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Paid Ads Analytics</p>
   </a>
+  <a href="/activity-reports-analytics/ads-fraud-analytics/">
+    <img src="../../../_assets/img/pages/channels/fraud.png" />
+    <p>Ads Fraud Analytics</p>
+  </a>
   <a href="/activity-reports-analytics/journeys-analytics/">
     <img src="../../../_assets/img/pages/channels/website.png" />
     <p>Journeys Analytics</p>
@@ -35,20 +39,6 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 	<a href="/activity-reports-analytics/link-level-analytics/">
 		<img src="../../../_assets/img/pages/channels/link.png" />
 		<p>Link Level Analytics</p>
-	</a>
-</div>
-
-## Cross Channel Analytics
-<!-- Deep Links -->
-<div class="nav-wrap flex-wrap">
-<!-- Need content
-	<a href="/activity-reports-analytics/sources-analytics/">
-  	<img src="../../../_assets/img/pages/analytics/source.png" />
-  	<p>Sources Analytics</p>
-	</a> -->
-	<a href="/activity-reports-analytics/content-analytics/">
-  	<img src="../../../_assets/img/pages/channels/content.png" />
-  	<p>Content Analytics</p>
 	</a>
 </div>
 

@@ -2,9 +2,53 @@ version: 2.1
 
 orbs:
   aws-s3: circleci/aws-s3@1.0.4
+  jq: circleci/jq@1.8.0
 
 jobs:
-  build:
+  deploy-staging:
+    parameters:
+      s3-bucket:
+        type: string
+        default:
+      site-url:
+        type: string
+        default:
+    machine: true
+    working_directory: ~/docs
+    steps:
+      - checkout
+      - jq/install
+      - run:
+          name: Install requirements
+          command: pip install -r requirements.txt
+      - run:
+          name: Configure site_url
+          command: sed -i 's,#####,<< parameters.site-url >>,g' mkdocs.yml
+      - run:
+          name: Build MkDocs
+          command: mkdocs build --clean --verbose
+      - aws-s3/sync:
+          from: ~/docs/site/
+          to: << parameters.s3-bucket >>
+          overwrite: true
+      - run:
+          name: Generate Redirects
+          command: |
+            touch index.html
+            while read SOURCE; do
+              IFS=' ' read -ra REDIRECTS \<<< "$SOURCE"
+              echo "Redirecting ${REDIRECTS[0]} to ${REDIRECTS[1]}"
+              aws s3 cp index.html << parameters.s3-bucket >>/${REDIRECTS[0]} --website-redirect ${REDIRECTS[1]}
+            done < redirects.txt
+            rm index.html
+  deploy-production:
+    parameters:
+      s3-bucket:
+        type: string
+        default:
+      site-url:
+        type: string
+        default:
     machine: true
     working_directory: ~/docs
     steps:
@@ -13,72 +57,60 @@ jobs:
           name: Install requirements
           command: pip install -r requirements.txt
       - run:
+          name: Configure site_url
+          command: sed -i 's,#####,<< parameters.site-url >>,g' mkdocs.yml
+      - run:
           name: Build MkDocs
           command: mkdocs build --clean --verbose
-      - persist_to_workspace:
-          root: ~/docs
-          paths:
-            - site
-  deploy-staging:
-    parameters:
-      staging-bucket:
-        type: string
-        default:
-    machine: true
-    working_directory: ~/docs
-    steps:
-      - attach_workspace:
-          at: ~/docs
       - aws-s3/sync:
           from: ~/docs/site/
-          to: << parameters.staging-bucket >>
+          to: << parameters.s3-bucket >>
           overwrite: true
-  deploy-production:
-    machine: true
-    working_directory: ~/docs
-    steps:
-      - attach_workspace:
-          at: ~/docs
-      - aws-s3/sync:
-          from: ~/docs/site/
-          to: s3://docs.branch.io
-          overwrite: true
+      - run:
+          name: Generate Redirects
+          command: |
+            touch index.html
+            while read SOURCE; do
+              IFS=' ' read -ra REDIRECTS \<<< "$SOURCE"
+              echo "Redirecting ${REDIRECTS[0]} to ${REDIRECTS[1]}"
+              aws s3 cp index.html << parameters.s3-bucket >>/${REDIRECTS[0]} --website-redirect ${REDIRECTS[1]}
+            done < redirects.txt
+            rm index.html
       - run:
           name: Clear CloudFront
           command: aws cloudfront create-invalidation --distribution-id E3L0JJHM8M3QTI --paths "/*"
+      - run:
+          name: Build Docsearch index
+          command: docker run -it --env-file=docsearch.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper:v1.3.1
 
 workflows:
   version: 2.1
   build_and_deploy:
     jobs:
-      - build
       - deploy-production:
-          requires:
-            - build
+          site-url: https://docs.branch.io/
+          s3-bucket: s3://docs.branch.io
           filters:
             branches:
               only:
                 - production
       - deploy-staging:
-          staging-bucket: s3://staging.docs.branch.io
-          requires:
-            - build
+          site-url: http://staging.docs.branch.io.s3-website-us-west-1.amazonaws.com/
+          s3-bucket: s3://staging.docs.branch.io
           filters:
             branches:
               only:
                 - /staging-.*/
       - deploy-staging:
-          staging-bucket: s3://staging2.docs.branch.io
-          requires:
-            - build
+          site-url: http://staging2.docs.branch.io.s3-website-us-west-1.amazonaws.com/
+          s3-bucket: s3://staging2.docs.branch.io
           filters:
             branches:
               only:
                 - /staging2-.*/
       - deploy-staging:
-          staging-bucket: s3://staging3.docs.branch.io
-          requires:
-            - build
+          site-url: http://staging3.docs.branch.io.s3-website-us-west-1.amazonaws.com/
+          s3-bucket: s3://staging3.docs.branch.io
           filters:
             branches:
               only:

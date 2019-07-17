@@ -14,13 +14,16 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/_assets/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/integrations/appmetrica/)**
 <a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/_assets/img/pages/integrations/logos/appsflyer.png)</a>|**[AppsFlyer](/integrations/appsflyer/)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/integrations/appsee/)**
+<a href="https://apptilaus.com/" target="_blank">![Apptilaus - Subscription Analytics](https://cdn.branch.io/branch-assets/ad-partner-manager//apptilaus_logo-1562023417593.png)</a>|**[Apptilaus - Subscription Analytics](/integrations/apptilaus/)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/integrations/backinapp/)**
 <a href="https://www.braze.com/" target="_blank">![Braze](/_assets/img/pages/integrations/logos/braze.png)</a>|**[Braze](/integrations/braze/)**
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/_assets/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/integrations/clevertap/)**
 <a href="https://www.convertro.com/" target="_blank">![Convertro](/_assets/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/integrations/convertro/)**
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/_assets/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/integrations/eulerian/)**
+<a href="https://impact.com/ad-fraud-detection/" target="_blank">![Forensiq](https://cdn.branch.io/branch-assets/ad-partner-manager//b185ed648c28-Forensiq_logo_web_color-1561594656041.png)</a>|**[Forensiq](/integrations/forensiq/)**
 <a href="https://www.inmobi.com/" target="_blank">![Fraud Defense](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/FD_horizontal_png-1545435249497.png)</a>|**[Fraud Defense](/integrations/fraud-defense/)**
 <a href="https://analytics.google.com/" target="_blank">![Google Analytics](/_assets/img/pages/integrations/logos/google_analytics.png)</a>|**[Google Analytics](/integrations/google-analytics/)**
+<a href="https://useinsider.com/" target="_blank">![Insider](https://cdn.branch.io/branch-assets/ad-partner-manager//insider_logo_2x-1561003202055.png)</a>|**[Insider](/integrations/insider/)**
 <a href="https://www.kochava.com/" target="_blank">![Kochava](/_assets/img/pages/integrations/logos/kochava.png)</a>|**[Kochava](/integrations/kochava/)**
 <a href="https://www.leanplum.com/" target="_blank">![Leanplum](/_assets/img/pages/integrations/logos/leanplum.png)</a>|**[Leanplum](/integrations/leanplum/)**
 <a href="https://www.localytics.com/" target="_blank">![Localytics](/_assets/img/pages/integrations/logos/localytics.png)</a>|**[Localytics](/integrations/localytics/)**
@@ -31,7 +34,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/integrations/segment/)**
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Import](/integrations/segment-import/)**
 <a href="https://www.singular.net/" target="_blank">![Singular](/_assets/img/pages/integrations/logos/singular.png)</a>|**[Singular](/integrations/singular/)**
-<a href="https://www.tune.com" target="_blank">![TUNE](/_assets/img/pages/integrations/logos/tune.png)</a>|**[TUNE](/integrations/tune/)**
+<a href="https://www.trafficguard.ai/" target="_blank">![TrafficGuard](https://cdn.branch.io/branch-assets/ad-partner-manager//trafficguard-1550889602563.png)</a>|**[TrafficGuard](/integrations/trafficguard/)**
 <a href="https://webengage.com/" target="_blank">![WebEngage](https://cdn.branch.io/branch-assets/ad-partner-manager//webengage-1550629207966.png)</a>|**[WebEngage](/integrations/webengage/)**
 
 Interested in becoming a Data Intgeration Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup)**

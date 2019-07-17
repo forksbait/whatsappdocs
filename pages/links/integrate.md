@@ -28,14 +28,14 @@
 
             | App | iOS | Notes | Android | Notes
             | --- | :-: | :-: | :-: | :-:
-            | Facebook Newsfeed | Fallback | *Able to force app open | App |
+            | Facebook Newsfeed | Fallback | Able to deep link via Facebook App Links | App |
             | Facebook Browser | App | | App |
-            | Facebook Messenger | Fallback | *Able to force app open | App |
+            | Facebook Messenger | Fallback | Able to deep link via Facebook App Links | App |
             | Facebook Messenger browser | App | | App |
-            | Instagram Profile | Fallback | *Able to force app open | App |
+            | Instagram Profile | Fallback | Able to force app open | App |
             | Instagram Browser | App | | App |
-            | Instagram Stories | Fallback | *Able to force app open | App |
-            | Twitter Feed | Fallback | *Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
+            | Instagram Stories | Fallback | Able to force app open | App |
+            | Twitter Feed | Fallback | Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
             | Twitter Browser | App | | App |
             | Snap messages | App | | App |
             | Snap stories | Fallback | [Review custom instructions for using Branch in Snap stories](#branch-links-in-snapchat-stories-ios) | App |
@@ -62,11 +62,11 @@
             | Slack | App | Must configure Slack to open links with Safari | App |
             | WeChat | Fallback | Customize [WeChat fallback urls](#redirections) | Fallback | Customize [WeChat fallback urls](#redirections)
             | WhatsApp | App | `app.link` require https/http to be clickable | App | `app.link` require https/http to be clickable
-            | LINE | Fallback | *Able to force app open | App |
+            | LINE | Fallback | Able to force app open | App |
             | Discord | App | | App |
             | Apple Mail | App |
             | Gmail | App | | App |
-            | Yahoo Mail | Fallback | *Able to force app open | App |
+            | Yahoo Mail | Fallback | Able to force app open | App |
 
 - ### Custom link behavior
 
@@ -118,16 +118,18 @@
 
 - ### UTM Behavior
 
-    - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
+!!! warning "Not Enabled by Default"
+    To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
 
-        - ~campaign -> utm_campaign
-        - ~channel -> utm_source
-        - ~feature -> utm_medium
+  - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
 
-    - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
-    - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
-    - To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
-    - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
+      - ~campaign -> utm_campaign
+      - ~channel -> utm_source
+      - ~feature -> utm_medium
+
+  - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
+  - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
+  - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
 
 ## Create deep links
 
