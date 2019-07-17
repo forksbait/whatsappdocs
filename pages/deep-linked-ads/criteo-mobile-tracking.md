@@ -127,7 +127,7 @@ func application(_
 **Android**
 
 Before you initialize in your Application `onCreate` or Deep Link Activity's `onStart`.
-You will want to persist the value from `onCreate, or `onNewIntent`. mIntentData is a String field defined in the activity.
+You will want to persist the value from `onCreate`, or `onNewIntent`. mIntentData is a String field defined in the activity.
 
 ```java
 @Override
