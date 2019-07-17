@@ -13,11 +13,39 @@ Branch’s Daily Export API can be used to pull granular Branch event data direc
 !!! warning "Third party access"
 	Any user with access to an account’s API keys will be able to access Branch’s Daily Export API (and thus unfiltered, log-level data). As a result, we would recommend against providing third parties (agencies and ad partners) with the permissions required to view API keys - Sensitive Data and App-Level Settings - during the invitation process.
 
-    **If you are looking for the legacy Daily Export API**, please see [these docs](/exports/api/).
+**If you are looking for the legacy Daily Export API**, please see [these docs](/exports/api/).
 
-## Setup
+## Requirements
 
-In order to use this API you must have an App ID and a Branch Public Key. You must also have a Data Feeds subscription. In order to enable the Daily Export API, navigate to Data Import & Export in the Branch dashboard and then toggle on the Daily Export API using the slider on the Manager page.
+- [x] You must have a **Data Feeds** subscription.
+- [x] Toggle on the **Data Export API** using the slider on the **Data Feeds Manager page**.
+
+## Access via Branch Dashboard
+
+Rather than accessing the Daily Export API directly, you can use the Daily Exports section in your Branch dashboard to request the appropriate data via CSVs.
+
+!!! info "CSV Delivery"
+    Any data you export via the dashboard will be included in a CSV attachment in an email.  Please ensure your email address is up to date in `Account Settings`.
+
+To request an export:
+
+1. In the left-hand navigation, under the **Setup & Testing** section, click **Data Import & Export**, then click on **Exports**.
+2. On the **Daily Exports** page, select the period of time you wish to export data for.
+    - Last 1 days
+    - Last 3 days
+    - Last 7 days
+    - Custom
+3. Select the type of events you want to export:
+  - Individually by clicking the respective **Download arrow**
+  - En masse by clicking the **Export All** button.
+
+![image](/_assets/img/pages/exports/daily-exports.png)
+
+Upon request, you will receive a confirmation email verifying the details of your request. Once we finish processing your export, you will receive another email that includes as CSV attachment. Please keep in mind larger exports require more processing time. 
+
+## Access via API Directly
+
+In order to use this API you must have an App ID and a Branch Public Key.
 
 You can find your keys in your [Account Settings](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 

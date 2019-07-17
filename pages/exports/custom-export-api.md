@@ -781,12 +781,44 @@ When exporting the following fields, you will notice a difference between the va
 
 ### Including Fields from Related Data Objects
 
-Related objects no longer use periods (.) to access the properties on the object. Rather, field names use underscores (_) only.
+Related objects no longer use periods ( . ) to access the properties on the object. Rather, field names use underscores ( _ ) only.
 
 For example, `site_event.id` will now be exported as `site_event_id`.
 
+## Accessing the Custom Export API via the Dashboard
 
-## Building the Export Request
+!!! warning "BETA - TUNE Clients Only"
+	This feature is currently in BETA. If you do not see this feature in your dashboard, please contact your CSM or [Contact Support](mailto:support@branch.io) to request access.  
+
+	This feature is currently only available to TUNE migrated clients, with plans to open this feature to all Branch clients in Q4.
+
+Rather than accessing the Custom Export API directly, you can use the Custom Exports section in your Branch dashboard to request the appropriate data via CSVs.
+
+To request an export:
+
+1. In the left-hand navigation, under the **Setup & Testing** section, click **Data Import & Export**, then click on **Exports**.
+2. On the **Custom Exports** page, provide the following:
+	- The appropriate **Date Range**.
+	- The **Topic** type the export should include.
+	- The **Columns** of fields you want included.
+	- Any additional **Filters** you want included.
+	- The **Download Type** for the export.
+
+![image](/_assets/img/pages/exports/custom-exports.gif)
+
+Upon request, you will receive a confirmation email verifying the details of your request. Once we finish processing your export, you will receive another email that includes as CSV attachment. Please keep in mind larger exports require more processing time.
+
+You can also view any requested export in the **Custom Exports Created** table which includes:
+
+- Date Created
+- Topic / Date Range
+- Row Count
+- Format
+- Status
+
+## Accessing the Custom Export API Directly
+
+### Building the Export Request
 
 Find and queue all records that match search criteria for export; returns a “handle” to be used in the download export request.
 
@@ -882,7 +914,7 @@ Optional parameter; results are returned in UTC if not provided.
 
 
 
-### Sample Export Request
+#### Sample Export Request
 
 
 ```
@@ -891,7 +923,7 @@ https://api.mobileapptracking.com/v3/logs/advertisers/ADVERTISER_ID/exports/inst
 
 
 
-### Sample Export Response
+#### Sample Export Response
 
 
 ```
@@ -900,7 +932,7 @@ https://api.mobileapptracking.com/v3/logs/advertisers/ADVERTISER_ID/exports/inst
 
 
 
-## Building the Download Export Request
+### Building the Download Export Request
 
 Finds and exports requested queue (by handle) and provides URL location for download.
 
@@ -941,14 +973,14 @@ Finds and exports requested queue (by handle) and provides URL location for down
 </table>
 
 
-### Sample Download Export Request` `
+#### Sample Download Export Request` `
 
 ```
 http://api.mobileapptracking.com/v3/logs/advertisers/ADVERTISER_ID/exports/0818e641-cd5c-4498-8a17-77152689bb94?api_key=REMOVED
 ```
 
 
-### Sample Download Export Response
+#### Sample Download Export Response
 
 ```
 {"report_schedule_id": null, "lines_exported": null, "context": "", "url": "https://branch-exports-web.s3.amazonaws.com/ADVERTISER_ID-installs-2019-01-14-2019-01-15-0818e641-cd5c-4498-8a17-77152689bb94-wxGQxyHo0Djw2ktt.csv?Signature=5XN9MRMftyQ1XafNSTW4STMpT9U%3D&AWSAccessKeyId=AKIAI7A6NRHGMRDK2LIQ&Expires=1548295211", "percent_complete": 100, "status": "complete", "branch_url": "http://tlnk.branch.io/v3/logs/advertisers/ADVERTISER_ID/exports/0818e641-cd5c-4498-8a17-77152689bb94?api_key=REMOVED"}

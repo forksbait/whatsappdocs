@@ -22,10 +22,10 @@ Access to pages, actions and data in the dashboard is controlled using a number 
 
 - **[App-level Settings](app-level-access.md)**: Settings or features that can impact functionality app-wide.
 - **[Channel-level Settings](/dashboard/channel-level-access/)**: Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
-- **[Link-level Settings](link-level-access.md)**: Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
-- **[Aggregate Data](aggregate-data-access.md)**: Summary data that contains no granular information (e.g. data on Sources page).
-- **[Sensitive Data](sensitive-data-access.md)** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
-- **Export:** Allows a user to export Sensitive Data from pages they can view.
+- **[Link-level Settings](/dashboard/link-level-access/)**: Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
+- **[Aggregate Data](/dashboard/aggregate-data-access/)**: Summary data that contains no granular information (e.g. data on Sources page).
+- **[Sensitive Data](/dashboard/sensitive-data-access/)** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
+- **[Export](/dashboard/export-access/):** Allows a user to export Sensitive Data from pages they can view.
 
 Each page on the dashboard has its own access requirements. For example, in order to view the Summary page of the dashboard, a user must have view access to Aggregate Data. In order to view the Data Feeds Manager page, on the other hand, a user must have view access to both Channel-level Settings and Sensitive Data.
 
