@@ -74,9 +74,9 @@ On each event, we provide a considerable amount of information. The following ta
 
 ## Full list of fields
 
-If you are building an integration with Branch or simply wish to learn more about the fields we offer, please download one of the CSV files below. They provide a comprehensive list of events and fields, along with definitions and data types.
+If you are building an integration with Branch or simply wish to learn more about the fields we offer, please download the CSV file below. It provides a comprehensive list of events and fields, definitions and data types, along with which fields are available for which event types.
 
-[Full Event Ontology for Webhooks, Data Integrations and Exports](webhook_export_di_export.csv)
+[Full Event Ontology for Webhooks, Data Integrations and Exports](full-event-ontology.csv)
 
 Additionally the Daily Export API CSVs will contain the following fields:
 
