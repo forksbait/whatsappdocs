@@ -1,5 +1,8 @@
 ## Overview
 
+!!! info "Fraud Rules & Fraud Analytics"
+	The Fraud rules mentioned below are custom rules not available in the UI and require being enabled by your CSM or Support. As such, these rules are not present in Ads Fraud Analytics as a `Key Fraud Indicator` to filter the report by. 
+
 Branch recommends creating fraud rules to block erroneous attribution credit in real-time. While Branch still performs last-click attribution, it will not send the ad network a postback when the attribution is flagged as fraudulent.
 
 This has two benefits:

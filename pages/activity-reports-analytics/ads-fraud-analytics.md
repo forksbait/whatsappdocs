@@ -1,5 +1,8 @@
 ## Overview
 
+!!! info "Fraud Rules & Fraud Analytics"
+	The Fraud rules mentioned below are custom rules not available in the UI and require being enabled by your CSM or Support. As such, these rules are not present in Ads Fraud Analytics as a `Key Fraud Indicator` to filter the report by. 
+
 Branch’s Fraud Detection Platform uses an intelligent blacklist to block known bad actors in real time, ensuring customers don’t pay for fraudulent traffic. It includes core metrics that help identify forms of fraud such as install hijacking, click flooding and device reset fraud.
 
 The platform leverages Branch’s persona data to give you RealScore - a model that intelligently scores the likelihood that any given install comes from a real person rather than a bot, malware or false attribution claim. RealScore depends on a variety of web and app signals to establish patterns of normal and fraudulent behavior, making it the first fraud detection product to leverage the full set of signals available on mobile.
