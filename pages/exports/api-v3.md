@@ -1,6 +1,8 @@
 ## Overview
 
-Branch’s Daily Export API can be used to pull granular Branch event data directly. A few important notes for this API:
+Branch’s Daily Exports pull granular Branch event data directly. You can do so either via the **Daily Exports** section in your Branch dashboard OR via API directly.
+
+A few important notes:
 
 - The data will only be retrievable for the last 7 days
 - The data will only appear after end of day since it's processed every 24 hours
@@ -41,9 +43,9 @@ To request an export:
 
 ![image](/_assets/img/pages/exports/daily-exports.png)
 
-Upon request, you will receive a confirmation email verifying the details of your request. Once we finish processing your export, you will receive another email that includes as CSV attachment. Please keep in mind larger exports require more processing time. 
+Upon request, you will receive a confirmation email verifying the details of your request. Once we finish processing your export, you will receive another email that includes as CSV attachment. Please keep in mind larger exports require more processing time.
 
-## Access via API Directly
+## Access via API
 
 In order to use this API you must have an App ID and a Branch Public Key.
 

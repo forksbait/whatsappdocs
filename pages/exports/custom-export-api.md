@@ -3,7 +3,7 @@
 !!! info "For ex-TUNE Clients Only"
 	This feature is currently only available for ex-TUNE clients and replicates the TUNE endpoints available via `https://api.mobileapptracking.com/v3/logs/advertisers/exports/`.
 
-The Branch Custom Export API finds and queues log records that match your search criteria for export and provides a download link of the completed report.
+The Branch Custom Exports find and queue log records that match your search criteria for export. You can do so either via the **Custom Exports** section in your Branch dashboard OR via API.
 
 Custom exports endpoints are limited to a maximum of 2 million records each and can query up to 120 days prior to the date of export. If more records are required, please make multiple requests with smaller time intervals to pull the necessary data in "batches".
 
@@ -785,7 +785,7 @@ Related objects no longer use periods ( . ) to access the properties on the obje
 
 For example, `site_event.id` will now be exported as `site_event_id`.
 
-## Accessing the Custom Export API via the Dashboard
+## Accessing via Branch Dashboard
 
 !!! warning "BETA - TUNE Clients Only"
 	This feature is currently in BETA. If you do not see this feature in your dashboard, please contact your CSM or [Contact Support](mailto:support@branch.io) to request access.  
@@ -816,7 +816,7 @@ You can also view any requested export in the **Custom Exports Created** table w
 - Format
 - Status
 
-## Accessing the Custom Export API Directly
+## Accessing via API
 
 ### Building the Export Request
 
