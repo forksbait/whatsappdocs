@@ -8,7 +8,7 @@
 - [Data Feeds](/exports/data-feeds/):
     - [Webhooks](/exports/ua-webhooks/)
     - [Data Integrations](/integrations/data-integrations/)
-    - [Data Export API](/exports/api-v3/)
+    - [Daily Export API](/exports/api-v3/)
 
 Previously, we had different formats for Webhooks vs Data Integrations vs Exports. With the release of People-Based Attribution, we have reconciled these differences.
 

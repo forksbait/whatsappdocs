@@ -34,16 +34,16 @@ You can see analytics on impressions, clicks, installs, opens and conversion eve
 If you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos), then you can get device level data out via:
 
 - [Webhooks](/exports/ua-webhooks/)
-- [Data Export API](/exports/api-v3/)
+- [Daily Export API](/exports/api-v3/)
 - [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports)
 
 !!! warning " Agreement not Signed"
-	If you have not signed this agreement, any event attributed to a Facebook ad will look like an organic event when accessed via Webhooks, the Data Export API, and CSV Exports.
+	If you have not signed this agreement, any event attributed to a Facebook ad will look like an organic event when accessed via Webhooks, the Daily Export API, and CSV Exports.
 
 ### Data Limitations
 
 - [x] We cannot send device-level Facebook attribution data to third parties.
-- [x] We cannot send events attributed to Facebook via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Data Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
+- [x] We cannot send events attributed to Facebook via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Daily Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
 - [x] This data is also not returned in the deeplink initSession callback within the app. If you have analytics needs that are not met by the Branch Dashboard, please [contact us](https://support.branch.io/support/tickets/new) and include "Facebook MMP + Feature Request" in the subject.
 
 | **Branch feature** | **Facebook data included** |
@@ -51,7 +51,7 @@ If you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Us
 | [Dashboard visualizations](https://dashboard.branch.io/){:target="\_blank"} | Pre-aggregated analytics |
 | [Query API](/exports/query-api/) | Pre-aggregated analytics |
 | [Liveview](https://dashboard.branch.io/liveview){:target="\_blank"} | Device-level analytics x |
-| [Data Export API](/exports/api-v3/) | Device-level analytics x |
+| [Daily Export API](/exports/api-v3/) | Device-level analytics x |
 | [CSV Exports](https://branch.dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"} | Device-level analytics x |
 | [Webhooks](/exports/ua-webhooks/) | Device-level analytics x |
 | [Data Integrations](/integrations/data-integrations/) | Not supported |

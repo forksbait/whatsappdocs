@@ -19,7 +19,7 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
   </a>
   <a href="/exports/api-v3/">
     <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
-    <p>Data Export API</p>
+    <p>Daily Export API</p>
   </a>
   <a href="/exports/query-api/">
     <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
@@ -36,5 +36,5 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
 
 ## Legacy Functionality
 
-- [Legacy Data Export API](/exports/api/)
+- [Legacy Daily Export API](/exports/api/)
 - [Legacy Webhooks](/exports/webhooks/)

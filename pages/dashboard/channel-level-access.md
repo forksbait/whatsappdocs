@@ -212,7 +212,7 @@ If you are an Admin, you have edit access to the sections below.
 
 ![image](/_assets/img/pages/dashboard/access-levels/channel-data-feeds-manager.png)
 
-- **Data Export API** - Programmatically access Branch event data with granular details like timestamp, OS, and more.
+- **Daily Export API** - Programmatically access Branch event data with granular details like timestamp, OS, and more.
 - **Query API** - Programmatically query for any of the pre-aggregated Branch event data that you can see on the dashboard.
 
 ### Data Integrations

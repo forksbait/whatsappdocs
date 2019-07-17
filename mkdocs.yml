@@ -896,7 +896,7 @@ nav:
     - Data Integrations: integrations/data-integrations-list.md
     - Webhooks: exports/ua-webhooks.md
     - Custom Export API: exports/custom-export-api.md
-    - Data Export API: exports/api-v3.md
+    - Daily Export API: exports/api-v3.md
     - Query API: exports/query-api.md
     - Supplemental Information:
       - Query Recipe Book: exports/query-recipe-book.md

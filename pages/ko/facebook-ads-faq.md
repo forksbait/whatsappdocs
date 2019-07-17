@@ -102,7 +102,7 @@ Facebook 관련 데이터에 액세스하는 방법은 다양합니다.
 
 [쿼리 API](/exports/query-api)뿐 아니라 [Branch 대시보드](https://dashboard.branch.io){:target="\_blank"}의 여러 페이지에서 노출, 클릭, 설치, 실행 및 전환 이벤트에 대한 분석 데이터를 확인할 수 있습니다.
 
-Facebook의 ['고급 모바일 측정' 계약서('고급 모바일 앱 측정에 대한 데이터 이용 약관')](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"})에 서명한 경우 [Webhook](/exports/ua-webhooks/), [Data Export API](/exports/api-v3/) 및 [CSV Export](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}를 통해 기기 수준의 데이터를 가져올 수 있습니다. 이 계약서에 서명하지 않았다면, Webhook, Data Export API 및 CSV Export를 통해 액세스한 경우 Facebook 광고를 통해 발생한 모든 이벤트는 오가닉 이벤트로 표시됩니다.
+Facebook의 ['고급 모바일 측정' 계약서('고급 모바일 앱 측정에 대한 데이터 이용 약관')](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"})에 서명한 경우 [Webhook](/exports/ua-webhooks/), [Daily Export API](/exports/api-v3/) 및 [CSV Export](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}를 통해 기기 수준의 데이터를 가져올 수 있습니다. 이 계약서에 서명하지 않았다면, Webhook, Daily Export API 및 CSV Export를 통해 액세스한 경우 Facebook 광고를 통해 발생한 모든 이벤트는 오가닉 이벤트로 표시됩니다.
 
 Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파티에 전송할 수 없으므로, Facebook을 통해 발생한 이벤트를 데이터 통합을 사용하여 보낼 수 없습니다. 대신, 해당 데이터에 대해 사내 분석(웹훅, 데이터 내보내기 API 또는 CSV 내보내기 사용)을 실시하거나 모든 분석 및 어트리뷰션 요구 사항을 충족할 수 있도록 Branch 대시보드를 사용해 보시기 바랍니다. Branch 대시보드로 해결되지 않는 분석 요구 사항이 있는 경우 제목에 'Facebook MMP + 기능 요청'을 기재하여 [문의](https://support.branch.io/support/tickets/new){:target="\_blank"}해 주세요.
 
@@ -111,7 +111,7 @@ Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파�
 | [대시보드 시각화](https://dashboard.branch.io/){:target="\_blank"} | 사전 집계된 분석 |
 | [쿼리 API](/exports/query-api/) | 사전 집계된 분석 |
 | [라이브뷰](https://dashboard.branch.io/liveview){:target="\_blank"} | 디바이스 레벨 데이터 분석 * |
-| [Data Export API](/exports/api-v3/) | 디바이스 레벨 데이터 분석 * |
+| [Daily Export API](/exports/api-v3/) | 디바이스 레벨 데이터 분석 * |
 | [CSV Exports](https://branch.dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"} | 디바이스 레벨 데이터 분석 * |
 | [Webhooks](/exports/ua-webhooks/) | 디바이스 레벨 데이터 분석 * |
 | [데이터 통합](/integrations/data-integrations/) | 지원되지 않음 |
