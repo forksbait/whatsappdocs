@@ -53,6 +53,7 @@ View your impression-driven app events:
 
 	![image.half-width](/_assets/img/pages/analytics/paid-ads7.png)
 
-- The Unique checkbox on both the graph and table views allows you to restrict reports to one event of each type per user. For example, take a user who clicked an ad link, then opened the app 7 times within the attribution window for that link. With the Unique box checked, we'd report one of those opens, with it unchecked, we'd report all 7. [Click here to read more about unique events.](/dashboard/people-based-attribution/#unique-behavior)
+- The Unique checkbox on both the graph and table views allows you to restrict reports to one event of each type per user. For example, take a user who clicked an ad link, then opened the app 7 times within the attribution window for that link. With the Unique box checked, we'd report one of those opens, with it unchecked, we'd report all 7.
+	- One thing to be aware of is that unique counts may be within a 4% window of error across the dashboard. For example, if you have 100 total clicks, and 90 were truly unique, it's possible that the dashboard could report within 4% of that 90 number. If you want true uniques, you can export raw data and de-dupe across events.
 
 - When an event is attributed to an ad in a CSV export, **"last_attributed_touch_data_tilde_feature=paid advertising"** and **"last_attributed_touch_data_tilde_advertising_partner_name=ad_partner_name".**
