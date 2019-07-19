@@ -306,7 +306,7 @@ branch.init( 'BRANCH_KEY',
 );
 ```
 
-或者，最终通过使用 track\(\) 调用[以编程方式触发要显示的路径](https://branchmetrics.github.io/docs/web/journeys/#trigger-a-journey-to-show-by-firing-an-event)：
+或者，最终通过使用 track\(\) 调用[以编程方式触发要显示的路径](/web/journeys/#trigger-a-journey-to-show-by-firing-an-event)：
 
 ```javascript
 branch.track('pageview',

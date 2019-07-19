@@ -312,7 +312,7 @@ branch.init( 'BRANCH_KEY',
 );
 ```
 
-Or, finally, by using the track() call to [programmatically trigger a Journey to show](https://branchmetrics.github.io/docs/web/journeys/#trigger-a-journey-to-show-by-firing-an-event):
+Or, finally, by using the track() call to [programmatically trigger a Journey to show](/web/journeys/#trigger-a-journey-to-show-by-firing-an-event):
 
 ```javascript
 branch.track(‘pageview’,
