@@ -39,3 +39,4 @@ activity-reports-analytics/content-analytics/index.html https://docs.branch.io/d
 emails/get-started/#deep-linking-settings-for-email/index.html https://docs.branch.io/emails/universal-email/#deep-linking-settings-for-email
 exports/api-v3/index.html https://docs.branch.io/exports/daily-exports/
 exports/custom-export-api/index.html https://docs.branch.io/exports/custom-exports/
+emails/get-started/#deep-linking-settings-for-email/index.html https://docs.branch.io/emails/universal-email/#deep-linking-settings-for-email
