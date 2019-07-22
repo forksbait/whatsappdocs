@@ -4,12 +4,13 @@ title: Twitter Ads App Install Measurement
 
 ## Overview
 
-Branch links can be used together with Twitter App Install Campaign ads, allowing you to track ad-driven installs on the Branch dashboard.
-
 By connecting your Twitter Ads and Branch accounts, the following is enabled:
 
 - App conversion data collected by the Branch SDK sent to Twitter Ads for attribution.
 - `Read-only` access to install data (not cost/click/impression data) from Twitter Ads in your Branch account.
+
+!!! note "Deep Linking Not Supported"
+	Twitter Ads does not support the use of deep links at this time.  As such, this integration does not require the use of Branch links.
 
 ## Prerequisites
 
@@ -25,7 +26,7 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 ## Enable Twitter Ads for Measurement
 
 !!! note ""
-	Completing this section -- "Enable Twitter Ads for Measurement" -- will result in Branch sending app events to Twitter in order to attribute them back to Twitter ad campaigns. At this time, the integration does not support deep linking new users directly to content the first time they open your app.
+	Completing this section -- "Enable Twitter Ads for Measurement" -- will result in Branch sending app events to Twitter in order to attribute them back to Twitter ad campaigns.
 
 1. Navigate to the [Partner Management tab](https://dashboard.branch.io/ads/partner-management) and search for **Twitter**.
 
