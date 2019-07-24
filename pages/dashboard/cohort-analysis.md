@@ -85,6 +85,7 @@ Show measures include important KPIs and metrics which you can use to hone in on
 | Add Payment Info  | Add Payment Info events                                                                                               |
 | Add to Cart       | Add to Cart events                                                                                                    |
 | Add to Wishlist   | Add to Wishlist events                                                                                                |
+| ARPPU              | Average revenue per paying user; Ads Channel only                                                                            |
 | ARPU              | Average revenue per user; Ads Channel only                                                                            |
 | Cost              | Total cost; Ads Channel only                                                                                          |
 | eCPA              | Effective cost per purchase; Ads Channel only                                                                         |
