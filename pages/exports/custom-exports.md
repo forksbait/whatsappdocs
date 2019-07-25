@@ -10,7 +10,7 @@ Custom exports endpoints are limited to a maximum of 2 million records each and 
 
 ## Authentication
 
-Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis, are permanent, and calls using an API Key are only allowed from devices with known IP addresses.
+Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis and are permanent.
 
 
 ## Third Party Access
