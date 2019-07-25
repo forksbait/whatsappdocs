@@ -233,6 +233,12 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>Attribute Sub5
    </td>
   </tr>
+	<tr>
+   <td>branch_app_id
+   </td>
+   <td>Branch App ID
+   </td>
+  </tr>
   <tr>
    <td>click_created
    </td>
@@ -527,6 +533,18 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>Publisher Sub Campaign Ref
    </td>
   </tr>
+	<tr>
+   <td>publisher_sub_channel
+   </td>
+   <td>Publisher Sub Channel
+   </td>
+  </tr>
+	<tr>
+   <td>publisher_sub_feature
+   </td>
+   <td>Publisher Sub Feature
+   </td>
+  </tr>
   <tr>
    <td>publisher_sub_keyword_id
    </td>
@@ -615,6 +633,18 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>publisher_sub5
    </td>
    <td>Publisher Sub5
+   </td>
+  </tr>
+	<tr>
+	 <td>publisher_sub_stage
+	 </td>
+	 <td>Publisher Sub Stage
+	 </td>
+	</tr>
+	<tr>
+   <td>publisher_sub_tags
+   </td>
+   <td>Publisher Sub Tags
    </td>
   </tr>
   <tr>
