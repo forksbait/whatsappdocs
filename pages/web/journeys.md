@@ -244,7 +244,7 @@ You can also access Journeys analytics by selecting the above filters from the [
 
 ## Advanced
 
-### Advanced audience rules
+### Advanced audience filters
 
 You can target users on a more granular level - based on behavior like where they came from, whether they already have your app installed, and what they’ve done on your website or in your app. We've created a bunch of great examples on the [next tab](/web/journeys/#examples).
 
@@ -274,9 +274,15 @@ Here, you can use website visits to determine who to target. For instance, you m
 
 Similar to visited web, you can target users by number of app visits. For example, someone who has visited the app two times and opens up the mobile web could be lured back into the app with a Journey.
 
+!!! warning "Relies on has_app"
+    Note that this audience filter relies on `has_app`, which has [limitations](https://docs.branch.io/web/journeys/#has-app-limitations).
+
 #### Has the app installed
 
 You might choose to only show a Journey that asks a user to open the app to those that already have it installed.
+
+!!! warning "Relies on has_app"
+    Note that this audience filter relies on `has_app`, which has [limitations](https://docs.branch.io/web/journeys/#has_app-limitations).
 
 #### Has clicked on ad
 
@@ -327,6 +333,20 @@ Once metadata has been specified on a page in any or all of the three locations 
 #### Has interacted with Journey
 
 Use this filter to target users who have interacted with a specific Journey before. Choose the Journey, the type of interaction, and the window in which that interaction occurred. For example, you could use this filter to display a Journey (Journey A) only to users who had dismissed a different Journey (Journey B) in the past 7 days.
+
+### has_app limitations
+
+Several pieces of Journeys functionality rely on Branch’s understanding of whether an end user has a customer’s app installed (indicated in Branch’s system using the `has_app` flag). For example, the `Has the app installed` advanced audience rule will only be satisfied if Branch believes the app is installed on that user’s device. Similarly, the CTA text on a Journey will only switch from “install” to “open” if Branch believes the app is installed on that user’s device.
+
+Unfortunately, Branch does not - and cannot - know with 100% accuracy whether a given user actually has the app installed, since the operating systems (e.g. iOS, Android) do not make this information available to developers. We’ve developed our own methods for gleaning this information, and while our methods are quite accurate, there are nevertheless opportunities for both false positives and false negatives.
+
+Several of the complicating factors are:
+- **Install vs. Open:** If a user installs an app but doesn’t open it, we won’t know that they have the app installed.
+- **Uninstalls:** We won’t necessarily know if a user uninstalls an app, which could result in a false positive.
+- **Apple’s Intelligent Tracking Prevention:** As a result of ITP, we’re less accurate on Safari on iOS than on all other browsers.
+- **Time to update:** Latency in our system occasionally means that for a given user, in the moments (or minutes) following an install, Journeys may not know that the install has occurred.
+
+While we don’t think these limitations should discourage you from using features that rely on “has_app”, we would recommend keeping them in mind when designing your Journeys.
 
 ### Set up split testing
 
@@ -745,6 +765,9 @@ The available configuration options are identical for banners at both the top an
 | Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
 | Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
 
+!!! warning "Relies on has_app"
+    Note that button text relies on `has_app`, which has [limitations](https://docs.branch.io/web/journeys/#has_app-limitations).
+
 ##### Dismiss
 
 ![image](/_assets/img/pages/journeys/dismissal_banner.png)
@@ -822,6 +845,9 @@ The content block contains everything except for the background image. Dimension
 | Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
 | Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
 
+!!! warning "Relies on has_app"
+    Note that button text relies on `has_app`, which has [limitations](https://docs.branch.io/web/journeys/#has_app-limitations).
+
 ##### Dismiss
 
 ![image](/_assets/img/pages/journeys/dismissal_interstitial.png)
@@ -851,6 +877,9 @@ The content block contains everything except for the background image. Dimension
 | Auto-Open| When this box is checked, if a user views this Journey on your website and they have the app installed, the app will automatically open without them clicking |
 | Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
 | Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
+
+!!! warning "Relies on has_app"
+    Note that button text relies on `has_app`, which has [limitations](https://docs.branch.io/web/journeys/#has_app-limitations).
 
 ##### Dismiss
 
