@@ -7,11 +7,17 @@ The Branch Custom Exports find and queue log records that match your search crit
 
 Custom exports endpoints are limited to a maximum of 2 million records each and can query up to 120 days prior to the date of export. If more records are required, please make multiple requests with smaller time intervals to pull the necessary data in "batches".
 
-
 ## Authentication
 
 Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis and are permanent.
 
+##Rate Limits
+
+Rate limits depend on the endpoint you are making a request to.
+
+For creating exports, the rate limit is 10 requests per minute and 25 requests per hour.
+
+For checking the status of an export, the rate limit is 50 requests per minute and 1000 per hour.
 
 ## Third Party Access
 
