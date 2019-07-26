@@ -341,10 +341,11 @@ Several pieces of Journeys functionality rely on Branch’s understanding of whe
 Unfortunately, Branch does not - and cannot - know with 100% accuracy whether a given user actually has the app installed, since the operating systems (e.g. iOS, Android) do not make this information available to developers. We’ve developed our own methods for gleaning this information, and while our methods are quite accurate, there are nevertheless opportunities for both false positives and false negatives.
 
 Several of the complicating factors are:
-- **Install vs. Open:** If a user installs an app but doesn’t open it, we won’t know that they have the app installed.
-- **Uninstalls:** We won’t necessarily know if a user uninstalls an app, which could result in a false positive.
-- **Apple’s Intelligent Tracking Prevention:** As a result of ITP, we’re less accurate on Safari on iOS than on all other browsers.
-- **Time to update:** Latency in our system occasionally means that for a given user, in the moments (or minutes) following an install, Journeys may not know that the install has occurred.
+
+	- **Install vs. Open:** If a user installs an app but doesn’t open it, we won’t know that they have the app installed.
+	- **Uninstalls:** We won’t necessarily know if a user uninstalls an app, which could result in a false positive.
+	- **Apple’s Intelligent Tracking Prevention:** As a result of ITP, we’re less accurate on Safari on iOS than on all other browsers.
+	- **Time to update:** Latency in our system occasionally means that for a given user, in the moments (or minutes) following an install, Journeys may not know that the install has occurred.
 
 While we don’t think these limitations should discourage you from using features that rely on “has_app”, we would recommend keeping them in mind when designing your Journeys.
 
