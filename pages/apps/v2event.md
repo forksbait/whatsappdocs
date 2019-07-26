@@ -289,6 +289,7 @@ branch.logEvent(
 ```bash
 curl -vvv -d '{
   "name": "PURCHASE",
+  "customer_event_alias": "my custom alias",
   "user_data": {
     "os": "Android",
     "os_version": 25,
@@ -503,6 +504,7 @@ branch.logEvent(
 ```
 curl -vvv -d '{
   "name": "VIEW_ITEMS",
+  "customer_event_alias": "my custom alias",
   "user_data": {
     "os": "Android",
     "os_version": 25,
@@ -649,6 +651,7 @@ branch.logEvent(
 ```
 curl -vvv -d '{
   "name": "COMPLETE_REGISTRATION",
+  "customer_event_alias": "my custom alias",
   "user_data": {
     "os": "Android",
     "os_version": 25,

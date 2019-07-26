@@ -119,12 +119,13 @@ Twitter has a data agreement with TUNE, and there are several layers of data tha
 **Branch API/UI**:
 
  - [x] Can access source and campaign level data by default in aggregate reports.
- - [x] Source and campaign level data is not accessible in exports.
+ - [x] Can access source level data in exports. Campaign level data is not accessible in exports.
 
 **Postbacks**:
 
- - [x] Can receive source level data with identifiers by default to an *internal BI endpoint only* Data can not be sent to third party analytics (see below for third parties) – the postback must be whitelisted for source level data by contacting support.
- - [x] Campaign level data can not be sent to internal endpoints by default, please speak with your Twitter account manager for more information.
+ - [x] Can receive source level data with identifiers to an **internal BI endpoint only**.
+ - [x] Must be whitelisted to receive campaign level data by contacting [Support](mailto:support@branch.io).
+ - [x] Data can not be sent to third party analytics (see below for third parties).
 
 #### Partners
 

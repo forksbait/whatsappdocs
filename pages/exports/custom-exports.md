@@ -7,11 +7,17 @@ The Branch Custom Exports find and queue log records that match your search crit
 
 Custom exports endpoints are limited to a maximum of 2 million records each and can query up to 120 days prior to the date of export. If more records are required, please make multiple requests with smaller time intervals to pull the necessary data in "batches".
 
-
 ## Authentication
 
-Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis, are permanent, and calls using an API Key are only allowed from devices with known IP addresses.
+Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis and are permanent.
 
+##Rate Limits
+
+Rate limits depend on the endpoint you are making a request to.
+
+For creating exports, the rate limit is 10 requests per minute and 25 requests per hour.
+
+For checking the status of an export, the rate limit is 50 requests per minute and 1000 per hour.
 
 ## Third Party Access
 
@@ -231,6 +237,12 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>attribute_sub5
    </td>
    <td>Attribute Sub5
+   </td>
+  </tr>
+	<tr>
+   <td>branch_app_id
+   </td>
+   <td>Branch App ID
    </td>
   </tr>
   <tr>
@@ -527,6 +539,18 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>Publisher Sub Campaign Ref
    </td>
   </tr>
+	<tr>
+   <td>publisher_sub_channel
+   </td>
+   <td>Publisher Sub Channel
+   </td>
+  </tr>
+	<tr>
+   <td>publisher_sub_feature
+   </td>
+   <td>Publisher Sub Feature
+   </td>
+  </tr>
   <tr>
    <td>publisher_sub_keyword_id
    </td>
@@ -615,6 +639,18 @@ Branch does not support exports of the infrequently-used update and postbacks TU
    <td>publisher_sub5
    </td>
    <td>Publisher Sub5
+   </td>
+  </tr>
+	<tr>
+	 <td>publisher_sub_stage
+	 </td>
+	 <td>Publisher Sub Stage
+	 </td>
+	</tr>
+	<tr>
+   <td>publisher_sub_tags
+   </td>
+   <td>Publisher Sub Tags
    </td>
   </tr>
   <tr>

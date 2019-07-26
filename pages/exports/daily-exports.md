@@ -109,3 +109,6 @@ Data will be available through the API only for 7 days after the date it's poste
 ### Exporting beyond 7 days
 
 In accordance with our internal policies related to GDPR and other data protection laws, we hash many fields, including IP address and advertising identifiers, after 7 days. This means that if you want to export data beyond 7 days, either via the Dashboard's CSV Exports or by requesting a manual data dump, these fields will no longer contain the original values. For this reason, we highly recommend you always export raw data within 7 days.
+
+!!! note "Manual Data Dump"
+    Due to the resources required to complete a manual data dump, this service is available to Branch Enterprise tier clients only.
