@@ -1,7 +1,7 @@
 ## Overview
 
 !!! info "Fraud Rules & Fraud Analytics"
-	The Fraud rules mentioned below are custom rules not available in the UI and require being enabled by your CSM or Support. As such, these rules are not present in Ads Fraud Analytics as a `Key Fraud Indicator` to filter the report by. 
+	The Fraud rules mentioned below are custom rules not available in the UI and require being enabled by your CSM or Support. As such, these rules are not present in Ads Fraud Analytics as a `Key Fraud Indicator` to filter the report by.
 
 Branch recommends creating fraud rules to block erroneous attribution credit in real-time. While Branch still performs last-click attribution, it will not send the ad network a postback when the attribution is flagged as fraudulent.
 
@@ -38,14 +38,6 @@ Very short click-to-install times are suspicious - this is typically caused by f
 ### Suspicious Persona
 
 This is based on Branch’s cross-platform persona graph. We use proprietary algorithms to dynamically block attributions on browsers and devices showing suspicious behavior.
-
-### Invalidated - No Receipt
-
-When an install or purchase occurs, we send a request to the App store or Play store. If they have no record of the event, we consider the event to be fraudulent and block it.
-
-### Attribution Hijacked
-
-If the App / Play store receipt records an install beginning before the most recent click, we consider the attribution to be fraudulent (the click was faked after the conversion began). We block the attribution on the install. The user may be real, but their experience will not be impacted.
 
 ### Event-level Characteristics
 
