@@ -76,9 +76,7 @@ curl -X POST api2.branch.io/v3/export -H 'content-type:application/json' -d '{"b
 ```
 
 !!! info "Windows Command Prompt Formatting"
-    Please note that if you are trying to run this curl command in Command Prompt on a machine running Windows, you will need to change `'` to `"` and escape the `"` in curly brackets with a `\`.
-Here is a final example:
-`curl -X POST api2.branch.io/v3/export -H "content-type:application/json" -d "{\"branch_key\":\"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1\", \"branch_secret\": \"secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86\", \"export_date\": \"2017-10-01\"}"`
+    Please note that if you are trying to run this curl command in Command Prompt on a machine running Windows, you will need to change `'` to `"` and escape the `"` in curly brackets with a `\`. Here is a final example: `curl -X POST api2.branch.io/v3/export -H "content-type:application/json" -d "{\"branch_key\":\"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1\", \"branch_secret\": \"secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86\", \"export_date\": \"2017-10-01\"}"`
 
 ### Response
 
