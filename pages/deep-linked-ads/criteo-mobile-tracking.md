@@ -256,6 +256,10 @@ Once you've integrated the SDK and configured the relevant events, you can enabl
 !!! tip "Enable postbacks"
     Postbacks will automatically be activated for the events listed above when you enable the integration. You can always [add additional postbacks](#adding-postbacks) or [edit postbacks](#editing-postbacks), as described below in the Advanced section.
 
+!!! warning "Updating Postbacks"
+	- Please do **NOT** reset Criteo Postbacks settings as it will override the previous postbacks.
+	- Make sure to replace old versions of the event postbacks with new ones gradually one by one.
+
 #### Sending unattributed events to Criteo
 
 It is possible to opt in to send all events occurring in your app to Criteo, not just events attributed to a Criteo campaign. Customers generally do this for the purposes of allowing Criteo insight into users who would be good candidates for retargeting based on their actions in the app.

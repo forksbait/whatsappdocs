@@ -20,10 +20,12 @@ By connecting your Google Marketing Platform and Branch accounts, the following 
 	Please keep the following in mind when working with both Google Marketing Platform and Google Ads:
 
 	If your Google Marketing Platform and Google Ads accounts are **not linked**:
-		- Branch may receive two separate claims; i.e. receive two competing clicks between Google Marketing Platform & Google Ads.
+
+	- Branch may receive two separate claims; i.e. receive two competing clicks between Google Marketing Platform & Google Ads.
 
 	If your Google Marketing Platform and Google Ads accounts are **linked** :
-	 	- Google suppresses the Google Marketing Platform claim if Google Ads makes a claim, so Branch will only ever receive a single claim for a click.
+
+	- Google suppresses the Google Marketing Platform claim if Google Ads makes a claim, so Branch will only ever receive a single claim for a click.
 
 ## Prerequisites
 
