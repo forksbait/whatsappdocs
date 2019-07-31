@@ -12,6 +12,9 @@ For any Universal Email link that originates from a third party service such as 
 
 `$follow_redirect=true`
 
+!!! warning "URL Encoding"
+	Please URL encode all `$` symbols before appending the redirect parameter. URL encoding `$` returns `%24`. 
+
 **Example URL + Redirect Parameter**
 
-```https://cbsn.ws/2KW0dnE?$follow_redirect=true```
+```https://cbsn.ws/2KW0dnE?%24follow_redirect=true```
