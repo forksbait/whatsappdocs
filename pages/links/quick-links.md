@@ -1,8 +1,10 @@
 Creating quick links is really simple from the Quick Links section of the Branch dashboard. You will be able to create quick links on the fly and add custom redirections, analytics information, and social media tags. These links can be used in your social media channels, blog posts, influencer networks, etc.
 
-1. To start, from your Branch dashboard, click on the Create Link button on the top right of the dashboard.
+To start, from your Branch dashboard, click on the Create Link button on the top right of the dashboard.
 
-2. On the next Define screen, fill in the following fields:
+## Define
+
+1. On the next Define screen, fill in the following fields:
 
 	- **Name your link**: Give your link a name so you can find it in the dashboard later. Try to stick to a naming convention if creating multiple quick links
 
@@ -14,9 +16,11 @@ Creating quick links is really simple from the Quick Links section of the Branch
 
 	- When finished, select the Configure Options button
 
-3. If the link will be shared and visible to the user, you have the ability to set a vanity alias for your quick link. The vanity alias on a link cannot be changed after link creation. When left empty, random string of characters will be assigned for the vanity alias.
+1. If the link will be shared and visible to the user, you have the ability to set a vanity alias for your quick link. The vanity alias on a link cannot be changed after link creation. When left empty, random string of characters will be assigned for the vanity alias.
 
-4. The next section contains information pertaining to the various sub-tabs you see under the vanity URL:
+## Configure Options
+
+1. The next section contains information pertaining to the various sub-tabs you see under the vanity URL:
 
 	- **DEEP LINKING** - Information passed from web to app to control routing, promo codes, open graph tags, etc.
 
@@ -46,16 +50,23 @@ Creating quick links is really simple from the Quick Links section of the Branch
 
 	- **SOCIAL MEDIA** - Setting Title, Description and Image for instances when this link is shared on social platforms. This will be automatically populated from OG Tags included on the redirection URL. Use the previewer on the right side of the screen
 
-5. When all sub-tabs are complete, select the Create Link Now button
+## Validate & Share
 
-6. You will be brought to the Validate & Share section where you can copy the link or send a text of it to yourself. Utilize these options to see how the link will act on various devices to make sure:
+1. When all sub-tabs are complete, select the Create Link Now button
 
-	- App Uninstalled: You are directed to the correct redirect page
+1. You will be brought to the Validate & Share section where you can:
 
-		- If linking to the App store and routing to content, make sure you are directed to that content after install (also known as deferred deep linking)
+ 	- Copy the link
+	- Send a text of it to yourself
+	- Download the link embedded in a QR code (available in a PNG or SVG file)
 
-	- App Installed: App opens and you are directed to the correct piece of content
+![image](/_assets/img/pages/links/link-share-options.png)
 
-		- Be sure to check this functionality on the channel you’ll be sharing it in
+Utilize these options to see how the link will act on various devices to make sure:
+
+- App Uninstalled: You are directed to the correct redirect page
+- If linking to the App store and routing to content, make sure you are directed to that content after install (also known as deferred deep linking)
+- App Installed: App opens and you are directed to the correct piece of content
+- Be sure to check this functionality on the channel you’ll be sharing it in
 
 Click Close and begin using your link!

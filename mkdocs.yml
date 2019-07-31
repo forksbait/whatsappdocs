@@ -194,6 +194,7 @@ nav:
       - Branch Universal Email: emails/universal-email.md
       - Universal Email Partners: emails/email-partners-list.md
       - Self Serve: emails/self-serve.md
+      - Personalization Services: emails/personalization-services.md
     - SMS:
       - Vibes: sms/vibes.md
     - Push notifications: advance/push-notifications.md
@@ -888,6 +889,7 @@ nav:
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
       - Eulerian: integrations/eulerian.md
+      - FollowAnalytics: integrations/followanalytics.md
       - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
