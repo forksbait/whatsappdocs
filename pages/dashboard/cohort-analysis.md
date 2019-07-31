@@ -142,21 +142,21 @@ Compare by and (where/and/equals) filters can be applied to any cohorting event 
 
 Once you’ve created a cohort, you can view the resulting analytics. All created cohorts include the following visualization functionality:
 
-* Unique Counts
+* **Unique Counts** - When "Unique" is checked, these are unique to a user. For example: if 1 user clicks 100 times, it will count as 1. There is no concept of "unique revenue"; "revenue" is always the sum of all purchase events.
 
-* Time Interval and Granularity
+* **Time Interval and Granularity**
 
-* Incremental vs Cumulative
+* **Incremental vs Cumulative** - Incremental shows only data that occurred that day, giving visibility into how performance changes over time. Cumulative shows data that occurred that day plus all previous days, giving visibility into overall performance over time.
 
-* Apply Cost Data
+* **Apply Cost Data** - shows the cost per event for each compare by in your cohort.
 
-* Total vs Per User Counts
+* **Total vs Per User Counts** - Total shows the total number for that day. Per user shows the total number for that day over the total number of users for each compare by in your cohort.
 
-* Table vs Time Series View
+* **Table vs Time Series View**
 
-* Download CSV
+* **Download CSV**
 
-* Share Page State
+* **Share Page State**
 
 * Saved Views
 
