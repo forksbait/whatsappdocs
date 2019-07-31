@@ -13,8 +13,13 @@ For any Universal Email link that originates from a third party service such as 
 `$follow_redirect=true`
 
 !!! warning "URL Encoding"
-	Please URL encode all `$` symbols before appending the redirect parameter. URL encoding `$` returns `%24`. 
+	Please URL encode all `$` symbols before appending the redirect parameter. URL encoding `$` returns `%24`.
 
 **Example URL + Redirect Parameter**
 
-```https://cbsn.ws/2KW0dnE?%24follow_redirect=true```
+`https://cbsn.ws/2KW0dnE?%24follow_redirect=true`
+
+!!! info "Things to Keep in Mind"
+	Follow the normal ESP configurations in the `<a>` tags; e.g. if your ESP requires  `%24deep_link=true` as a query param to “branchify”, add it in addition to `%24follow_redirect`.
+
+	Deep link flagging is still required with your ESP. Check out the "Flag your deep links" section for your Universal Email ESP.
