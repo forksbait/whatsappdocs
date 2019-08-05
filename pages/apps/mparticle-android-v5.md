@@ -3,6 +3,13 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 !!! info "These instructions apply to the mParticle SDK version 5+ integration"
     mParticle introduced a new attribution & deep linking API in v5 of their SDK (http://docs.mparticle.com/developers/sdk/android/getting-started/#upgrade-to-version-5-of-the-sdk), so please contact your Branch or mParticle Account Managers for more details, if you have mParticle SDK <v5 installed in your app.
 
+!!! warning "Google Play Services version 17+"
+    A major Google Play Services change made in June 2019 has caused Branch's Android SDK (and various other cross-platform SDKs, e.g. Unity) to stop collecting Android AID.
+
+    To ensure Branch deep linking and attribution continue to work, you must follow Google's update instructions [here](https://developers.google.com/android/guides/releases#june_17_2019).
+
+    If you are running Google Play Services versions below 17, no update is necessary.
+
 ## Technical Requirements
 
 - [mParticle SDK for Android](https://docs.mparticle.com/developers/sdk/android/getting-started/)

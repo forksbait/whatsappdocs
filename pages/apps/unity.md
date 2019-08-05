@@ -3,6 +3,15 @@
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
     After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
+!!! warning "Google Play Services version 17+"
+    If you reference Google Play Services version 17 or higher, you **MUST** complete Google's update instructions [here](https://developers.google.com/android/guides/releases#june_17_2019).
+
+    Due to a major Google Play Services change made in June 2019, not completing the update steps will cause Branch's Android SDK (and various other cross-platform SDKs, e.g. Unity) to stop collecting Android AID which we use to ensure accurate deep linking and attribution.
+
+    If you are running Google Play Services versions below 17, no update is necessary.
+
+    **NOTE**: To use Google Play Services versions below 17 for future app builds, follow these [workaround implementation steps](/apps/unity/#workaround-implementation-steps-for-using-google-play-services-version-17).
+
 - ### Configure Branch
 
     - Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
@@ -313,7 +322,7 @@ Branch.sendEvent (e02);
         });
         ```
 
-## Troubleshoot issues
+## Troubleshooting issues
 
 - ### iOS + Unity 4.6 Note
 
@@ -390,3 +399,29 @@ Branch.sendEvent (e02);
 
     - [Branch Testbed app](https://github.com/BranchMetrics/unity-branch-deep-linking/tree/master/BranchUnityTestBed)
     - [Code Samples](https://github.com/BranchMetrics/unity-branch-deep-linking/tree/master/ThirdPartySolutions) for resolving conflicts with other 3rd party plugins
+
+## Workaround Implementation Steps for using Google Play Services < version 17
+
+!!! warning "Google Play Services version 17+"
+    If you reference Google Play Services version 17 or higher, you **MUST** complete Google's update instructions [here](https://developers.google.com/android/guides/releases#june_17_2019).
+
+    Due to a major Google Play Services change made in June 2019, not completing the update steps will cause Branch's Android SDK (and various other cross-platform SDKs, e.g. Unity) to stop collecting Android AID which we use to ensure accurate deep linking and attribution.
+
+    If you are running Google Play Services versions below 17, no update is necessary.
+
+    **NOTE**: To use Google Play Services versions below 17 for future app builds, follow these workaround implementation steps.
+
+1. Install `BranchUnityWrapper.unitypackage`.
+
+2. Delete `android-support-customtabs-23.3.0.jar` from the Assets->Plugins->Branch->Android->libs.
+
+3. Create a Assets->Plugins->Branch->Editor folder.
+
+4. Add the attached `BranchPluginDependencies.xml` to the new Editor folder.
+
+5. Install the latest Google Play Resolver from https://github.com/googlesamples/unity-jar-resolver
+
+6. It should auto resolve dependencies, but you may want to confirm by listing the libraries from the play resolver menu.  You should see the following block:
+```
+dependencies {implementation 'com.android.installreferrer:installreferrer:1.0' // Assets/Plugins/Editor/BranchPluginDependencies.xml:11implementation 'com.android.support:customtabs:23.3.0' // Assets/Plugins/Editor/BranchPluginDependencies.xml:13implementation 'com.google.android.gms:play-services-ads:16.0.0' // Assets/Plugins/Editor/BranchPluginDependencies.xml:12}
+```

@@ -15,6 +15,7 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 ## Prerequisites
 
 !!! warning "Prerequisites"
+	* [x] Ensure Branch is the only MMP configured in your Twitter account.  This must be done before you enable the Twitter integration in your Branch dashboard.
 	* [x] To track installs from Twitter Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app OR send events via server to server integration including device IDs (Google AID or Apple IFA).
 	* [x] To use Twitter App Install Ads ensure you have:
 		* [x] URI schemes configured on iOS
@@ -25,8 +26,9 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 
 ## Enable Twitter Ads for Measurement
 
-!!! note ""
-	Completing this section -- "Enable Twitter Ads for Measurement" -- will result in Branch sending app events to Twitter in order to attribute them back to Twitter ad campaigns.
+!!! note "Enabling Twitter"
+	- Completing this section -- "Enable Twitter Ads for Measurement" -- will result in Branch sending app events to Twitter in order to attribute them back to Twitter ad campaigns.
+	- Ensure Branch is the only MMP configured in your Twitter account.  This must be done before you enable the Twitter integration in your Branch dashboard.
 
 1. Navigate to the [Partner Management tab](https://dashboard.branch.io/ads/partner-management) and search for **Twitter**.
 

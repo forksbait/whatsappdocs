@@ -1,5 +1,12 @@
 Add the power of Branch deep linking and attribute to your Adobe Marketing Cloud app. With Branch's linking platform, mobile developers and marketers can grow their mobile business with world class deep linking and attribution.
 
+!!! warning "Google Play Services version 17+"
+    A major Google Play Services change made in June 2019 has caused Branch's Android SDK (and various other cross-platform SDKs, e.g. Unity) to stop collecting Android AID.
+
+    To ensure Branch deep linking and attribution continue to work, you must follow Google's update instructions [here](https://developers.google.com/android/guides/releases#june_17_2019).
+
+    If you are running Google Play Services versions below 17, no update is necessary.
+
 ## Features
 1. All events tracked with the Adobe SDK will automatically be sent to Branch without any extra work
 2. All core Branch functionality is accessible
@@ -7,6 +14,9 @@ Add the power of Branch deep linking and attribute to your Adobe Marketing Cloud
 ## Requirements
 - Android API level 16 or higher
 - Adobe Core Platform
+
+!!! warning "Branch SDK not Required"
+	As the Adobe Branch extension is a wrapper that auto includes a sub-dependency for the Branch SDK, you do not need to - nor do we recommend to - implement the Branch SDK separately in your app.
 
 ## Example
 

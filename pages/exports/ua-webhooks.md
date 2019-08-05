@@ -108,8 +108,6 @@ To test whether your webhook is configured correctly, you can use [RequestBin](h
 
 ## Data Format
 
-One of the major advantages of People-Based Attribution's data format is that metadata is consistently located across all events. We call this schema the [Event Ontology Data Schema](/exports/event_ontology_data_schema/). This consistent schema makes it easy to replicate Branch dashboards in your internal warehouse and compare large sets of data for different events.
-
 Setting up Advanced Filters or Freemarker macros requires an understanding of the Event Ontology data format. Before diving into the schema, you should understand some high level concepts about event metadata structure:
 
 - Each event has top level fields, such as "name" and "id" that are not nested
@@ -120,7 +118,8 @@ Setting up Advanced Filters or Freemarker macros requires an understanding of th
 - Journeys or Deepviews view data (e.g. Journey banners loads, not clicks) is "Last CTA View Data"
 - Client-specified custom data (e.g. internal fields your company requires on specific events) is nested in "Custom Data"
 
-You can find an [overview of critical fields](/exports/event_ontology_data_schema/#fields-included) in that documentation, as well as an [exhaustive list of fields](/exports/event_ontology_data_schema/#full-list-of-fields).
+!!! info "Full List of Available Postback Macros"
+    To find a complete list of Branch supported postback macros, please see [Postback Macros & Functions](/resources/postback-macros-and-functions/).
 
 ### Sample webhook POST body syntax
 
@@ -270,6 +269,9 @@ Here is some more example Freemarker for common templates:
 | User Data | IDFA | `${(user_data.idfa)!}` |
 | User Data | IDFV | `${(user_data.idfv)!}` |
 | User Data | Android Advertising ID | `${(user_data.aaid)!}` |
+
+!!! info "Full List of Available Postback Macros"
+    To find a complete list of Branch supported postback macros, please see [Postback Macros & Functions](/resources/postback-macros-and-functions/).
 
 #### Freemarker expressions
 
