@@ -1,6 +1,13 @@
 !!! info "Current SDK Version 3.1.0"
     Please see the [Android Version History](/version-histories/android-version-history) to view change log.
 
+!!! warning "Google Play Services version 17+"
+    If you reference Google Play Services version 17 or higher, you **MUST** complete Google's update instructions [here](https://developers.google.com/android/guides/releases#june_17_2019).
+
+    Due to a major Google Play Services change made in June 2019, not completing the update steps will cause Branch's Android SDK (and various other cross-platform SDKs, e.g. Unity) to stop collecting Android AID which we use to ensure accurate deep linking and attribution.
+
+    If you are running Google Play Services versions below 17, no update is necessary.
+
 ## Integrate Branch
 
 - ### Configure Branch
