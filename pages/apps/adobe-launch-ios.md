@@ -7,7 +7,9 @@ Add the power of Branch deep linking and attribute to your Adobe Marketing Cloud
 ## Requirements
 - iOS 10
 - Adobe Core Platform
-- Branch SDK
+
+!!! warning "Branch SDK not Required"
+	As the Adobe Branch extension is a wrapper that auto includes a sub-dependency for the Branch SDK, you do not need to - nor do we recommend to - implement the Branch SDK separately in your app.  
 
 ## Example
 
