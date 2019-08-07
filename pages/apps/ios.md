@@ -69,6 +69,8 @@
         ```sh
         pod install && pod update
         ```
+        
+                - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
 
     - Option 2: [Carthage](https://github.com/Carthage/Carthage)
 
