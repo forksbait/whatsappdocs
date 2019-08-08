@@ -85,7 +85,7 @@ The **Redirect** tab allows you to override your default redirects - as set in *
 
 - **Deepview** - Send users to a specific deepview you may have created under the **Web to App > Deepview** section. Copy the key and paste it into the text box. Useful if you want to present the user with a preview of the content before taking them directly to the app store. Should not be set for Desktop option.
 
-!!! info "Disabling Universal Links"
+!!! info "Force Open the App"
 	If you want to always force the app to open, even if it risks showing an error message when the app is not installed, make sure the `URI Scheme Deep Link Mode` in your `Link Settings` is set to `Aggressive`.
 
 	**NOTE**: By changing this setting, Branch will force open the app for all users. Available for links created on both the Branch and TUNE domain.
