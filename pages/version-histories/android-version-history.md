@@ -1,3 +1,11 @@
+### v4.0.0
+
+**( 09 Aug 2019 )**
+
+- Switched to using Android X from the Android Support Library
+- Added new standard event type: customer_event_alias
+- Implemented support for pre-install analytics
+- Added the option to set a custom base URL
 
 ### v3.2.0
 
