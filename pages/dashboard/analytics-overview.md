@@ -36,6 +36,10 @@ Our reporting layer balances speed and efficiency with completeness and complexi
   	<img src="../../../_assets/img/pages/channels/referral.png" />
   	<p>Influencer Analytics</p>
 	</a> -->
+  <a href="/activity-reports-analytics/ads-pre-install-analytics/">
+		<img src="../../../_assets/img/pages/channels/link.png" />
+		<p>Pre-Install Analytics</p>
+	</a>
 	<a href="/activity-reports-analytics/link-level-analytics/">
 		<img src="../../../_assets/img/pages/channels/link.png" />
 		<p>Link Level Analytics</p>
