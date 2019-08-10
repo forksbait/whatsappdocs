@@ -19,7 +19,15 @@ For creating exports, the rate limit is 10 requests per minute and 25 requests p
 
 For checking the status of an export, the rate limit is 50 requests per minute and 1000 per hour.
 
-## Third Party Access
+## Export Access
+
+In order to access Custom Exports, a user will need to have both **Sensitive Data** and **Export** access.
+
+![image](/_assets/img/pages/dashboard/access-levels/export-access.png)
+
+For more details on how to give a user the required access, please follow [Granting a User Export Access](/dashboard/export-access/#granting-a-user-export-access).
+
+### Third Party Access
 
 Any user with access to an account’s API keys will be able to access Branch’s Custom Export API (and thus unfiltered, log-level data). As a result, we would recommend against providing third parties with the permissions required to view API keys during the invitation process.
 

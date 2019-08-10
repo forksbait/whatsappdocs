@@ -118,8 +118,9 @@
 
 - ### UTM Behavior
 
-!!! warning "Not Enabled by Default"
-    To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
+!!! warning "Enabled by Default"
+    To disable this functionality, go to **Link Settings** -> **Advance Settings** -> **Analytics mapping with UTM**.
+    ![image](/_assets/img/pages/links/utm-mapping.png)
 
   - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
 
