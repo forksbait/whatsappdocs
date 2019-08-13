@@ -192,7 +192,7 @@ This selector allows you to control how and when Branch uses URI schemes to open
 - For Desktop apps
     - Enter your Desktop URI Scheme (e.g. `spotify://`)
     - Include `$desktop_deeplink_path` key-value pair to your link (e.g. `"$desktop_deeplink_path": "track/5D8o9tGf3Dfjz7CgMxcoeI"`)
-    - If the app is not installed when the link is clicked, we will fall back to the Desktop or Default URL, in that order
+    - If the app is not installed when the link is clicked, we will fall back to `$desktop_url` or Default URL, in that order
     - This feature is still in the early stages of development; so usage without a Desktop SDK will not be able to attribute or pass data through an install.
 
 #### Advanced Mobile Redirects
