@@ -50,8 +50,8 @@ If those values are non-null and this is a first time open for the device, the r
 	{
 	    "apps": {
 	        "application.package.name": {
-	            "preinstall_partner": "partner_to_attributed",
-	            "preinstall_campaign": "campaign_to_attributed"
+	            "preinstall_partner": "partner_to_attribute",
+	            "preinstall_campaign": "campaign_to_attribute"
 	        }
 	    }
 	}
