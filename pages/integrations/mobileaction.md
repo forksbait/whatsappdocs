@@ -2,7 +2,7 @@
 
 ![MobileAction](https://cdn.branch.io/branch-assets/ad-partner-manager//SearchAdsByMobileActionLogo-1550011543924.png)
 
-This guide will walk you through how to send your Branch data to **[MobileAction](https://www.mobileaction.co/)** using Branch Data Intgeration **.
+This guide will walk you through how to send your Branch data to **[MobileAction](https://www.mobileaction.co/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 

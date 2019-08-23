@@ -1,8 +1,8 @@
 ## Overview
 
-![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)
+![SearchAdsHQ](https://cdn.branch.io/branch-assets/ad-partner-manager//1479b0002dff-18A02F13_B1DF_40A9_B097_D7421ED91A0B-1559413705882.png)
 
-This guide will walk you through how to send your Branch data to **[Backinapp](https://www.backinapp.com)** using Branch Data Integration.
+This guide will walk you through how to send your Branch data to **[SearchAdsHQ](https://searchadshq.com/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,10 +14,12 @@ This guide will walk you through how to send your Branch data to **[Backinapp](h
 
 {! ingredients/data-integrations/add-credentials.md !}
 
-### What Branch sends to Backinapp
+### What Branch sends to SearchAdsHQ
 
 * Install
+* Open
 * Commerce Event
+* Custom Event
 
 ## Advanced
 

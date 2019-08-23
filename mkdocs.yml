@@ -277,20 +277,25 @@ nav:
       - Adscreen_Affiliate: deep-linked-ads/adscreen-affiliate-mobile-tracking.md
       - Adsflourish: deep-linked-ads/adsflourish-mobile-tracking.md
       - Adsizzler Media : deep-linked-ads/adsizzler-mobile-tracking.md
+      - Adsknife: deep-linked-ads/adsknife-mobile-tracking.md
       - Adsplay International : deep-linked-ads/adsplay-international-mobile-tracking.md
       - Adsterra Network : deep-linked-ads/adsterra-network-mobile-tracking.md
       - Adstreet Digital: deep-linked-ads/adstreet-digital-mobile-tracking.md
       - Adtiming : deep-linked-ads/adtiming-mobile-tracking.md
       - Adtraction: deep-linked-ads/adtraction-mobile-tracking.md
+      - Aduclick Business Services: deep-linked-ads/aduclick-business-services-mobile-tracking.md
       - Ad Volt: deep-linked-ads/ad-volt-mobile-tracking.md
       - ADvantage: deep-linked-ads/advantage-mobile-tracking.md
       - AdXcel : deep-linked-ads/adxcel-mobile-tracking.md
       - AdxMaster Inc.: deep-linked-ads/adxmaster-mobile-tracking.md
       - Adxperience : deep-linked-ads/adxperience-mobile-tracking.md
+      - Adzealous Media: deep-linked-ads/adzealous-media-mobile-tracking.md
       - Adziny Media: deep-linked-ads/adziny-media-mobile-tracking.md
+      - AdzMedia: deep-linked-ads/adzmedia-mobile-tracking.md
       - Affifix Digital : deep-linked-ads/affifix-digital-mobile-tracking.md
       - Affise: deep-linked-ads/affise-mobile-tracking.md
       - Affle : deep-linked-ads/affle-mobile-tracking.md
+      - Affnet Marketing Media: deep-linked-ads/affnet-marketing-media-mobile-tracking.md
       - Affonix: deep-linked-ads/affonix-mobile-tracking.md
       - Aki Technologies: deep-linked-ads/aki-technologies-mobile-tracking.md
       - Aliothmob Media: deep-linked-ads/aliothmob-media-mobile-tracking.md
@@ -431,6 +436,7 @@ nav:
       - Digital Turbine : deep-linked-ads/digital-turbine-mobile-tracking.md
       - Discipline Digital: deep-linked-ads/discipline-digital-mobile-tracking.md
       - Display.io: deep-linked-ads/display-io-mobile-tracking.md
+      - DMI Media Group: deep-linked-ads/dmi-media-group-mobile-tracking.md
       - DNM: deep-linked-ads/dnm-mobile-tracking.md
       - Docomo Ad Network: deep-linked-ads/docomo-ad-network-mobile-tracking.md
       - Domob : deep-linked-ads/domob-mobile-tracking.md
@@ -619,6 +625,7 @@ nav:
       - Moblin : deep-linked-ads/moblin-mobile-tracking.md
       - Mobme Asia: deep-linked-ads/mobme-asia-mobile-tracking.md
       - Mobobeat : deep-linked-ads/mobobeat-mobile-tracking.md
+      - Mobotto Media: deep-linked-ads/mobotto-media-mobile-tracking.md
       - MobPartner : deep-linked-ads/mobpartner-mobile-tracking.md
       - Mobme Asia: deep-linked-ads/mobme-asia-mobile-tracking.md
       - Mobobeat : deep-linked-ads/mobobeat-mobile-tracking.md
@@ -725,6 +732,7 @@ nav:
       - Shoogloo Mobile : deep-linked-ads/shoogloo-mobile-mobile-tracking.md
       - ShopBack : deep-linked-ads/shopback-mobile-tracking.md
       - Shopping Kids Unia: deep-linked-ads/shopping-kids-unia-mobile-tracking.md
+      - Sift Media: deep-linked-ads/sift-media-mobile-tracking.md
       - Signitech: deep-linked-ads/signitech-mobile-tracking.md
       - SilverPush: deep-linked-ads/silverpush-mobile-tracking.md
       - SilverPush - Affise : deep-linked-ads/silverpush-affise-mobile-tracking.md
@@ -859,6 +867,7 @@ nav:
       - Campaign Monitor: emails/campaign-monitor.md
       - Cheetah Digital Marketing Suite: emails/cheetah-digital-marketing-suite.md
       - CheetahMail: emails/cheetahmail.md
+      - Cordial: emails/cordial.md
       - Epsilon: emails/epsilon.md
       - Emarsys: emails/emarsys.md
       - Hootsuite: social-links/hootsuite.md
@@ -905,6 +914,7 @@ nav:
       - Appsflyer: integrations/appsflyer.md
       - Apptilaus - Subscription Analytics: integrations/apptilaus.md
       - Backinapp: integrations/backinapp.md
+      - Batch: integrations/batch.md
       - Braze: integrations/braze.md
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
@@ -913,6 +923,7 @@ nav:
       - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
+      - Heap: integrations/heap.md
       - Insider: integrations/insider.md
       - Kochava: integrations/kochava.md
       - Leanplum: integrations/leanplum.md
@@ -921,6 +932,8 @@ nav:
       - MobileAction: integrations/mobileaction.md
       - mParticle (export): integrations/mparticle.md
       - mParticle (import): integrations/mparticle-import.md
+      - Scalarr: integrations/scalarr.md
+      - SearchAdsHQ: integrations/searchadshq.md
       - Segment (export): integrations/segment.md
       - Segment (import): integrations/segment-import.md
       - Singular: integrations/singular.md
