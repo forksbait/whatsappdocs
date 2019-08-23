@@ -49,9 +49,9 @@ If those values are non-null and this is a first time open for the device, the r
 	```
 	{
 	    "apps": {
-	        "com.tokopedia.com": {
-	            "preinstall_partner": "Huawei",
-	            "preinstall_campaign": "Huawei_camp_2"
+	        "application.package.name": {
+	            "preinstall_partner": "partner_to_attribute",
+	            "preinstall_campaign": "campaign_to_attribute"
 	        }
 	    }
 	}
