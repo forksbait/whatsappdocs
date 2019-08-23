@@ -14,6 +14,7 @@ Logo | Partner
 <a href="https://www.campaignmonitor.com/" target="_blank">![Campaign_Monitor](/_assets/img/pages/email/campaign-monitor/campaign-monitor.png)</a>| **[Campaign Monitor](/emails/campaign-monitor/)**
 <a href="https://www.cheetahdigital.com/" target="_blank">![Cheetah_Digital_Marketing_Suite](/_assets/img/pages/email/cheetah-digital-marketing-suite/cheetah-digital-marketing-suite.png)</a>| **[Cheetah Digital Marketing Suite](/emails/cheetah-digital-marketing-suite/)**
 <a href="https://www.cheetahdigital.com/" target="_blank">![CheetahMail](/_assets/img/pages/email/cheetahmail/cheetahmail.png)</a>| **[CheetahMail](/emails/cheetahmail/)**
+<a href="https://cordial.com/" target="_blank">![Cordial](https://cdn.branch.io/branch-assets/email-providers//cordial-1559944328558.png)</a>| **[Cordial](/emails/cordial/)**
 <a href="https://www.epsilon.com/" target="_blank">![Epsilon](/_assets/img/pages/email/epsilon/epsilon.png)</a>| **[Epsilon](/emails/epsilon/)**
 <a href="https://www.emarsys.com/" target="_blank">![Emarsys](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/emarsys-1537315326046.png)</a>| **[Emarsys](/emails/emarsys/)**
 <a href="https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management" target="_blank">![IBM_Watson_Campaign_Automation](/_assets/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)</a>| **[IBM Watson Campaign Automation](/emails/ibm-watson-campaign-automation/)**
