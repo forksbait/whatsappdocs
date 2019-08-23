@@ -2,7 +2,7 @@
 
 ![Singular](https://dashboard.branch.io/static/images/partners/partner_12.png)
 
-This guide will walk you through how to send your Branch data to **[Singular](https://www.singular.net/)** using Branch Data Intgeration **.
+This guide will walk you through how to send your Branch data to **[Singular](https://www.singular.net/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 

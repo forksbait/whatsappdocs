@@ -2,7 +2,7 @@
 
 ![FollowAnalytics](https://cdn.branch.io/branch-assets/ad-partner-manager//e1ccbe2b0b70-Fa_logo_500-1559410356923.png)
 
-This guide will walk you through how to send your Branch data to **[FollowAnalytics](https://followanalytics.com/)** using Branch Data Intgeration **.
+This guide will walk you through how to send your Branch data to **[FollowAnalytics](https://followanalytics.com/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 

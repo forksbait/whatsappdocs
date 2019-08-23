@@ -905,6 +905,7 @@ nav:
       - Appsflyer: integrations/appsflyer.md
       - Apptilaus - Subscription Analytics: integrations/apptilaus.md
       - Backinapp: integrations/backinapp.md
+      - Batch: integrations/batch.md
       - Braze: integrations/braze.md
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
@@ -913,6 +914,7 @@ nav:
       - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
+      - Heap: integrations/heap.md
       - Insider: integrations/insider.md
       - Kochava: integrations/kochava.md
       - Leanplum: integrations/leanplum.md
@@ -921,6 +923,8 @@ nav:
       - MobileAction: integrations/mobileaction.md
       - mParticle (export): integrations/mparticle.md
       - mParticle (import): integrations/mparticle-import.md
+      - Scalarr: integrations/scalarr.md
+      - SearchAdsHQ: integrations/searchadshq.md
       - Segment (export): integrations/segment.md
       - Segment (import): integrations/segment-import.md
       - Singular: integrations/singular.md

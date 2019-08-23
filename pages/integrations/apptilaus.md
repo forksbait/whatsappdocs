@@ -2,7 +2,7 @@
 
 ![Apptilaus - Subscription Analytics](https://cdn.branch.io/branch-assets/ad-partner-manager//apptilaus_logo-1562023417593.png)
 
-This guide will walk you through how to send your Branch data to **[Apptilaus](https://apptilaus.com/)** using Branch Data Intgeration **.
+This guide will walk you through how to send your Branch data to **[Apptilaus](https://apptilaus.com/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
