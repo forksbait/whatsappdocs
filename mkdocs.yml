@@ -214,6 +214,7 @@ nav:
     - Overview: partner-management/branch-integrated-partners.md
     - Universal Ads Partners:
       - Ad Partners List: deep-linked-ads/ad-networks-list.md
+      - Adding Custom Partners: deep-linked-ads/adding-custom-partners.md
       - 1PlusAds: deep-linked-ads/1plusads-mobile-tracking.md
       - 3.14 Digital : deep-linked-ads/3.14-digital-mobile-tracking.md
       - 3dot14 Programmatic: deep-linked-ads/3dot14-programmatic-mobile-tracking.md
