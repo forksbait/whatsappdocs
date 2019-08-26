@@ -24,12 +24,16 @@ Branch provides the following two methods to set the relevant information in the
 
 ### Set Data in the Pre-Loaded APK
 
+!!! warning "Pre-loaded Data in the APK"
+	If you set the preloaded data in the APK, it will override the system props data.
+
 After initialization, call these setters to set the data in the APK:
 
 ```
 Branch.setPreinstallCampaign(“My Campaign Name”)
 Branch.setPreinstallPartner(“My Partner Name”)
 ```
+
 If those values are non-null and this is a first time open for the device, the request should look like this:
 
 ```
@@ -40,6 +44,7 @@ If those values are non-null and this is a first time open for the device, the r
   …
 }
 ```
+
 !!! info "Multiple Partners Pre-Installing Your App"
 	If multiple partners are pre-installing your mobile app, then you can create a partner-specific build of your app for distribution to each publishing partner (where each build includes different partner settings, respective to the particular partner). The partner-specific build is what the partner pre-installs onto the desired devices.
 
