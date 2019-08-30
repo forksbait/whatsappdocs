@@ -71,7 +71,7 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 1. Copy your Branch Ad Link from the last section and ensure the copied link has the appropriate additional params (~campaign_id, ~ad_set_id, lpurl, etc.) which should be automatically generated on your Branch dashboard.
 1. Remove "%24always_deeplink=false" from the Branch link
 1. URL encode the Branch Ad Link you just created, but leave any "{" or "}" unencoded. This will ensure these valuetrack params are properly filled in by Google.  If you leave the ampersands before the valuetrack parameters unencoded, they will be parsed by the web browser.  If you encode the ampersands, the valuetrack parameters will be sent into the app.
-1. Append &branchify_url=PARTIALLY URL ENDCODED BRANCH LINK to your Final URL.
+1. Append &branchify_url=PARTIALLY URL ENCODED BRANCH LINK to your Final URL.
 
 ### Create Your Campaign
 
