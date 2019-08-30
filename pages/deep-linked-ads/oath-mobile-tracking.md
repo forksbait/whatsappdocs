@@ -33,6 +33,10 @@ This guide will walk you through how to setup your campaigns with **[Oath](https
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+!!! info "Using Links in Gemini"
+	During campaign setup, The App Store URL needs to be used in the app URL field. Then, when the ad is created, the tracking URL can be used. You will need to specify "Other" under the MMP, and can then enter the tracking URL.
+	If you are still unable to locate a tracking URL field in the UI, you may have to upload them via bulk upload functionality. Please take a look at this documentation:  https://developer.verizonmedia.com/nativeandsearch/advertiser/guide/bulk/ . There are screenshots included and a short video. If you have further issues, please reach out to your VZM contact or support team.
+
 {! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
