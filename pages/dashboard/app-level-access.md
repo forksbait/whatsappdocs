@@ -62,6 +62,9 @@ If you are an Admin, you have edit access to the **Profile** tab.
 - **App ID** - assigned by Branch; not editable.
 - **Time Zone** - Your time zone affects your dashboard analytics and how your Branch data matches up with external data sources. Use the drop-down to select the appropriate time zone.
 
+!!! info "Resetting your Branch Key/Secret"
+	If you need to reset your Branch Key/Secret, click **Reset Key** or **Reset Secret** respectively.  Doing so automatically generates a new Branch Key/Secret.
+
 ### Managing your User Profile
 
 ![image](/_assets/img/pages/dashboard/access-levels/org-user.png)
