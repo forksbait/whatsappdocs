@@ -41,5 +41,6 @@ exports/api-v3/index.html https://docs.branch.io/exports/daily-exports/
 exports/custom-export-api/index.html https://docs.branch.io/exports/custom-exports/
 emails/get-started/#deep-linking-settings-for-email/index.html https://docs.branch.io/emails/universal-email/#deep-linking-settings-for-email
 emails/salesforce-v.1/index.html https://docs.branch.io/emails/salesforce-v1/
-emails/salesforce-v.-2 https://docs.branch.io/emails/salesforce-v2/
-emails/salesforce-v.-3 https://docs.branch.io/emails/salesforce-v3/
+emails/salesforce-v.-2/index.html https://docs.branch.io/emails/salesforce-v2/
+emails/salesforce-v.-3/index.html https://docs.branch.io/emails/salesforce-v3/
+deep-linked-ads/sizmek-dsp-mobile-tracking/index.html https://docs.branch.io/deep-linked-ads/ad-networks-list/

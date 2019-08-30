@@ -220,6 +220,7 @@ nav:
       - 3dot14 Programmatic: deep-linked-ads/3dot14-programmatic-mobile-tracking.md
       - A4G : deep-linked-ads/a4g-mobile-tracking.md
       - Aarki : deep-linked-ads/aarki-mobile-tracking.md
+      - ACE Trader: deep-linked-ads/ace-trader-mobile-tracking.md
       - Actionpay : deep-linked-ads/actionpay-mobile-tracking.md
       - AcuityAds : deep-linked-ads/acuityads-mobile-tracking.md
       - Ad-Venture: deep-linked-ads/ad-venture-mobile-tracking.md
@@ -331,6 +332,7 @@ nav:
       - APPSILON: deep-linked-ads/appsilon-mobile-tracking.md
       - AppsPress Platform: deep-linked-ads/appspress-platform-mobile-tracking.md
       - Appstare: deep-linked-ads/appstare-mobile-tracking.md
+      - Appxigo Media: deep-linked-ads/appxigo-media-mobile-tracking.md
       - Arabclicks: deep-linked-ads/arabclicks-mobile-tracking.md
       - Aragon Premium: deep-linked-ads/aragon-premium-mobile-tracking.md
       - Art of Click : deep-linked-ads/art-of-click-mobile-tracking.md
@@ -395,6 +397,7 @@ nav:
       - Clicks2install: deep-linked-ads/clicks2install-mobile-tracking.md
       - Clicksmob: deep-linked-ads/clicksmob-mobile-tracking.md
       - Clickwork7 : deep-linked-ads/clickwork7-mobile-tracking.md
+      - Clicxy: deep-linked-ads/clicxy-mobile-tracking.md
       - Clinch: deep-linked-ads/clinch-mobile-tracking.md
       - Cluep : deep-linked-ads/cluep-mobile-tracking.md
       - Collectcent Digital Media : deep-linked-ads/collectcent-digital-media-mobile-tracking.md
@@ -524,6 +527,7 @@ nav:
       - Iconpeak : deep-linked-ads/iconpeak-mobile-tracking.md
       - iCubesWire: deep-linked-ads/icubeswire-mobile-tracking.md
       - iCubesWire Affise: deep-linked-ads/icubeswire-affise-mobile-tracking.md
+      - iCubesWire Technologies: deep-linked-ads/icubeswire-technologies-mobile-tracking.md
       - Ignite OPM: deep-linked-ads/ignite-opm-mobile-tracking.md
       - iHuntz Media: deep-linked-ads/ihuntz-media-mobile-tracking.md
       - Impact Radius : deep-linked-ads/impact-radius-mobile-tracking.md
@@ -569,6 +573,7 @@ nav:
       - Koneo Mobile Inc. : deep-linked-ads/koneo-mobile-mobile-tracking.md
       - Kreativads: deep-linked-ads/kreativads-mobile-tracking.md
       - Kwanko: deep-linked-ads/kwanko-mobile-tracking.md
+      - Lead Id: deep-linked-ads/lead-id-mobile-tracking.md
       - Leadbolt : deep-linked-ads/leadbolt-mobile-tracking.md
       - Lemmonet: deep-linked-ads/lemmonet-mobile-tracking.md
       - LifeStreet : deep-linked-ads/lifestreet-mobile-tracking.md
@@ -640,6 +645,7 @@ nav:
       - MobX : deep-linked-ads/mobx-mobile-tracking.md
       - MobYoung: deep-linked-ads/mobyoung-mobile-tracking.md
       - Moca Technology : deep-linked-ads/mocatechnology-mobile-tracking.md
+      - Mocoplex Inc: deep-linked-ads/mocoplex-inc-mobile-tracking.md
       - Moloco: deep-linked-ads/moloco-mobile-tracking.md
       - MoMAGIC Technologies : deep-linked-ads/momagic-technologies-mobile-tracking.md
       - Monkeyminds: deep-linked-ads/monkeyminds-mobile-tracking.md
@@ -740,7 +746,6 @@ nav:
       - SilverPush - Javelin: deep-linked-ads/silverpush-javelin-mobile-tracking.md
       - SIROK Inc. : deep-linked-ads/sirok-mobile-tracking.md
       - Sizmek Adserver: deep-linked-ads/sizmek-adserver-mobile-tracking.md
-      - Sizmek DSP: deep-linked-ads/sizmek-dsp-mobile-tracking.md
       - Slavia Mobile: deep-linked-ads/slavia-mobile-mobile-tracking.md
       - Smadex: deep-linked-ads/smadex-mobile-tracking.md
       - Smart.bid : deep-linked-ads/smart-bid-mobile-tracking.md
@@ -944,6 +949,7 @@ nav:
       - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
       - Branch Partner Best Practices: partner-management/branch-partner-best-practices.md
       - Universal Ads Partner Integration QA Process: deep-linked-ads/universal-ads-partner-integration-qa-process.md
+      - View-through Attribution QA Process: partner-management/view-through-attribution-qa-process.md
       - Multiple Goal ID Support: partner-management/multiple-goal-id-support.md
   - Reports & Analytics:
     - Overview: dashboard/analytics-overview.md

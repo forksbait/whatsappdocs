@@ -27,4 +27,5 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 - [Branch Certified Partner Program](/partner-management/branch-certified-partner-program)
 - [Branch Partner Best Practices](/partner-management/branch-partner-best-practices)
 - [Universal Ads Partner Integration QA Process](/deep-linked-ads/universal-ads-partner-integration-qa-process)
+- [View-through Attribution QA Process](/partner-management/view-through-attribution-qa-process)
 - [Multiple Goal ID Support](/partner-management/multiple-goal-id-support)

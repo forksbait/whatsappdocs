@@ -378,6 +378,9 @@ As opening the app automatically is the best user experience in most cases, this
 !!! caution "Open app behavior in in-app webviews"
     Please avoid using the Branch Web SDK on webpages inside of native webviews in your own app. The Branch Web SDK's auto-open can cause unexpected user experiences.
 
+!!! warning "Open app behavior on Android Chrome"
+    Auto-open will only work on Android Chrome from a link click; redirecting from a manually inserted URL will not auto-open the app.
+
 #### Auto-open the app on iOS
 
 The auto-open setting in the template editor will work on iOS Chrome and Android. Because auto-open is powered by URI schemes and these can lead to error messages on iOS Safari for users without your app, this is not enabled on iOS by default.

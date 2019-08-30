@@ -1,8 +1,8 @@
 ## Overview
 
-![Sizmek DSP](https://cdn.branch.io/branch-assets/ad-partner-manager//Sizmek_DSP_logo-1551144741349.png)
+![Lead Id](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/admonster.png)
 
-This guide will walk you through how to setup your campaigns with **[Sizmek DSP](https://www.sizmek.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Lead Id](http://www.ad-monster.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Sizmek DSP]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/sizmek-dsp/sizmek-dsp-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/lead-id/lead-id-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/sizmek-dsp/sizmek-dsp-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/lead-id/lead-id-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
