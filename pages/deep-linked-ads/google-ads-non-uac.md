@@ -8,6 +8,10 @@
 
 Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video** - to expand your marketing efforts that enable both app and web conversions.
 
+
+!!! warning "**Note**"
+		As long as you have **[Enabled the Google Ads integration](/deep-linked-ads/google-ads-enable/)** in your Branch dashboard, Branch will automatically attribute trackable app conversions. The below solutions are only necessary if you want to deeplink users from web campaigns using Branch, attribute non-trackable inventory such as iOS Search, or attribute web SDK/mobile web events.
+
 ## Requirements
 
 ### Basic Integration Prerequisites
