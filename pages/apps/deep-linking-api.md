@@ -587,7 +587,7 @@
         | branch_secret | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
         | calculation_type | `int` | `0` reward for each use, `1` reward for first use only | √
         | location | `int` | `0` all acting users, `1` referring users, `4`, referred acting users | √
-        | type | `string` | `credit` reward points, `web_hook` reward webhook callback | √
+        | type | `string` | `credit` reward points | √
         | web_hook | `string` | The url to call when an event occurs |  `type` = `web_hook`
         | amount | `string` | Number of credits |  `type` = `credit`
         | bucket | `string` | The category where the credits are save to | `type` = `credit`
