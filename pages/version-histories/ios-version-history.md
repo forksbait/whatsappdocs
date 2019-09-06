@@ -7,6 +7,7 @@
 - Cocoapods adds `iAd` by default.
 - Remove deprecated Fabric integration.
 - Remove Apple Search Ads debug which is redundant with Apple's existing debug.
+- Collect install receipt.
 - Fix bug with proxying network calls.
 - Fix bug with network retry.
 
