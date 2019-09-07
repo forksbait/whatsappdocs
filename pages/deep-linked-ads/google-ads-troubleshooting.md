@@ -69,7 +69,9 @@ creative_id | ~creative_id
 
 The first thing to do is to make sure you have enabled the `Use Ad Partner Attribution Windows` setting for Google Ads. Go to [Link Settings](https://dashboard.branch.io/ads/partner-management/a_google_adwords?tab=attribution_windows), and navigate down to the Attribution Windows section. Here, you should set the attribution window for `click to install`, `click to session start`, and `click to conversion event` to be 30, 90, and 90 days respectively. This aligns with Google's default attribution windows, but if you'd like to make them shorter, feel free.
 
-Another source of discrepancies is the fact that attribution is based upon *click* time in Google Ads, whereas it is based upon *install* time in the Branch dashboard. This isn't a discrepancy per se, but will sometimes show different numbers in the two dashboards.
+Another source of discrepancies is the fact that attribution is based upon *click* time in Google Ads, whereas it is based upon *conversion* time in the Branch dashboard. This isn't a discrepancy per se, but will sometimes show different numbers in the two dashboards. This usually does not affect install numbers (because install usually happens same day as click) but will especially have impact on downstream events, where events can sometimes occur and be attributed up to 90 days after click. 
+
+Google will send attribution data for almost every app conversion that they count on their end, with the exception of iOS Search traffic within UAC, and they also do not currently confirm standalone (outside of UAC) YouTube TrueView conversions to Branch - this is estimated to be available Q4 2019. 
 
 Finally, Google Ads can delay reporting up to 24 hours. It's best to measure campaigns in a trailing manner.
 
