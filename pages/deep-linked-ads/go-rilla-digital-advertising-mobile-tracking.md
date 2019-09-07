@@ -1,8 +1,8 @@
 ## Overview
 
-![Persona.ly](https://cdn.branch.io/branch-assets/ad-partner-manager//c4f33da958d8-logo_personaly-1567585355850.png)
+![Go-Rilla Digital Advertising LTD](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/gorilla.png)
 
-This guide will walk you through how to setup your campaigns with **[Persona.ly](http://www.persona.ly/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Go-Rilla Digital Advertising LTD](http://www.go-rilla.mobi/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Persona.ly]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/persona-ly/persona-ly-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/go-rilla-digital-advertising/go-rilla-digital-advertising-enable.png)
+
+{! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/persona-ly/persona-ly-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/go-rilla-digital-advertising/go-rilla-digital-advertising-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
@@ -47,3 +49,4 @@ This guide will walk you through how to setup your campaigns with **[Persona.ly]
 {! ingredients/deep-linked-ads/reset-ad-settings.md !}
 
 {! ingredients/deep-linked-ads/support.md !}
+mnh

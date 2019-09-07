@@ -1,3 +1,16 @@
+### v0.28.1
+
+**(2019-September-06)**
+
+- Remove deprecated `UIWebView` and replace with `WebKit`.
+- Add Standard Event customer alias field.
+- Cocoapods adds `iAd` by default.
+- Remove deprecated Fabric integration.
+- Remove Apple Search Ads debug which is redundant with Apple's existing debug.
+- Collect install receipt.
+- Fix bug with proxying network calls.
+- Fix bug with network retry.
+
 ### v0.27.1
 
 **(2019-June-03)**

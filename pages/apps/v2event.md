@@ -105,6 +105,7 @@ This allows you to easily visualize revenue on the Dashboard, across many countr
     event.contentItems     = [ branchUniversalObject ]
 
     // Add relevant event data:
+    event.alias            = "my custom alias"
     event.transactionID    = "12344555"
     event.currency         = .USD
     event.revenue          = 1.5
@@ -150,6 +151,7 @@ This allows you to easily visualize revenue on the Dashboard, across many countr
     event.contentItems     = (id) @[ branchUniversalObject ];
 
     // Add relevant event data:
+    event.alias            = "my custom alias";
     event.transactionID    = @"12344555";
     event.currency         = BNCCurrencyUSD;
     event.revenue          = [NSDecimalNumber decimalNumberWithString:@"1.5"];
@@ -397,6 +399,7 @@ Content events are events that occur when a user engages with your in-app conten
 
     ```swift
     let event = BranchEvent.standardEvent(.search)
+    event.alias = "my custom alias"
     event.eventDescription = "Product Search"
     event.searchQuery = "user search query terms for product xyz"
     event.customData["Custom_Event_Property_Key1"] = "Custom_Event_Property_val1"
@@ -407,6 +410,7 @@ Content events are events that occur when a user engages with your in-app conten
 
     ```obj-c
     BranchEvent *event = [BranchEvent standardEvent:BranchStandardEventSearch];
+    event.alias = "my custom alias";
     event.eventDescription = @"Product Search";
     event.searchQuery = @"user search query terms for product xyz";
     event.customData[@"Custom_Event_Property_Key1"] = @"Custom_Event_Property_val1";
@@ -604,6 +608,7 @@ Lifecycle events can be described as events a user takes in your app to continue
 
     ```swift
     let event = BranchEvent.standardEvent(.completeRegistration)
+    event.alias = "my custom alias"
     event.transactionID = "tx1234"
     event.eventDescription = "User completed registration."
     event.customData["registrationID"] = "12345"
@@ -614,6 +619,7 @@ Lifecycle events can be described as events a user takes in your app to continue
 
     ```obj-c
     BranchEvent *event = [BranchEvent standardEvent:BranchStandardEventCompleteRegistration];
+    event.alias = "my custom alias";
     event.transactionID = @"tx1234";
     event.eventDescription = @"User completed registration.";
     event.customData[@"registrationID"] = @"12345";

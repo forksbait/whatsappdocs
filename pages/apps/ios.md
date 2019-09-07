@@ -1,4 +1,4 @@
-!!! info "Current SDK Version 0.27.1"
+!!! info "Current SDK Version 0.28.1"
     Please see the [iOS Version History](/version-histories/ios-version-history) to view change log.
 
 ## Integrate Branch
@@ -69,8 +69,8 @@
         ```sh
         pod install && pod update
         ```
-        
-         - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
+        !!! info "iAd Support Included by Default"
+            With the release of v0.28.0, the Branch SDK for iOS now includes all of the necessary dependencies for iAD when installed via CocoaPods.
 
     - Option 2: [Carthage](https://github.com/Carthage/Carthage)
 
@@ -78,14 +78,14 @@
         github "BranchMetrics/ios-branch-deep-linking"
         ```
 
-        - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
+        - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, `Webkit` and `iAd` into `Linked Frameworks`
 
     - Option 3: Manually install the [source code](https://github.com/BranchMetrics/ios-branch-deep-linking/releases) with dependencies
 
         - Drag and drop `Branch.framework` into `Embedded Binaries` (select `Copy items if needed`)
-        - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
+        - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, `Webkit` and `iAd` into `Linked Frameworks`
 
-        ![image](/_assets/img/pages/apps/ios-frameworks.png)
+        ![image](/_assets/img/pages/apps/cocoapods-frameworks.png)
 
 - ### Initialize Branch
 
