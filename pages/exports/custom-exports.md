@@ -831,9 +831,7 @@ For example, `site_event.id` will now be exported as `site_event_id`.
 
 ## Accessing via Branch Dashboard
 
-!!! warning "BETA - TUNE Clients Only"
-	This feature is currently in BETA. If you do not see this feature in your dashboard, please contact your CSM or [Contact Support](mailto:support@branch.io) to request access.  
-
+!!! warning "TUNE Migrated Clients Only"
 	This feature is currently only available to TUNE migrated clients, with plans to open this feature to all Branch clients in Q4.
 
 Rather than accessing the Custom Export API directly, you can use the Custom Exports section in your Branch dashboard to request the appropriate data via CSVs.
