@@ -11,8 +11,6 @@ Snap campaign tracking can show you how many installs and conversion events were
 Branch and Snap supports mobile app conversion attribution for the following campaign types:
   - App Installs
   - Drive Traffic to App
-  
-If you use Branch links on other campaign types (removing the deeplink_no_, this may result in a discrepancy where Branch is able to report based on Branch link attribution, but Snap does not support mobile conversions on other campaign types. If you still want to track these types of campaigns in Branch only, make sure to remove the 'deeplink_no_attribution' flag from the link.
 
 ## Prerequisites
 
