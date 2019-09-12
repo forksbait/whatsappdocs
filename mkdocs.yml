@@ -937,6 +937,7 @@ nav:
       - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
+      - Google Firebase: integrations/google-firebase.md
       - Heap: integrations/heap.md
       - Insider: integrations/insider.md
       - Kochava: integrations/kochava.md

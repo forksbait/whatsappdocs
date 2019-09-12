@@ -24,7 +24,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://followanalytics.com/" target="_blank">![FollowAnalytics](https://cdn.branch.io/branch-assets/ad-partner-manager//e1ccbe2b0b70-Fa_logo_500-1559410356923.png)</a>|**[FollowAnalytics](/integrations/followanalytics/)**
 <a href="https://impact.com/ad-fraud-detection/" target="_blank">![Forensiq](https://cdn.branch.io/branch-assets/ad-partner-manager//b185ed648c28-Forensiq_logo_web_color-1561594656041.png)</a>|**[Forensiq](/integrations/forensiq/)**
 <a href="https://www.inmobi.com/" target="_blank">![Fraud Defense](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/FD_horizontal_png-1545435249497.png)</a>|**[Fraud Defense](/integrations/fraud-defense/)**
-<a href="https://analytics.google.com/" target="_blank">![Google Analytics](/_assets/img/pages/integrations/logos/google_analytics.png)</a>|**[Google Analytics](/integrations/google-analytics/)**
+<a href="https://firebase.google.com/" target="_blank">![Google Firebase](/_assets/img/pages/integrations/logos/firebase-logo.png)</a>|**[Google Firebase](/integrations/google-firebase/)**
 <a href="https://heap.io/" target="_blank">![Heap](https://cdn.branch.io/branch-assets/ad-partner-manager//heap_logo-1564446383572.png)</a>|**[Heap](/integrations/heap/)**
 <a href="https://useinsider.com/" target="_blank">![Insider](https://cdn.branch.io/branch-assets/ad-partner-manager//insider_logo_2x-1561003202055.png)</a>|**[Insider](/integrations/insider/)**
 <a href="https://www.kochava.com/" target="_blank">![Kochava](/_assets/img/pages/integrations/logos/kochava.png)</a>|**[Kochava](/integrations/kochava/)**
