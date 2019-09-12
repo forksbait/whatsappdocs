@@ -56,21 +56,21 @@ On each event, we provide a considerable amount of information. The following ta
 | *field* | *format* | *definition* |
 | - | - | - |
 | id | string | a unique id for the event |
-| name | string | the name of the event, such as "CLICK", "INSTALL", "PURCHASE", or custom event names like "signup" |
+| name | string | the name of the event, such as "CLICK", "INSTALL", "PURCHASE", or custom event names like "signup". |
 | timestamp | long | unix timestamp in milliseconds for the event |
-| days_from_last_attributed_touch_to_event | int | number of days between when the last touch occurred and when this event subsequently occurred |
-| last_attributed_touch_type | enum { CLICK, WEB_TO_APP_AUTO_REDIRECT, IMPRESSION } | whether the last attributed touch was an impression, a click, or a web to app auto redirect |
-| last_attributed_touch_timestamp | long | unix timestamp in milliseconds for the last attributed touch |
+| days_from_last_attributed_touch_to_event | int | number of days between when the last touch occurred and when this event subsequently occurred. |
+| last_attributed_touch_type | enum { CLICK, WEB_TO_APP_AUTO_REDIRECT, IMPRESSION } | whether the last attributed touch was an impression, a click, or a web to app auto redirect. |
+| last_attributed_touch_timestamp | long | unix timestamp in milliseconds for the last attributed touch. |
 | last_attributed_touch_data | object | If an impression, click, web to app auto redirect, branch cta view, or sms sent, this field contains the link data directly associated with the event. For all other events, this is the data associated with the last qualifying touch (click, impression, etc) to occur before this event. Subject to attribution windows, within which the last click or web to app auto redirect trumps a more recent impression. |
-| days_from_last_cta_view_to_event | int | number of days between when the last Branch CTA view occurred and when this event subsequently occurred (see datasource definition of cta view) |
-| last_cta_view_timestamp | long | unix timestamp in milliseconds for the last Branch CTA view |
+| days_from_last_cta_view_to_event | int | number of days between when the last Branch CTA view occurred and when this event subsequently occurred (see datasource definition of cta view). |
+| last_cta_view_timestamp | long | unix timestamp in milliseconds for the last Branch CTA view. |
 | last_cta_view_data | object | This is the data associated with the last qualifying Branch CTA View to occur before this event. Subject to attribution windows, within which the last click or web to app auto redirect trumps a more recent impression. |
-| first_event_for_user | boolean | if this is the first time for this persona that this event has been triggered (not yet supported)|
-| deep_linked | boolean | true if the current app or web session resulted in the user being deep linked |
-| user_data | object | data associated with the user who triggered the event |
-| event_data | object | data associated with commerce or content events, but not specific to any one item |
-| content_items | array of object | Array of content items. A content item is any distinct item, whether a product, piece of content, restaurant, service, flight, hotel, or any kind of media (text, visual, audio) |
-| custom_data | object | partner-specified custom key-value pairs associated with an event, excluding Touches, Branch CTA view and SMS sent |
+| first_event_for_user | boolean | if this is the first time for this persona that this event has been triggered. |
+| deep_linked | boolean | true if the current app or web session resulted in the user being deep linked. |
+| user_data | object | data associated with the user who triggered the event. |
+| event_data | object | data associated with commerce or content events, but not specific to any one item. |
+| content_items | array of object | Array of content items. A content item is any distinct item, whether a product, piece of content, restaurant, service, flight, hotel, or any kind of media (text, visual, audio.) |
+| custom_data | object | partner-specified custom key-value pairs associated with an event, excluding Touches, Branch CTA view and SMS sent. |
 
 ## Full list of fields
 
