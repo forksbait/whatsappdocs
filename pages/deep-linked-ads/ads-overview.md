@@ -7,5 +7,5 @@
 ## Advanced Functionality
 
 - [SAN Web Tracking](/deep-linked-ads/san-web-tracking/)
-- [Dynamic Product Feeds](/deep-linked-ads/dynamic-product-feeds/)
+- [Creating Branch Links For Product Feeds](/deep-linked-ads/creating-branch-links-for-product-feeds/)
 - [Fraud Rules](/deep-linked-ads/leveraging-fraud-rules/)

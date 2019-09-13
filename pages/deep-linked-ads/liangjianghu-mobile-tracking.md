@@ -1,8 +1,8 @@
 ## Overview
 
-![Ad Volt](https://cdn.branch.io/branch-assets/ad-partner-manager//db5c3f61d0f5-logo-1565171315161.png)
+![Liangjianghu](https://cdn.branch.io/branch-assets/ad-partner-manager//liangjianghu_logo-1555986268268.png)
 
-This guide will walk you through how to setup your campaigns with **[Ad Volt](http://www.ad-volt.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Liangjianghu](https://www.liangjianghu.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Ad Volt](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/ad-volt/ad-volt-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/liangjianghu/liangjianghu-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/ad-volt/ad-volt-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/liangjianghu/liangjianghu-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -26,6 +26,11 @@ Before Branch can ingest your historical user data, please ensure your data conf
 !!! warning "JSON Line Text Format Required"
 		We are unable to translate or ingest data in other formats.
 
+### Device ID Based User Import
+
+!!! info "Device IDs Only"
+	Providing the following required fields ensures that Branch can create a Persona for each individual user based on the device ID you provide during import.  
+
 Each individual log should be captured in single line json object including the following required fields:
 ```
 {
@@ -39,6 +44,10 @@ Each individual log should be captured in single line json object including the 
 }
 ```
 Optional supported fields:
+
+!!! info "Optional Fields"
+	While not required, we do recommend providing additional information to create a more robust user persona as well as fuel other Branch features such as Fraud rules.
+
 ```
 "idfv": "<idfv string>",
 “android_id”: <google android id string>,
@@ -48,4 +57,30 @@ Optional supported fields:
 "country_code": string,
 “region_name": string,
 "skip_record": 0 (=>1 to exclude record from import),
+```
+
+### Additional Attribution Data Import
+
+!!! info "Additional Touch Data"
+	Providing the following optional touch data fields ensures Branch can associate campaign details of the install event associated with the imported user. This enables downstream install cohorting analytics.
+
+```
+"install": {
+           “timestamp”:<unix epoch milliseconds long>,
+           “touch_data”: {
+
+                  "~campaign": string
+                  "~campaign_id": string
+                  "~advertising_partner_name": string
+                  "~advertising_partner_id": string
+                  "~keywords": array
+                  …
+                  …
+                  *refer to extended list of supported fields in this
+            }
+        },
+           “strong_match”: boolean (defaults to false, determines whether subsequent attribution type would be strong/weak, stores click as last_click or weak_match_last_click),
+           “force_update”: boolean (defaults to false, determines whether to add the attribution data to install cohorts)
+
+	}
 ```

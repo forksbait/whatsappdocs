@@ -189,7 +189,7 @@ nav:
       - Branch Universal Ads: deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
-      - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
+      - Creating Branch Links For Product Feeds: deep-linked-ads/creating-branch-links-for-product-feeds.md
       - Fraud Rules: deep-linked-ads/leveraging-fraud-rules.md
     - Email:
       - Branch Universal Email: emails/universal-email.md
@@ -224,6 +224,7 @@ nav:
       - Actionpay : deep-linked-ads/actionpay-mobile-tracking.md
       - AcuityAds : deep-linked-ads/acuityads-mobile-tracking.md
       - Ad-Venture: deep-linked-ads/ad-venture-mobile-tracking.md
+      - Ad Volt: deep-linked-ads/ad-volt-mobile-tracking.md
       - Ad.net: deep-linked-ads/ad.net-mobile-tracking.md
       - Ad2Click Media: deep-linked-ads/ad2click-media-mobile-tracking.md
       - Ad4Screen : deep-linked-ads/ad4screen-mobile-tracking.md
@@ -286,7 +287,6 @@ nav:
       - Adtiming : deep-linked-ads/adtiming-mobile-tracking.md
       - Adtraction: deep-linked-ads/adtraction-mobile-tracking.md
       - Aduclick Business Services: deep-linked-ads/aduclick-business-services-mobile-tracking.md
-      - Ad Volt: deep-linked-ads/ad-volt-mobile-tracking.md
       - ADvantage: deep-linked-ads/advantage-mobile-tracking.md
       - AdXcel : deep-linked-ads/adxcel-mobile-tracking.md
       - AdxMaster Inc.: deep-linked-ads/adxmaster-mobile-tracking.md
@@ -581,6 +581,7 @@ nav:
       - Lead Id: deep-linked-ads/lead-id-mobile-tracking.md
       - Leadbolt : deep-linked-ads/leadbolt-mobile-tracking.md
       - Lemmonet: deep-linked-ads/lemmonet-mobile-tracking.md
+      - Liangjianghu: deep-linked-ads/liangjianghu-mobile-tracking.md
       - LifeStreet : deep-linked-ads/lifestreet-mobile-tracking.md
       - Liftoff : deep-linked-ads/liftoff-mobile-tracking.md
       - LINE Ads Plaftorm - M.T.Burns : deep-linked-ads/line-ads-platform-mobile-tracking.md
@@ -736,6 +737,7 @@ nav:
       - RTBdemand: deep-linked-ads/rtbdemand-mobile-tracking.md
       - S2S Softsys: deep-linked-ads/s2s-softsys-mobile-tracking.md
       - Sabio Mobile : deep-linked-ads/sabio-mobile-mobile-tracking.md
+      - Samsung Galaxy Store: deep-linked-ads/samsung-galaxy-store-mobile-tracking.md
       - Scorp : deep-linked-ads/scorp-mobile-tracking.md
       - SearchAdsHQ: deep-linked-ads/searchadshq-mobile-tracking.md
       - seedApp : deep-linked-ads/seedapp-mobile-tracking.md
@@ -809,6 +811,7 @@ nav:
       - Trooperads: deep-linked-ads/trooperads-mobile-tracking.md
       - Truecaller: deep-linked-ads/truecaller-mobile-tracking.md
       - Tunica Labs : deep-linked-ads/tunica-labs-mobile-tracking.md
+      - Turk Telekom: deep-linked-ads/turk-telekom-mobile-tracking.md
       - TVSmiles : deep-linked-ads/tvsmiles-mobile-tracking.md
       - TVSquared : deep-linked-ads/tvsquared-mobile-tracking.md
       - Twinpine: deep-linked-ads/twinpine-mobile-tracking.md
@@ -825,6 +828,7 @@ nav:
       - Velis Media: deep-linked-ads/velis-media-mobile-tracking.md
       - Ventes Avenues: deep-linked-ads/ventes-avenues-mobile-tracking.md
       - Vermmillion: deep-linked-ads/vermmillion-mobile-tracking.md
+      - Verve Mobile: deep-linked-ads/verve-mobile-mobile-tracking.md
       - Viant: deep-linked-ads/viant-mobile-tracking.md
       - Vid AI: deep-linked-ads/vid-ai-mobile-tracking.md
       - Vidoads: deep-linked-ads/vidoads-mobile-tracking.md
@@ -857,6 +861,7 @@ nav:
       - Yelohi: deep-linked-ads/yelohi-mobile-tracking.md
       - Yep Ads : deep-linked-ads/yep-ads-mobile-tracking.md
       - Yidio: deep-linked-ads/yidio-mobile-tracking.md
+      - Yieldmo: deep-linked-ads/yieldmo-mobile-tracking.md
       - Yoke Network : deep-linked-ads/yoke-network-mobile-tracking.md
       - YouAppi : deep-linked-ads/youappi-mobile-tracking.md
       - YouAppi Retargeting : deep-linked-ads/youappi-retargeting-mobile-tracking.md
@@ -937,6 +942,7 @@ nav:
       - Forensiq: integrations/forensiq.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
+      - Google Firebase: integrations/google-firebase.md
       - Heap: integrations/heap.md
       - Insider: integrations/insider.md
       - Kochava: integrations/kochava.md
