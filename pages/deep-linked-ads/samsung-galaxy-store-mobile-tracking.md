@@ -38,7 +38,7 @@ Once you've enabled an integration it's time to create a tracking link.
 
     ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/samsung-deep-linking.png)
 
-1. On the **Redirects** tab, make sure to set your redirects to `https://galaxy.store/branch`.
+1. On the **Redirects** tab, make sure to set your redirects to your [Galaxy Store Badge URL](https://developer.samsung.com/resources/gsb-promotion/get-your-own-gsb-urls).
 
     ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/samsung-redirects.png)
 
