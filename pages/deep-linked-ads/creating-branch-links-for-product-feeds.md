@@ -179,7 +179,7 @@ The following parameters and corresponding values will be appended to your Branc
 
 ### Script Template for Google Ads
 
-The following parameters and corresponding values will be appended to your Branch link base domain - <code>[https://example.app.link](https://example.app.link) -</code> for Facebook Ads campaigns.
+The following parameters and corresponding values will be appended to your Branch link base domain - <code>[https://example.app.link](https://example.app.link) -</code> for Google Ads campaigns.
 
 <table>
   <tr>
