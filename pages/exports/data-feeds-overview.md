@@ -17,6 +17,10 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
     <img src="../../../_assets/img/pages/exports/export-icon.png" />
     <p>Custom Exports</p>
   </a>
+  <a href="/exports/aggregate-exports/">
+    <img src="../../../_assets/img/pages/exports/export-icon.png" />
+    <p>Aggregate Exports</p>
+  </a>
   <a href="/exports/daily-exports/">
     <img src="../../../_assets/img/pages/exports/export-icon.png" />
     <p>Daily Exports</p>
