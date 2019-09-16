@@ -11,6 +11,11 @@ Custom exports endpoints are limited to a maximum of 2 million records each and 
 
 Calls to the Custom Export API require an _api_key_ query string parameter to be passed with each request. API Keys are generated on a per-user basis and are permanent.
 
+Learn how to [retrieve your API key (a.k.a. `Access Token`)](/dashboard/organization-view/#managing-your-user-profile)
+
+!!! warning "Organization Level Access Required"
+	In order to retrieve or reset your API Key/Access Token, you must have access to the Organization level of the account.  This functionality is not present at the app level.
+
 ##Rate Limits
 
 Rate limits depend on the endpoint you are making a request to.
@@ -65,8 +70,8 @@ The following log topics are available via the Custom Export API:
 *   **Installs**
 *   **Opens**
 
-!!! info ""
-Branch does not support exports of the infrequently-used update and postbacks TUNE topics.
+!!! info "Info"
+	Branch does not support exports of the infrequently-used update and postbacks TUNE topics.
 
 
 ## Available Fields

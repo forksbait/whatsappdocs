@@ -95,14 +95,15 @@ If you are an Organization Admin, you have edit access to the **Profile** tab.
 
 ### Managing your User Profile
 
-![image](/_assets/img/pages/dashboard/access-levels/org-user.png)
+![image](/_assets/img/pages/dashboard/access-levels/org-level-user.png)
 
 Any user type - Admin, Team Member, Full Read, Limited Read - has the ability to edit the **User** tab.
 
 - **Dashboard UID** - assigned by Branch; not editable.
+- **Access Token** - assigned by Branch; resettable.
 - **First and Last Names** - provided by you; editable.
 - **Email Address** - provided by you; editable.
-- **Change Password** - provided by you; editable.
+- **Update Password** - provided by you; editable.
 
 ### Managing Your Organization's Team
 
