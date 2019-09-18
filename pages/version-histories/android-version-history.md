@@ -1,3 +1,10 @@
+### v4.0.1
+
+**( 18 Sept 2019 )**
+
+- Added new `customer_event_alias` setter method; removed standard event type: customer_event_alias
+- Added IMEI collection code option
+
 ### v4.0.0
 
 **( 09 Aug 2019 )**
