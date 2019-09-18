@@ -9,7 +9,7 @@ For example, you have agreed with a wireless carrier (such as AT&T) to pre-insta
 !!! info "Android Only"
 	The following functionality is applicable to Android apps only.
 
-!!! warning "Pre-Install Overrides Attribution"
+!!! info "Pre-Install Overrides Attribution"
 	If you include pre-install data via the SDK, it will always override any attribution info Branch receives from the Branch link itself.
 
 ## SDK Implementation
@@ -24,15 +24,18 @@ Branch provides the following two methods to set the relevant information in the
 
 ### Set Data in the Pre-Loaded APK
 
-!!! warning "Pre-loaded Data in the APK"
+!!! info "Pre-loaded Data in the APK"
 	If you set the preloaded data in the APK, it will override the system props data.
 
 After initialization, call these setters to set the data in the APK:
 
 ```
 Branch.setPreinstallCampaign(“My Campaign Name”)
-Branch.setPreinstallPartner(“My Partner Name”)
+Branch.setPreinstallPartner(“Branch $3p Parameter Value”)
 ```
+
+!!! warning "Must use Branch $3p Parameter Value"
+	When setting the `setPreinstallPartner` value, you must use Branch's $3p value as the partner's name.  Learn how to [find a partner's $3p value](https://docs.branch.io/resources/testing-universal-ads-campaign-setup/#how-to-find-a-partners-webhook-key).
 
 If those values are non-null and this is a first time open for the device, the request should look like this:
 
@@ -40,7 +43,7 @@ If those values are non-null and this is a first time open for the device, the r
 {
   …
   preinstall_campaign: “My Campaign Name”
-  preinstall_partner: “My Partner Name”
+  preinstall_partner: “Branch $3p Parameter Value”
   …
 }
 ```
@@ -55,13 +58,83 @@ If those values are non-null and this is a first time open for the device, the r
 	{
 	    "apps": {
 	        "application.package.name": {
-	            "preinstall_partner": "partner_to_attribute",
+	            "preinstall_partner": "Branch $3p Parameter Value",
 	            "preinstall_campaign": "campaign_to_attribute"
 	        }
 	    }
 	}
 	```
+!!! warning "Must use Branch $3p Parameter Value"
+		When applying the `preinstall_partner` value, you must use Branch's $3p value as the partner's name.  Learn how to [find a partner's $3p value](https://docs.branch.io/resources/testing-universal-ads-campaign-setup/#how-to-find-a-partners-webhook-key).
 2. Ask the device manufacturer to add the file in the OS level file system.
 3. Set the file path in the build.props as below:
 	`io.branch.preinstall.apps.path=/pre_install_apps.branch`
 4. The SDK checks if the APK has the pre-install data; if it's included, Branch uses the pre-install to override the link click data for attribution.
+
+## OEM Specific Details
+
+### 9Apps
+
+If 9Apps is pre-installing your app via pre-loading the APK, call these setters:
+
+```
+Branch.setPreinstallCampaign(“My Campaign Name”)
+Branch.setPreinstallPartner(“a_9apps_alibaba”)
+```
+
+If 9Apps is pre-installing your app via the Android system properties, create a json file `pre_install_apps.branch` as follows:
+
+	```
+	{
+	    "apps": {
+	        "application.package.name": {
+	            "preinstall_partner": "a_9apps_alibaba",
+	            "preinstall_campaign": "campaign_to_attribute"
+	        }
+	    }
+	}
+	```
+
+### Oppo
+
+If Oppo is pre-installing your app via pre-loading the APK, call these setters:
+
+```
+Branch.setPreinstallCampaign(“My Campaign Name”)
+Branch.setPreinstallPartner(“a_oppo”)
+```
+
+If Oppo is pre-installing your app via the Android system properties, create a json file `pre_install_apps.branch` as follows:
+
+	```
+	{
+	    "apps": {
+	        "application.package.name": {
+	            "preinstall_partner": "a_oppo",
+	            "preinstall_campaign": "campaign_to_attribute"
+	        }
+	    }
+	}
+	```
+
+### Xiaomi
+
+If Xiaomi is pre-installing your app via pre-loading the APK, call these setters:
+
+```
+Branch.setPreinstallCampaign(“My Campaign Name”)
+Branch.setPreinstallPartner(“a_xiaomi”)
+```
+
+If Xiaomi is pre-installing your app via the Android system properties, create a json file `pre_install_apps.branch` as follows:
+
+	```
+	{
+	    "apps": {
+	        "application.package.name": {
+	            "preinstall_partner": "a_xiaomi",
+	            "preinstall_campaign": "campaign_to_attribute"
+	        }
+	    }
+	}
+	```
