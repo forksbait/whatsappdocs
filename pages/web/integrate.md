@@ -73,7 +73,7 @@ The `Branch Web SDK` allows you to create and share deep links with a banner, ov
     | data_parsed | `object`. If the user was referred from a link, and the link has associated data, the data is passed in here.
     | has_app | `boolean`. Does the user have the app installed already, using Branch's persona data.
     | identity | *optional* - `string`. Unique string that identifies the user, if set from `setIdentity`
-    | referring_link | `string`. The referring link clicked, if available.
+    | ~referring_link | `string`. The referring link clicked, if available.
     | referring_identity | `string`. If the user was referred from a link, and the link was created by a user with an identity, that identity is here.
 
 - ### Create deep link
