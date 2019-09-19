@@ -197,6 +197,7 @@ BranchUniversalObject buo = new BranchUniversalObject()
 
 new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
         .setAffiliation("test_affiliation")
+        .setCustomerEventAlias("my_custom_alias");
         .setCoupon("Coupon Code")
         .setCurrency(CurrencyType.USD)
         .setDescription("Customer added item to cart")
@@ -421,6 +422,7 @@ Content events are events that occur when a user engages with your in-app conten
 
 ```Java
  new BranchEvent(BRANCH_STANDARD_EVENT.SEARCH)
+    .setCustomerEventAlias("my_custom_alias");
     .setDescription("Product Search")
     .setSearchQuery("product name")
     .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
@@ -630,6 +632,7 @@ Lifecycle events can be described as events a user takes in your app to continue
 
 ```java
 new BranchEvent(BRANCH_STANDARD_EVENT.COMPLETE_REGISTRATION)
+    .setCustomerEventAlias("my_custom_alias");
     .setTransactionID("tx1234")
     .setDescription("User created an account")
     .addCustomDataProperty("registrationID", "12345")
