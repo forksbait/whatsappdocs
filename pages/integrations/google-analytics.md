@@ -1,3 +1,6 @@
+!!! warning "Google Analytics vs. Google Firebase"
+  If you are a paying Google Analytics customer, please follow the guide below.  Otherwise, please refer to our [Google Firebase](/integrations/google-firebase/) data integration.
+
 ## Overview
 
 With a push of a button you can send your Branch data to your Google Analytics dashboard, helping you understand the power of Branch as an acquisition pathway. If you're interested in the segment of users coming into your apps through Branch and want to measure their events against your other cohorts, this guide can help.
