@@ -14,10 +14,6 @@ With event tracking, it's important to track the objects related to the event oc
 
 Refer to the above document to set up Branch Universal Objects.
 
-## Current Compatibility
-
-There are a few products and features unsupported by this new method of tracking events. We clarify what's currently supported and what isn't below.
-
 ### Acceptance
 
 Tracking these events will propagate to Ad Networks, like Criteo. For example, if you track the purchase event through Branch, this will map to Criteo's Purchase event.
