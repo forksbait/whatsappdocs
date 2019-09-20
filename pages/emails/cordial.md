@@ -39,6 +39,9 @@ You can retrieve your click tracking domain from your Cordial account. If you ha
 
 {! ingredients/email/validate-test.md !}
 
+!!! warning "Important Notice"
+    Please reach out to your CSM or the Support team to configure the Host for your integration.
+
 {! ingredients/email/usage-auto.md !}
 
 ## Configure your mobile app

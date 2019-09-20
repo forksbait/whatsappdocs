@@ -272,6 +272,7 @@ nav:
       - Adperio : deep-linked-ads/adperio-mobile-tracking.md
       - ADPick : deep-linked-ads/adpick-mobile-tracking.md
       - Ad Popcorn : deep-linked-ads/ad-popcorn-mobile-tracking.md
+      - Adrecord: deep-linked-ads/adrecord-mobile-tracking.md
       - ADSDOT : deep-linked-ads/adsdot-mobile-tracking.md
       - Ads Army : deep-linked-ads/ads-army-mobile-tracking.md
       - Ads Hero : deep-linked-ads/ads-hero-mobile-tracking.md
@@ -369,6 +370,7 @@ nav:
       - Blind Ferret Incent : deep-linked-ads/blind-ferret-incent-mobile-tracking.md
       - Blind Ferret Non-Incent : deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
       - Blue Track Media: deep-linked-ads/blue-track-media-mobile-tracking.md
+      - Bold Screen Media: deep-linked-ads/bold-screen-media-mobile-tracking.md
       - Branmark Infomedia: deep-linked-ads/branmark-infomedia-mobile-tracking.md
       - Bright Storm DSP: deep-linked-ads/bright-storm-mobile-tracking.md
       - Brinkads: deep-linked-ads/brinkads-mobile-tracking.md
@@ -457,6 +459,7 @@ nav:
       - Edge226 : deep-linked-ads/edge226-mobile-tracking.md
       - Edge360 Limited: deep-linked-ads/edge360-limited-mobile-tracking.md
       - Efountain: deep-linked-ads/efountain-mobile-tracking.md
+      - Eiykoo: deep-linked-ads/eiykoo-mobile-tracking.md
       - Electra Advertising: deep-linked-ads/electra-advertising-mobile-tracking.md
       - El Infinito Technologies: deep-linked-ads/el-infinito-technologies-mobile-tracking.md
       - EMX Digital: deep-linked-ads/emx-digital-mobile-tracking.md
@@ -602,6 +605,7 @@ nav:
       - Mapendo : deep-linked-ads/mapendo-mobile-tracking.md
       - Marge Inc: deep-linked-ads/marge-inc-mobile-tracking.md
       - Matchmade : deep-linked-ads/matchmade-mobile-tracking.md
+      - Mayrondigital Network: deep-linked-ads/mayrondigital-network-mobile-tracking.md
       - MCRONY Co Ltd: deep-linked-ads/mcrony-mobile-tracking.md
       - Mecross: deep-linked-ads/mecross-mobile-tracking.md
       - Media Donuts : deep-linked-ads/media-donuts-mobile-tracking.md
@@ -913,6 +917,7 @@ nav:
       - Salesforce v1: emails/salesforce-v1.md
       - Salesforce v2: emails/salesforce-v2.md
       - Salesforce v3: emails/salesforce-v3.md
+      - Selligent Marketing Cloud: emails/selligent-marketing-cloud.md
       - Selligent Message Studio: emails/selligent.md
       - Sender: emails/sender.md
       - SendGrid: emails/sendgrid.md
@@ -952,6 +957,7 @@ nav:
       - MobileAction: integrations/mobileaction.md
       - mParticle (export): integrations/mparticle.md
       - mParticle (import): integrations/mparticle-import.md
+      - Netcore Smartech: integrations/netcore-smartech.md
       - Scalarr: integrations/scalarr.md
       - SearchAdsHQ: integrations/searchadshq.md
       - Segment (export): integrations/segment.md

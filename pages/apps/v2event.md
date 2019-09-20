@@ -14,10 +14,6 @@ With event tracking, it's important to track the objects related to the event oc
 
 Refer to the above document to set up Branch Universal Objects.
 
-## Current Compatibility
-
-There are a few products and features unsupported by this new method of tracking events. We clarify what's currently supported and what isn't below.
-
 ### Acceptance
 
 Tracking these events will propagate to Ad Networks, like Criteo. For example, if you track the purchase event through Branch, this will map to Criteo's Purchase event.
@@ -279,10 +275,13 @@ var content_items = [
    "$creation_timestamp": 1499892854966
 }];
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "PURCHASE",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```
@@ -497,10 +496,13 @@ var content_items = [
    "$creation_timestamp": 1499892854966
 }];
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "VIEW_ITEMS",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```
@@ -647,10 +649,13 @@ var event_and_custom_data = {
    "registration_id": "12345"
 };
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "COMPLETE_REGISTRATION",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```

@@ -34,6 +34,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://mixpanel.com/" target="_blank">![Mixpanel](https://cdn.branch.io/branch-assets/ad-partner-manager//mixpanel-1550716013249.png)</a>|**[Mixpanel](/integrations/mixpanel/)**
 <a href="https://www.mparticle.com/" target="_blank">![mParticle](https://cdn.branch.io/branch-assets/ad-partner-manager//mParticle-1552066868841.png)</a>|**[mParticle Export](/integrations/mparticle/)**
 <a href="https://www.mparticle.com/" target="_blank">![mParticle](https://cdn.branch.io/branch-assets/ad-partner-manager//mParticle-1552066868841.png)</a>|**[mParticle Import](/integrations/mparticle-import/)**
+<a href="https://www.netcoresmartech.com/" target="_blank">![Netcore Smartech](https://cdn.branch.io/branch-assets/ad-partner-manager//bcad3b4c0c31-netcore_1527812078091-1567147518764.png)</a>|**[Netcore Smartech](/integrations/netcore-smartech/)**
 <a href="https://scalarr.io/" target="_blank">![Scalarr](https://cdn.branch.io/branch-assets/ad-partner-manager//sc-1559415883554.png)</a>|**[Scalarr](/integrations/scalarr/)**
 <a href="https://searchadshq.com/" target="_blank">![SearchAdsHQ](https://cdn.branch.io/branch-assets/ad-partner-manager//1479b0002dff-18A02F13_B1DF_40A9_B097_D7421ED91A0B-1559413705882.png)</a>|**[SearchAdsHQ](/integrations/searchadshq/)**
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/integrations/segment/)**

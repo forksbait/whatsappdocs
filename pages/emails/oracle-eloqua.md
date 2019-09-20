@@ -40,6 +40,9 @@ If you have not added a custom click tracking domain yet, follow the instruction
 
 {! ingredients/email/validate-test.md !}
 
+!!! warning "Important Notice"
+    Please reach out to your CSM or the Support team to configure the Host for your integration.
+
 {! ingredients/email/usage-auto.md !}
 
 ## Configure your mobile app

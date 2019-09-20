@@ -20,9 +20,7 @@ Learn how to [retrieve your API key (a.k.a. `Access Token`)](/dashboard/organiza
 
 Rate limits depend on the endpoint you are making a request to.
 
-For creating exports, the rate limit is 2 requests per second and 10 requests per minute.
-
-For checking the status of an export, the rate limit is 50 requests per minute and 1000 per hour.
+For creating and checking the status of exports, the rate limit is 2 requests per second, 10 requests per minute, and 1000 per hour.
 
 ## Export Access
 
@@ -309,15 +307,43 @@ Finds and exports requested queue (by handle) and provides URL location for down
 </table>
 
 
-#### Sample Download Export Request
+#### Sample Report Status Request
 
 ```
 https://api.mobileapptracking.com/v2/export/download.json?api_key=REMOVED&job_id=5a494d8b-e5f9-4561-b71d-5c5ee4ed087d
 ```
 
 
-#### Sample Download Export Response
+#### Sample Report Status Response
 
 ```
-{"status_code":200,"response_size":"437","data":{"status":"complete","percent_complete":100,"data":{"format":"json","url":"https:\\s3.amazonaws.com\hasdevfiles\9da89700-ee8e-42f1-932f-7b9459a614dd.json?response-content-disposition=attachment%3B%20filename%3D%229da89700-ee8e-42f1-932f-7b9459a614dd.json%22&AWSAccessKeyId=AKIAIHT2RGXNQAIUT7ZA&Expires=1547654522&Signature=mfXJ7fGZeZZ%2FYPnEHssGopvdpxk%3D"},"report_schedule_id":null}}
+{"status_code":200,"response_size":"437","data":{"status":"complete","percent_complete":100,"data":{"format":"json","url":"https:\/\/s3.amazonaws.com\/hasdevfiles\/9da89700-ee8e-42f1-932f-7b9459a614dd.json?response-content-disposition=attachment%3B%20filename%3D%229da89700-ee8e-42f1-932f-7b9459a614dd.json%22&AWSAccessKeyId=AKIAIHT2RGXNQAIUT7ZA&Expires=1547654522&Signature=mfXJ7fGZeZZ%2FYPnEHssGopvdpxk%3D"},"report_schedule_id":null}}
+```
+
+#### Sample Download Report
+
+```
+curl 'https://s3.amazonaws.com/hasdevfiles/3bce2890-97c8-44e0-985b-9c5505b7ec4a.json?response-content-disposition=attachment%3B%20filename%3D%223bce2890-97c8-44e0-985b-9c5505b7ec4a.json%22&AWSAccessKeyId=AKIAIHT2RGXNQAIUT7ZA&Expires=1535997897&Signature=v9WhAulFDVmfaR%2FzAg3uvh8DVAc%3D'
+```
+
+#### Sample Report
+
+```
+[
+  {
+    "publisher_sub_campaign_id": "975222707",
+    "publisher_sub_adgroup_id": "666119300",
+    "installs": 0,
+    "opens": 0,
+    "events": 0
+  },
+  ...
+  {
+    "publisher_sub_campaign_id": "0",
+    "publisher_sub_adgroup_id": "0",
+    "installs": 12,
+    "opens": 13,
+    "events": 31
+  }
+]
 ```

@@ -40,7 +40,8 @@ Logo | Partner
 <a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v1](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435733478.png)</a>| **[Salesforce v1](/emails/salesforce-v1/)**
 <a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v2](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435761516.png)</a>| **[Salesforce v2](/emails/salesforce-v2/)**
 <a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v3](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435810148.png)</a>| **[Salesforce v3](/emails/salesforce-v3/)**
-<a href="https://www.selligent.com/" target="_blank">![Selligent](/_assets/img/pages/email/selligent/selligent.png)</a>| **[Selligent Message Studio](/emails/selligent/)**
+<a href="https://www.selligent.com/" target="_blank">![Selligent Marketing Cloud](https://cdn.branch.io/branch-assets/email-providers//ezgif.com-webp-to-png-1568168019129.png)</a>| **[Selligent Marketing Cloud](/emails/selligent-marketing-cloud/)**
+<a href="https://www.selligent.com/" target="_blank">![Selligent Message Studio](/_assets/img/pages/email/selligent/selligent.png)</a>| **[Selligent Message Studio](/emails/selligent/)**
 <a href="https://www.sender.net/" target="_blank">![Sender](/_assets/img/pages/email/sender/sender.png)</a>| **[Sender](/emails/sender/)**
 <a href="https://sendgrid.com/" target="_blank">![SendGrid](/_assets/img/pages/email/sendgrid/sendgrid.png)</a>| **[SendGrid](/emails/sendgrid/)**
 <a href="https://socialflow.com/" target="_blank">![Social Flow](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/socialflow-1542648339227.png)</a>| **[Social Flow](/social-links/social-flow/)**
