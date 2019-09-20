@@ -953,6 +953,7 @@ nav:
       - MobileAction: integrations/mobileaction.md
       - mParticle (export): integrations/mparticle.md
       - mParticle (import): integrations/mparticle-import.md
+      - Netcore Smartech: integrations/netcore-smartech.md
       - Scalarr: integrations/scalarr.md
       - SearchAdsHQ: integrations/searchadshq.md
       - Segment (export): integrations/segment.md
