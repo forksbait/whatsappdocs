@@ -913,6 +913,7 @@ nav:
       - Salesforce v1: emails/salesforce-v1.md
       - Salesforce v2: emails/salesforce-v2.md
       - Salesforce v3: emails/salesforce-v3.md
+      - Selligent Marketing Cloud: emails/selligent-marketing-cloud.md
       - Selligent Message Studio: emails/selligent.md
       - Sender: emails/sender.md
       - SendGrid: emails/sendgrid.md
