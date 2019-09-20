@@ -279,10 +279,13 @@ var content_items = [
    "$creation_timestamp": 1499892854966
 }];
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "PURCHASE",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```
@@ -497,10 +500,13 @@ var content_items = [
    "$creation_timestamp": 1499892854966
 }];
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "VIEW_ITEMS",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```
@@ -647,10 +653,13 @@ var event_and_custom_data = {
    "registration_id": "12345"
 };
 
+var customer_event_alias = "my custom alias";
+
 branch.logEvent(
    "COMPLETE_REGISTRATION",
    event_and_custom_data,
    content_items,
+   customer_event_alias,
    function(err) { console.log(err); }
 );
 ```
