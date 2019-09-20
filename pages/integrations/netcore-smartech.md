@@ -14,7 +14,7 @@ This guide will walk you through how to send your Branch data to **[Netcore Smar
 
 {! ingredients/data-integrations/add-credentials.md !}
 
-### What Branch sends to Apptilaus
+### What Branch sends to Netcore Smartech
 
 * Install
 * Open
