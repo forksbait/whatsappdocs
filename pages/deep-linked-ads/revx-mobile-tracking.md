@@ -1,6 +1,6 @@
 ## Overview
 
-![RevX](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/revx-1528509107045.png)
+![RevX](https://cdn.branch.io/branch-assets/ad-partner-manager//Logo_RevX-1569147321558.png)
 
 This guide will walk you through how to setup your campaigns with **[RevX](http://revx.io)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
