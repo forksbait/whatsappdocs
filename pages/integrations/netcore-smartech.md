@@ -17,7 +17,6 @@ This guide will walk you through how to send your Branch data to **[Netcore Smar
 ### What Branch sends to Netcore Smartech
 
 * Install
-* Open
 * Commerce Event
 * Custom Event
 
