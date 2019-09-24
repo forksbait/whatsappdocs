@@ -3,6 +3,7 @@ Interested in becoming a Email Partner? Just fill out this form: **[Partner's Pr
 Logo | Partner
 --- | ---
 <a href="https://www.activecampaign.com/" target="_blank">![ActiveCampaign](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/active_campaign-1538185619248.png)</a>|**[ActiveCampaign](/emails/active-campaign/)**
+<a href="https://www.adestra.com/" target="_blank">![Adestra](https://cdn.branch.io/branch-assets/email-providers//adestra-logo-1568071807863.png)</a>|**[Adestra](/emails/adestra/)**
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank" target="_blank">![Adobe_Campaign_Classic](/_assets/img/pages/email/adobe-campaign-classic/adobe-campaign-classic.png)</a>| **[Adobe Campaign Classic](/emails/adobe-campaign-classic/)**
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank">![Adobe_Campaign_Standard](/_assets/img/pages/email/adobe-campaign-standard/adobe-campaign-standard.png)</a>| **[Adobe Campaign Standard](/emails/adobe-campaign-standard/)**
 <a href="https://aws.amazon.com/ses/" target="_blank">![Amazon_SES](/_assets/img/pages/email/amazon-ses/amazon-ses.png)</a>| **[Amazon Simple Email Service](/emails/amazon-ses/)**
