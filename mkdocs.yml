@@ -880,6 +880,7 @@ nav:
     - Universal Email Partners:
       - Email Partners List: emails/email-partners-list.md
       - Active Campaign: emails/active-campaign.md
+      - Adestra: emails/adestra.md
       - Adobe Campaign Classic: emails/adobe-campaign-classic.md
       - Adobe Campaign Standard: emails/adobe-campaign-standard.md
       - Amazon Simple Email Service: emails/amazon-ses.md
