@@ -59,10 +59,15 @@ Please follow Google Ads' documentation on how to [set up an App Engagement Camp
 For more detailed information, please see [Google Ads' help documentation](https://support.google.com/google-ads/answer/9234180).
 
 ### Web-based Ads (non-App Campaigns)
+
+!!! info "Non-App Campaigns"
+	The integration is mostly designed to strongly support app campaigns and app campaigns for engagement. However, you can also still run non-app campaigns and Google will confirm when a supported app conversion occurs.
+
 - Includes **Search**, **Display**, **Shopping** and **Video** Campaign types
 	- Dynamic Remarketing campaigns for Apps
 - Full attribution for:
 	- App conversions (opens & in-app events)
+		- iOS web app conversion not supported
 	- Web (Mobile & Desktop) conversions
 - Deep Linking via Branch Links
 - Destinations:
