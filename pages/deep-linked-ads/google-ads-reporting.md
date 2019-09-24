@@ -2,6 +2,7 @@
 		- [Overview](deep-linked-ads/google-ads-overview/)
 		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
 		- **Reporting & Discrepancies (this page)**
+		- [Customization & Edge Cases](/deep-linked-ads/google-ads-customization/)
 
 ## Enabling and Segmenting View-Through Conversions in Reporting
 

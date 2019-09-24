@@ -2,6 +2,7 @@
 		- [Overview](/deep-linked-ads/google-ads-overview/)
 		- **Enabling the Integration (this page)**
 		- [Reporting & Discrepancies](/deep-linked-ads/google-ads-reporting/)
+		- [Customization & Edge Cases](/deep-linked-ads/google-ads-customization/)
 
 ## Overview
 

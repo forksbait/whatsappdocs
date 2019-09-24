@@ -2,6 +2,7 @@
 		- **Overview (this page)**
 		- [Enabling the Integration](/deep-linked-ads/google-ads-setup/)
 		- [Reporting & Discrepancies](/deep-linked-ads/google-ads-reporting/)
+		- [Customization & Edge Cases](/deep-linked-ads/google-ads-customization/)
 
 ## Google Ads + Branch Use Cases
 
@@ -67,8 +68,9 @@ For more detailed information, please see [Google Ads' help documentation](https
 - Destinations:
 	- Web (Mobile & Desktop) Only
 		- Requires the [Branch Web SDK](/web/integrate/)
-	- App (if installed)
+	- Deep Link into App (if installed)
 		- Requires [Universal Links](/deep-linking/universal-links/) and/or [App Links](/deep-linking/android-app-links/)
+			- If you don't have Universal Links or App links enabled, use Branch's custom deep linking solution.
 
 ## Data Mapping between Google Ads & Branch
 
