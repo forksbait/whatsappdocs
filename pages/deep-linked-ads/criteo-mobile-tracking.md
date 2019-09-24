@@ -20,7 +20,7 @@ This guide will walk you through how to setup your campaigns with **[Criteo](htt
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-postback.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
