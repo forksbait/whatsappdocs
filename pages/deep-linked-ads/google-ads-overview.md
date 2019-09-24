@@ -61,7 +61,7 @@ For more detailed information, please see [Google Ads' help documentation](https
 ### Web-based Ads (non-App Campaigns)
 
 !!! info "Non-App Campaigns"
-	The integration is mostly designed to strongly support app campaigns and app campaigns for engagement. However, you can also still run non-app campaigns and Google will confirm when a supported app conversion occurs.
+	The integration is mostly designed to strongly support app install campaigns and app engagement campaigns. However, you can also still run non-app campaigns and Google will confirm when a supported app conversion occurs.
 
 - Includes **Search**, **Display**, **Shopping** and **Video** Campaign types
 	- Dynamic Remarketing campaigns for Apps
@@ -75,7 +75,7 @@ For more detailed information, please see [Google Ads' help documentation](https
 		- Requires the [Branch Web SDK](/web/integrate/)
 	- Deep Link into App (if installed)
 		- Requires [Universal Links](/deep-linking/universal-links/) and/or [App Links](/deep-linking/android-app-links/)
-			- If you don't have Universal Links or App links enabled, use Branch's custom deep linking solution.
+			- If you don't have Universal Links or App links enabled, use [Branch's custom deep linking solution](/deep-linked-ads/google-ads-customization/).
 
 ## Data Mapping between Google Ads & Branch
 
