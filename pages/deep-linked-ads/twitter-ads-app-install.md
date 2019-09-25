@@ -23,6 +23,20 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 		* [x] iOS App Store ID set
 		* [x] Android Package Name set
 	* [x] Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
+	
+## Campaign Support
+
+| **Campaign Type** | **Attribution Supported** | **Branch Linking Supported** |
+| - | - | - |
+| App installs | Yes | No |
+| App re-engagements | Yes | No |
+| Website clicks or conversions | Yes (Branch only) | Yes |
+
+The integration with Twitter Ads for mobile app conversion tracking is designed to support App install and re-engagement campaigns. Other campaign types can be run with Branch links, but will only attribute in Branch and is not part of the integration.
+
+## Branch links
+
+App campaigns do not support Branch links. Branch links can be used on Tweets, promoted Tweets, and non-app campaign types, but will only report conversions in Branch and not Twitter. To avoid high-level reporting discrepancies, you may want to segment this traffic from the integration by using Quick Links. 
 
 ## Enable Twitter Ads for Measurement
 
@@ -139,6 +153,17 @@ Agencies can access Twitter data under the following circumstances:
  - [x] If they have been provided full agency access by the client.
  - [x] If they append their agency attribution code to the Twitter campaign they are running.
 
+## Reporting and Discrepancies
+
+There are two main causes for Twitter Ads discrepancies with Branch:
+
+**Not last click**
+
+Twitter will claim and report all conversions they have tracked clicks or views for within window. Because Branch will attribute to the last partner to interact with the user, you may see up to 10-30% discrepancies. 
+
+**August 2019 user data sharing changes**
+
+In early August of 2019, Twitter temporarily suspended sharing conversion data with MMP's. Upon resuming, Twitter will still attribute all user conversions in their reporting, but will only share conversion data if the user has allowed data sharing in their settings. This may result in up to 50% discrepancies after the first week of August depending on the settings of the users you're acquiring. For more details contact Twitter or reference [their messaging](https://help.twitter.com/en/ads-settings).
 
 ## Troubleshooting
 
