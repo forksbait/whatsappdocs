@@ -15,7 +15,7 @@ This guide will walk you through how to setup your campaigns with **[Oath](https
 
 Oath Ad Platforms has two main products/channels relevant to mobile advertising and attribution - (Yahoo!) Gemini/Native & Search, and the (formerly Brightroll) DSP.
 
-Branch is currently attributes only Gemini inventory using Branch links, and is able to send all event data to Oath which can attribute both Gemini and DSP inventory. 
+Branch currently attributes only Gemini inventory using Branch links, and is able to send all event data to Oath which can attribute both Gemini and DSP inventory. 
 
 ## Setup
 
