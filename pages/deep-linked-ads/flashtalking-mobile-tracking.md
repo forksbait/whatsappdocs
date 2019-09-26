@@ -2,8 +2,7 @@
 
 ![Flashtalking](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/flashtalking.png)
 
-This guide will walk you through how to setup your campaigns with **[![Flashtalking](http://www.flashtalking.com/)
-](https://www.1plusads.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Flashtalking](http://www.flashtalking.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -36,15 +35,15 @@ Once you've enabled an integration it's time to create a tracking link.
     ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/create-link-name.png)
 
 1. Add the following required keys to the **Deep Linking** sub tab during link configuration:
-		- spotGroupId
-		- spotId
-		- reportingBucket
-		- advertiserId
+	- spotGroupId
+	- spotId
+	- reportingBucket
+	- advertiserId
 
-		![image](/_assets/img/pages/deep-linked-ads/flashtalking/flashtalking-deep-linking.png)
+	![image](/_assets/img/pages/deep-linked-ads/flashtalking/flashtalking-deep-linking.png)
 
-		!!! warning "Deep Linking Keys Required"
-			If you do not already possess the values for the above-mentioned 4 keys, please reach out to your Flashtalking CSM.
+	!!! warning "Deep Linking Keys Required"
+		If you do not already possess the values for the above-mentioned 4 keys, please reach out to your Flashtalking CSM.
 
 1. This is also your chance to add analytics tags. Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
 
