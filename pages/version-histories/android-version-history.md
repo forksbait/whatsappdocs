@@ -1,3 +1,9 @@
+### v4.1.0 Changes
+
+**( 26 Sep 2019 )**
+
+- Added support for Cross-Platform ID (CPID) & Last attributed touch data (LATD).
+
 ### v4.0.1
 
 **( 18 Sept 2019 )**

@@ -1,10 +1,8 @@
 ## Overview
 
-![Google_DoubleClick](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/dc_newlogo-1528503421215.png)
+![DoubleClick](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/dc_newlogo-1528503421215.png)
 
 Track your **[Doubleclick](https://doubleclick.com)** campaigns using Branch's Universal Ads product. Branch's Ad Product will enable you to update your Doubleclick Campaign Manager (DCM) campaigns with deep links that send data back to Doubleclick's servers.
-
-You can now run campaigns on a variety of in-app and mobile web publishing sites, and provide your users with the smoothest experience with Branch's deep links. Read on to learn how to set everything up.
 
 !!! info
 	DoubleClick supports tracking links, and is also a self-attributing network with limited data in the response. Follow the relevant setup guide for the behavior you would like to see. Where possible, we recommend setting up *both* implementations for complete coverage, so data appears in Branch, the ad partner, and DoubleClick.
