@@ -1,4 +1,4 @@
-!!! info "Current SDK Version 0.28.1"
+!!! info "Current SDK Version 0.29.0"
     Please see the [iOS Version History](/version-histories/ios-version-history) to view change log.
 
 ## Integrate Branch
