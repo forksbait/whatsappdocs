@@ -451,7 +451,6 @@ nav:
       - Docomo Ad Network: deep-linked-ads/docomo-ad-network-mobile-tracking.md
       - Domob : deep-linked-ads/domob-mobile-tracking.md
       - Doozymob : deep-linked-ads/doozymob-mobile-tracking.md
-      - Doubleclick : deep-linked-ads/doubleclick-mobile-tracking.md
       - Downstream: deep-linked-ads/downstream-mobile-tracking.md
       - Drawbridge: deep-linked-ads/drawbridge-mobile-tracking.md
       - Dreamin: deep-linked-ads/dreamin-mobile-tracking.md
@@ -517,7 +516,10 @@ nav:
         - App Engagement Campaigns: deep-linked-ads/google-ads-app-engagement.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
         - Troubleshooting & FAQs: deep-linked-ads/google-ads-troubleshooting.md
-      - Google Marketing Platform: deep-linked-ads/google-marketing-platform-app-conversion-tracking.md
+      - Google Marketing Platform:
+        - Google Marketing Platform Overview: deep-linked-ads/google-marketing-platform-overview.md
+        - Google Marketing Platform: deep-linked-ads/google-marketing-platform-app-conversion-tracking.md
+        - Doubleclick (Legacy): deep-linked-ads/doubleclick-mobile-tracking.md
       - GreedyGame Media: deep-linked-ads/greedygame-media-mobile-tracking.md
       - GumGum: deep-linked-ads/gumgum-mobile-tracking.md
       - Gunosy : deep-linked-ads/gunosy-mobile-tracking.md
