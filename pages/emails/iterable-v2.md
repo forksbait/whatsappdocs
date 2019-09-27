@@ -88,7 +88,7 @@ If you have not added a custom click tracking domain yet, follow the instruction
 
 	- iOS Universal Links: mydomain.com/a/samplepath
 
-4. Email your AASA file to [Iterable Support](support@iterable.com).
+4. Email your AASA file to [Iterable Support](mailto:support@iterable.com).
 
 5. After Iterable processes the file, you can view it on the bottom of the project settings screen (**Settings > Project Settings**).
 
