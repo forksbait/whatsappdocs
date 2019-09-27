@@ -381,6 +381,7 @@ nav:
       - Buzzvil: deep-linked-ads/buzzvil-mobile-tracking.md
       - C3PA: deep-linked-ads/c3pa-mobile-tracking.md
       - Cactus Media: deep-linked-ads/cactus-media-mobile-tracking.md
+      - Campon: deep-linked-ads/campon-mobile-tracking.md
       - CandyAdz: deep-linked-ads/candyadz-mobile-tracking.md
       - Capslock Digital Solutions: deep-linked-ads/capslock-digital-solutions-mobile-tracking.md
       - Cashslide: deep-linked-ads/cashslide-mobile-tracking.md
@@ -405,6 +406,7 @@ nav:
       - Clickwork7 : deep-linked-ads/clickwork7-mobile-tracking.md
       - Clicxy: deep-linked-ads/clicxy-mobile-tracking.md
       - Clinch: deep-linked-ads/clinch-mobile-tracking.md
+      - Clouta: deep-linked-ads/clouta-mobile-tracking.md
       - Cluep : deep-linked-ads/cluep-mobile-tracking.md
       - Collectcent Digital Media : deep-linked-ads/collectcent-digital-media-mobile-tracking.md
       - Columbus : deep-linked-ads/columbus-mobile-tracking.md
@@ -442,6 +444,7 @@ nav:
       - DGTG Marketing: deep-linked-ads/dgtg-marketing-mobile-tracking.md
       - Digiads Media: deep-linked-ads/digiads-media-mobile-tracking.md
       - Digidarts Marketing: deep-linked-ads/digidarts-marketing-mobile-tracking.md
+      - Digifish3: deep-linked-ads/digifish3-mobile-tracking.md
       - Digital Optimist: deep-linked-ads/digital-optimist-mobile-tracking.md
       - Digital Remedy: deep-linked-ads/digital-remedy-mobile-tracking.md
       - Digital Turbine : deep-linked-ads/digital-turbine-mobile-tracking.md
@@ -459,6 +462,7 @@ nav:
       - EasyJoy Technology: deep-linked-ads/easyjoy-technology-mobile-tracking.md
       - Edge226 : deep-linked-ads/edge226-mobile-tracking.md
       - Edge360 Limited: deep-linked-ads/edge360-limited-mobile-tracking.md
+      - Edge Mobile: deep-linked-ads/edge-mobile-mobile-tracking.md
       - Efountain: deep-linked-ads/efountain-mobile-tracking.md
       - Eiykoo: deep-linked-ads/eiykoo-mobile-tracking.md
       - Electra Advertising: deep-linked-ads/electra-advertising-mobile-tracking.md
@@ -543,6 +547,7 @@ nav:
       - iCubesWire Technologies: deep-linked-ads/icubeswire-technologies-mobile-tracking.md
       - Ignite OPM: deep-linked-ads/ignite-opm-mobile-tracking.md
       - iHuntz Media: deep-linked-ads/ihuntz-media-mobile-tracking.md
+      - Imgur: deep-linked-ads/imgur-mobile-tracking.md
       - Impact Radius : deep-linked-ads/impact-radius-mobile-tracking.md
       - Impelus: deep-linked-ads/impelus-mobile-tracking.md
       - Indus OS: deep-linked-ads/indus-os-mobile-tracking.md
@@ -590,6 +595,7 @@ nav:
       - Leadbolt : deep-linked-ads/leadbolt-mobile-tracking.md
       - Lemmonet: deep-linked-ads/lemmonet-mobile-tracking.md
       - Liangjianghu: deep-linked-ads/liangjianghu-mobile-tracking.md
+      - Libertap: deep-linked-ads/libertap-mobile-tracking.md
       - LifeStreet : deep-linked-ads/lifestreet-mobile-tracking.md
       - Liftoff : deep-linked-ads/liftoff-mobile-tracking.md
       - LINE Ads Plaftorm - M.T.Burns : deep-linked-ads/line-ads-platform-mobile-tracking.md
@@ -722,6 +728,7 @@ nav:
       - ProfiliAd : deep-linked-ads/profiliad-mobile-tracking.md
       - Proformics Digtech: deep-linked-ads/proformics-digitech-mobile-tracking.md
       - Propeller Ads : deep-linked-ads/propeller-ads-mobile-tracking.md
+      - Prudent Ads: deep-linked-ads/prudent-ads-mobile-tracking.md
       - Qooapp Limited : deep-linked-ads/qooapp-limited-mobile-tracking.md
       - QuickSticks Media: deep-linked-ads/quicksticks-media-mobile-tracking.md
       - Quora : deep-linked-ads/quora-mobile-tracking.md
@@ -775,6 +782,7 @@ nav:
       - Sonarclick: deep-linked-ads/sonarclick-mobile-tracking.md
       - So-net Media: deep-linked-ads/sonet-media-mobile-tracking.md
       - Spyke Media : deep-linked-ads/spyke-media-mobile-tracking.md
+      - Spotad: deep-linked-ads/spotad-mobile-tracking.md
       - StackAdapt: deep-linked-ads/stackadapt-mobile-tracking.md
       - Stargazer : deep-linked-ads/stargazer-mobile-tracking.md
       - StartApp : deep-linked-ads/startapp-mobile-tracking.md
@@ -858,12 +866,9 @@ nav:
       - Wider Planet : deep-linked-ads/wider-planet-mobile-tracking.md
       - Wiz Metric: deep-linked-ads/wiz-metric-mobile-tracking.md
       - Xapads Media : deep-linked-ads/xapads-media-mobile-tracking.md
+      - Xender: deep-linked-ads/xender-mobile-tracking.md
       - XiaoMi Global: deep-linked-ads/xiaomi-global-mobile-tracking.md
       - Xmax : deep-linked-ads/xmax-mobile-tracking.md
-      - Webpals Mobile : deep-linked-ads/webpals-mobile-mobile-tracking.md
-      - Wider Planet : deep-linked-ads/wider-planet-mobile-tracking.md
-      - Xapads Media : deep-linked-ads/xapads-media-mobile-tracking.md
-      - XiaoMi Global: deep-linked-ads/xiaomi-global-mobile-tracking.md
       - XY Ads: deep-linked-ads/xy-ads-mobile-tracking.md
       - Yandex Direct : deep-linked-ads/yandex-direct-mobile-tracking.md
       - YeahMobi : deep-linked-ads/yeahmobi-mobile-tracking.md
@@ -902,7 +907,8 @@ nav:
       - Hootsuite: social-links/hootsuite.md
       - IBM Watson Campaign Automation: emails/ibm-watson-campaign-automation.md
       - iCubesPro: emails/icubespro.md
-      - Iterable: emails/iterable.md
+      - Iterable v1: emails/iterable-v1.md
+      - Iterable v2: emails/iterable-v2.md
       - Kahuna: emails/kahuna.md
       - Klaviyo: emails/klaviyo.md
       - Leanplum: emails/leanplum.md
@@ -951,6 +957,7 @@ nav:
       - Eulerian: integrations/eulerian.md
       - FollowAnalytics: integrations/followanalytics.md
       - Forensiq: integrations/forensiq.md
+      - Fraudscore: integrations/fraudscore.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
       - Google Firebase: integrations/google-firebase.md
