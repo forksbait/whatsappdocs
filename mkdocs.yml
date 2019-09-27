@@ -902,7 +902,8 @@ nav:
       - Hootsuite: social-links/hootsuite.md
       - IBM Watson Campaign Automation: emails/ibm-watson-campaign-automation.md
       - iCubesPro: emails/icubespro.md
-      - Iterable: emails/iterable.md
+      - Iterable v1: emails/iterable-v1.md
+      - Iterable v2: emails/iterable-v2.md
       - Kahuna: emails/kahuna.md
       - Klaviyo: emails/klaviyo.md
       - Leanplum: emails/leanplum.md
