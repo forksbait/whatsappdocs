@@ -55,13 +55,17 @@
             implementation 'com.android.support:appcompat-v7:25.2.0'
             implementation 'com.android.support:design:25.2.0'
 
-            // required
+            // required for all Android apps
             implementation 'io.branch.sdk.android:library:3.+'
-
+            
+            // required if your app is in the Google Play Store
+            implementation 'com.google.android.gms:play-services-appindexing:9.+' // App indexing
+            implementation 'com.google.android.gms:play-services-ads:9+' // GAID matching
+            
             // optional
             implementation 'com.android.support:customtabs:23.3.0' // Chrome Tab matching
-            implementation 'com.google.android.gms:play-services-ads:9+' // GAID matching
-            implementation 'com.google.android.gms:play-services-appindexing:9.+' // App indexing
+            
+
 
             testImplementation 'junit:junit:4.12'
         }
