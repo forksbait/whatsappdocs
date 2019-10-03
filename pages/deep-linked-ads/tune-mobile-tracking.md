@@ -27,6 +27,11 @@ This guide will walk you through how to setup your campaigns with **[TUNE](http:
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+!!! info "Placing Your Branch Link"
+	Select **Branch** from the Universal Links menu in the Links panel, then paste your Branch link into the **Default Offer URL** field as usual.
+
+	![image](/_assets/img/pages/deep-linked-ads/hasoffers/hasoffers-url.png)
+
 !!! warning "Add and Pass Goal ID Parameters"
 	Don't forget to add and pass goal id parameters and values to your tracking links. Please make sure to use the same event/goal name as defined on the Branch dashboard e.g. ￼`https://branchster.app.link/nYr80gScQV?%243p=a_3.14_digital&goal1=111&goal2=222&goal3=333`
 
