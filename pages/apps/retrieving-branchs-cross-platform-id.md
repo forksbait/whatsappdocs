@@ -1,9 +1,9 @@
 ## Overview
 
-Branch includes SDK methods to allow retrieval of our Cross Platform ID (CPID) from the client. This results in an asynchronous call being made to Branch’s servers, with CPID data returned when possible.
+Branch includes SDK methods to allow retrieval of our Cross Platform ID (CPID) from the client. This results in an asynchronous call being made to Branch’s servers with CPID data returned when possible.
 
 !!! warning "Paid Feature"
-	The use of the CPID SDK querying is a paid feature. Without CPID SDK querying, you can still export the CPID fields in [Daily Exports via the Branch dashboard or API](https://docs.branch.io/exports/daily-exports/).
+	CPID SDK querying is only available as part of the paid Cross-Platform ID product.
 
 By using the CPID SDK querying, the following fields will be returned to the client:
 
