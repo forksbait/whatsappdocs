@@ -1,3 +1,9 @@
+### v0.29.1 Changes
+
+**(2019-October-04)**
+
+- Fix nullability warnings.
+
 ### v0.29.0 Changes
 
 **(2019-September-26)**
