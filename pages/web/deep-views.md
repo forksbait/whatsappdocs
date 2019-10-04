@@ -44,6 +44,9 @@ There are various metrics to understand when deep linking from your mobile websi
 
 Only users who do not have the app will go through this flow. You can view the total counts and conversion rate from each step on this chart.
 
+!!! warning
+    If a user without your app clicks a Branch link with an Active Deepview enabled but does not click the Deepview CTA, downstream activity (e.g. installs, purchases) will not be attributed to the original link click.
+
 ## Advanced
 
 ### Customizing Deepviews
