@@ -1,8 +1,8 @@
 ## Overview
 
-![Heap](https://cdn.branch.io/branch-assets/ad-partner-manager//heap_logo-1564446383572.png)
+![Chartable](https://cdn.branch.io/branch-assets/ad-partner-manager//Chartable_Logo-1569590745878.png)
 
-This guide will walk you through how to send your Branch data to **[Heap](https://heap.io/)** using Branch Data Integration.
+This guide will walk you through how to send your Branch data to **[Chartable](https://chartable.com/)** using Branch Data Integration.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,8 +14,9 @@ This guide will walk you through how to send your Branch data to **[Heap](https:
 
 {! ingredients/data-integrations/add-credentials.md !}
 
-### What Branch sends to Heap
+### What Branch sends to Chartable
 
+* Installs
 * Commerce Events
 * Custom Events
 

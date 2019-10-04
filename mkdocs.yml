@@ -339,12 +339,14 @@ nav:
       - Appstare: deep-linked-ads/appstare-mobile-tracking.md
       - Appxigo Media: deep-linked-ads/appxigo-media-mobile-tracking.md
       - Arabclicks: deep-linked-ads/arabclicks-mobile-tracking.md
+      - ArabyAds: deep-linked-ads/arabyads-mobile-tracking.md
       - Aragon Premium: deep-linked-ads/aragon-premium-mobile-tracking.md
       - Art of Click : deep-linked-ads/art-of-click-mobile-tracking.md
       - Artsai: deep-linked-ads/artsai-mobile-tracking.md
       - ARVE Technologies : deep-linked-ads/arve-technologies-mobile-tracking.md
       - Auburn Digital Solutions: deep-linked-ads/auburn-digital-solutions-mobile-tracking.md
       - Aura Ironsource : deep-linked-ads/aura-ironsource-mobile-tracking.md
+      - Automate360: deep-linked-ads/automate360-mobile-tracking.md
       - Avazu : deep-linked-ads/avazu-mobile-tracking.md
       - Avocet: deep-linked-ads/avocet-mobile-tracking.md
       - Avow : deep-linked-ads/avow-mobile-tracking.md
@@ -364,6 +366,7 @@ nav:
       - Bidmotion : deep-linked-ads/bidmotion-mobile-tracking.md
       - Bidroid : deep-linked-ads/bidroid-mobile-tracking.md
       - Bidsflyer: deep-linked-ads/bidsflyer-mobile-tracking.md
+      - Bidshade Media: deep-linked-ads/bidshade-media-mobile-tracking.md
       - Bidsopt Media: deep-linked-ads/bidsopt-media-mobile-tracking.md
       - Billy Mobile : deep-linked-ads/billy-mobile-mobile-tracking.md
       - Bing Ads: deep-linked-ads/bing-ads-mobile-tracking.md
@@ -386,6 +389,7 @@ nav:
       - Capslock Digital Solutions: deep-linked-ads/capslock-digital-solutions-mobile-tracking.md
       - Cashslide: deep-linked-ads/cashslide-mobile-tracking.md
       - Cashtree For Indonesia: deep-linked-ads/cashtree-for-indonesia-mobile-tracking.md
+      - Catalyst Webtrendz: deep-linked-ads/catalyst-webtrendz-mobile-tracking.md
       - Cauly: deep-linked-ads/cauly-mobile-tracking.md
       - CA Wise: deep-linked-ads/ca-wise-mobile-tracking.md
       - Centro: deep-linked-ads/centro-mobile-tracking.md
@@ -402,6 +406,7 @@ nav:
       - Clickky : deep-linked-ads/clickky-mobile-tracking.md
       - ClickOnik : deep-linked-ads/clickonik-mobile-tracking.md
       - Clicks2install: deep-linked-ads/clicks2install-mobile-tracking.md
+      - ClickRising: deep-linked-ads/clickrising-mobile-tracking.md
       - Clicksmob: deep-linked-ads/clicksmob-mobile-tracking.md
       - Clickwork7 : deep-linked-ads/clickwork7-mobile-tracking.md
       - Clicxy: deep-linked-ads/clicxy-mobile-tracking.md
@@ -442,6 +447,7 @@ nav:
       - Defy Norms: deep-linked-ads/defy-norms-mobile-tracking.md
       - DGTG Marketing: deep-linked-ads/dgtg-marketing-mobile-tracking.md
       - Digiads Media: deep-linked-ads/digiads-media-mobile-tracking.md
+      - Digichoice: deep-linked-ads/digichoice-mobile-tracking.md
       - Digidarts Marketing: deep-linked-ads/digidarts-marketing-mobile-tracking.md
       - Digifish3: deep-linked-ads/digifish3-mobile-tracking.md
       - Digital Optimist: deep-linked-ads/digital-optimist-mobile-tracking.md
@@ -531,6 +537,7 @@ nav:
       - Hang My Ads : deep-linked-ads/hang-my-ads-mobile-tracking.md
       - HasOffers/TUNE : deep-linked-ads/tune-mobile-tracking.md
       - Hawk Platform by TabMo Group: deep-linked-ads/hawk-platform-mobile-tracking.md
+      - Herba Technologies: deep-linked-ads/herba-technologies-mobile-tracking.md
       - Heyzap : deep-linked-ads/heyzap-mobile-tracking.md
       - Hockeycurve: deep-linked-ads/hockeycurve-mobile-tracking.md
       - Hong Kong Cappuccino Media: deep-linked-ads/hong-kong-cappuccino-media-mobile-tracking.md
@@ -610,6 +617,7 @@ nav:
       - Maio: deep-linked-ads/maio-mobile-tracking.md
       - Maiden Marketing: deep-linked-ads/maiden-marketing-mobile-tracking.md
       - Maiden Marketing Web: deep-linked-ads/maiden-marketing-web-mobile-tracking.md
+      - Mainad: deep-linked-ads/mainad-mobile-tracking.md
       - Manage: deep-linked-ads/manage-mobile-tracking.md
       - MANPLUS: deep-linked-ads/manplus-mobile-tracking.md
       - Mapendo : deep-linked-ads/mapendo-mobile-tracking.md
@@ -743,6 +751,7 @@ nav:
       - Revmob : deep-linked-ads/revmob-mobile-tracking.md
       - RevX : deep-linked-ads/revx-mobile-tracking.md
       - Rocket10 : deep-linked-ads/rocket10-mobile-tracking.md
+      - Rocket Lab: deep-linked-ads/rocket-lab-mobile-tracking.md
       - Rockford Mobi: deep-linked-ads/rockford-mobi-mobile-tracking.md
       - Rokt : deep-linked-ads/rokt-mobile-tracking.md
       - Roman Derby Advertising Solutions: deep-linked-ads/roman-derby-advertising-solutions-mobile-tracking.md
@@ -943,6 +952,7 @@ nav:
       - 24Metrics Fraudshield: integrations/24metrics-fraudshield.md
       - Adjust: integrations/adjust.md
       - Adobe Analytics: integrations/adobe-analytics.md
+      - Airship: integrations/airship.md
       - Amplitude: integrations/amplitude.md
       - AppMetrica: integrations/appmetrica.md
       - Appsee: integrations/appsee.md
@@ -951,6 +961,7 @@ nav:
       - Backinapp: integrations/backinapp.md
       - Batch: integrations/batch.md
       - Braze: integrations/braze.md
+      - Chartable: integrations/chartable.md
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
       - Eulerian: integrations/eulerian.md
@@ -977,6 +988,11 @@ nav:
       - Singular: integrations/singular.md
       - TrafficGuard: integrations/trafficguard.md
       - WebEngage: integrations/webengage.md
+    - App Stores:
+      - App Stores List: app-stores/app-stores-list.md
+      - 9Apps: app-stores/9apps-app-store.md
+      - Oppo: app-stores/oppo-app-store.md
+      - Xiaomi: app-stores/xiaomi-app-store.md
     - Partner Resources:
       - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
       - Branch Partner Best Practices: partner-management/branch-partner-best-practices.md
