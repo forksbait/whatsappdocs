@@ -16,7 +16,7 @@ This guide will walk you through how to send your Branch data to **[Chartable](h
 
 ### What Branch sends to Chartable
 
-* installs
+* Installs
 * Commerce Events
 * Custom Events
 
