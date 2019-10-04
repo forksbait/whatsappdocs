@@ -977,6 +977,11 @@ nav:
       - Singular: integrations/singular.md
       - TrafficGuard: integrations/trafficguard.md
       - WebEngage: integrations/webengage.md
+    - App Stores:
+      - App Stores List: app-stores/app-stores-list.md
+      - 9Apps: app-stores/9apps-app-store.md
+      - Oppo: app-stores/oppo-app-store.md
+      - Xiaomi: app-stores/xiaomi-app-store.md
     - Partner Resources:
       - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
       - Branch Partner Best Practices: partner-management/branch-partner-best-practices.md
