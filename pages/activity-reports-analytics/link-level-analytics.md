@@ -3,7 +3,7 @@
 
 ### Link Stats View
 
-Simply append ?stats=true to any link and you will see a breakdown of trends over any period of time.
+As long as your link contains unique tags, you can append `?stats=true` to the link and  see a breakdown of trends over any period of time.
 
 ![image](/_assets/img/pages/analytics/link-level-analytics0.png)
 
