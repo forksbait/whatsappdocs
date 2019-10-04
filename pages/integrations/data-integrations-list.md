@@ -10,6 +10,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://24metrics.com/" target="_blank">![24Metrics](/_assets/img/pages/integrations/logos/24metrics-banner.png)</a>|**[24Metrics](/integrations/24metrics-fraudshield/)**
 <a href="https://www.adjust.com/" target="_blank">![Adjust](/_assets/img/pages/integrations/logos/adjust-logo.png)</a>|**[Adjust](/integrations/adjust/)**
 <a href="https://my.omniture.com" target="_blank">![Adobe Analytics](/_assets/img/pages/integrations/logos/adobe_analytics.png)</a>|**[Adobe Analytics](/integrations/adobe-analytics/)**
+<a href="https://www.urbanairship.com/" target="_blank">![Airship](https://cdn.branch.io/branch-assets/ad-partner-manager//urban_airship-1568181974178.png)</a>|**[Airship](/integrations/airship/)**
 <a href="https://amplitude.com" target="_blank">![Amplitude](/_assets/img/pages/integrations/logos/amplitude-logo.png)</a>|**[Amplitude](/integrations/amplitude/)**
 <a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/_assets/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/integrations/appmetrica/)**
 <a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/_assets/img/pages/integrations/logos/appsflyer.png)</a>|**[AppsFlyer](/integrations/appsflyer/)**
@@ -18,6 +19,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/integrations/backinapp/)**
 <a href="https://batch.com/" target="_blank">![Batch](https://cdn.branch.io/branch-assets/ad-partner-manager//batch-1563920130951.png)</a>|**[Batch](/integrations/batch/)**
 <a href="https://www.braze.com/" target="_blank">![Braze](/_assets/img/pages/integrations/logos/braze.png)</a>|**[Braze](/integrations/braze/)**
+<a href="https://chartable.com/" target="_blank">![Chartable](https://cdn.branch.io/branch-assets/ad-partner-manager//Chartable_Logo-1569590745878.png)</a>|**[Chartable](/integrations/chartable/)**
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/_assets/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/integrations/clevertap/)**
 <a href="https://www.convertro.com/" target="_blank">![Convertro](/_assets/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/integrations/convertro/)**
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/_assets/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/integrations/eulerian/)**

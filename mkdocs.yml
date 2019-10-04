@@ -943,6 +943,7 @@ nav:
       - 24Metrics Fraudshield: integrations/24metrics-fraudshield.md
       - Adjust: integrations/adjust.md
       - Adobe Analytics: integrations/adobe-analytics.md
+      - Airship: integrations/airship.md
       - Amplitude: integrations/amplitude.md
       - AppMetrica: integrations/appmetrica.md
       - Appsee: integrations/appsee.md
@@ -951,6 +952,7 @@ nav:
       - Backinapp: integrations/backinapp.md
       - Batch: integrations/batch.md
       - Braze: integrations/braze.md
+      - Chartable: integrations/chartable.md
       - CleverTap: integrations/clevertap.md
       - Convertro: integrations/convertro.md
       - Eulerian: integrations/eulerian.md
