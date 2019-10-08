@@ -12,8 +12,8 @@
 
         - The Apple App Prefix is found within the [Apple Developer Portal](https://developer.apple.com/account/ios/identifier/bundle) for your app
 
-    !!! warning "App Store Redirect"
-        When a user is redirected to the app store a popup first appears prompting the user to open in the App Store. The user must click **OK** to be fully routed to the App Store to download your app.  This popup cannot be removed from the user flow as it's inherent to iOS.
+    !!! warning "App Store Redirect on < iOS 12.3"
+        For any user running on an iOS version below 12.3, a popup first appears prompting the user to open in the App Store when being redirected to the app store. The user must click **OK** to be fully routed to the App Store to download your app.  This popup cannot be removed from the user flow as it's inherent to iOS.
         ![image](/_assets/img/pages/links/app-store-redirect.png)
 
     - ##### Android
