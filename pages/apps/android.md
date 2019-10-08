@@ -1,4 +1,4 @@
-!!! info "Current SDK Version 4.1.0"
+!!! info "Current SDK Version 4.1.1"
     Please see the [Android Version History](/version-histories/android-version-history) to view change log.
 
 !!! warning "v4.0.0 Uses Android X"
@@ -57,14 +57,14 @@
 
             // required for all Android apps
             implementation 'io.branch.sdk.android:library:3.+'
-            
+
             // required if your app is in the Google Play Store
             implementation 'com.google.android.gms:play-services-appindexing:9.+' // App indexing
             implementation 'com.google.android.gms:play-services-ads:9+' // GAID matching
-            
+
             // optional
             implementation 'com.android.support:customtabs:23.3.0' // Chrome Tab matching
-            
+
 
 
             testImplementation 'junit:junit:4.12'
