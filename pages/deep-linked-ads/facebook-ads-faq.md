@@ -325,9 +325,11 @@ To use links for deep linking without attributing to the link, please append `%2
 
 One discrepancy root cause we've seen before is the scenario where Branch will classify an install as a reinstall or open. We remember the history of a particular user via their IDFA or Google Advertising ID (in addition to using a few other methods) and will detect whether the user is actually a new user or a returning user who had previously uninstalled your app. Facebook has a different mechanism that is limited to 180 days. Branch in some cases has detected reinstalls that occurred more than a year later.
 
-##### Don't Use setDebug
+##### Don't Use `setDebug`
 
 Facebook ads are incompatible with [debug mode](/apps/ios/#simulate-an-install), as this prevents us from sending the correct hardware ID to Facebook.
+
+Please make sure the debug method is not included in your production app OR set to false - `Branch.setDebug(false)` - as doing so still enables debug mode. 
 
 ##### Renaming campaigns, ad sets, and ads
 
