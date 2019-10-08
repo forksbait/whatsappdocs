@@ -522,11 +522,9 @@ nav:
       - GoClick Digital: deep-linked-ads/goclick-digital-mobile-tracking.md
       - Google Ads:
         - Google Ads Overview: deep-linked-ads/google-ads-overview.md
-        - Enabling the Integration: deep-linked-ads/google-ads-enable.md
-        - App Install Campaigns: deep-linked-ads/google-ads-uac.md
-        - App Engagement Campaigns: deep-linked-ads/google-ads-app-engagement.md
-        - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
-        - Troubleshooting & FAQs: deep-linked-ads/google-ads-troubleshooting.md
+        - Enabling the Integration: deep-linked-ads/google-ads-setup.md
+        - Reporting & Discrepancies: deep-linked-ads/google-ads-reporting.md
+        - Customization & Edge Cases: deep-linked-ads/google-ads-customization.md
       - Google Marketing Platform:
         - Google Marketing Platform Overview: deep-linked-ads/google-marketing-platform-overview.md
         - Google Marketing Platform: deep-linked-ads/google-marketing-platform-app-conversion-tracking.md
