@@ -4,16 +4,16 @@
 		- [Reporting & Discrepancies](/deep-linked-ads/google-ads-reporting/)
 		- [Customization & Edge Cases](/deep-linked-ads/google-ads-customization/)
 
-## Google Ads + Branch Use Cases
+## Overview
 
 With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)**, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dashboard.
 
-![image](/_assets/img/pages/deep-linked-ads/google/branch-google.png)
+![image](/_assets/img/pages/deep-linked-ads/google/google-ads-overview.png)
+
+!!! warning "Branch Linking Supported but Not Recommended"
+	For non-app campaigns, use you can use Branch links.  However, they are not required and we recommend their usage only in custom edge cases.  Learn more about [Customization & Edge Cases](/deep-linked-ads/google-ads-customization/) for using Branch links.
 
 ## Campaign Support
-
-!!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/deep-linked-ads/google-ads-setup/)** in your Branch dashboard.
 
 Our integration with Google Ads supports the following:
 

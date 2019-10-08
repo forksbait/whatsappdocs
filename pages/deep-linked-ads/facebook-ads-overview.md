@@ -6,7 +6,7 @@ Branch links can be used together with **[Facebook](http://facebook.com/)**  ads
 
 Facebook's Ad Platform supports numerous campaign types and a shared set of advertisement formats. To help you navigate Facebook's Advertisement Platform we created this guide detailing how to use Branch links in all major Facebook ad types.
 
-## Supported Facebook Ad Campaigns
+## Campaign Support
 
 This documentation supports the following Facebook Ad Campaigns:
 
@@ -22,6 +22,44 @@ Conversion | Conversions | Web or App | **[link](/deep-linked-ads/facebook-traff
 Conversion | Product Catalogue Sales | Web or App | **[link](/deep-linked-ads/facebook-dynamic-ads/)** | Cross-platform Product Links
 
 [x] Facebook has indicated that links are not supported in all placements.
+
+## Data Mapping between Branch and Facebook
+
+| Branch event name | Facebook MMP _eventName
+| --- | ---
+| ACHIEVE_LEVEL | fb_mobile_level_achieved
+| ADD_PAYMENT_INFO | fb_mobile_add_payment_info
+| ADD_TO_CART | fb_mobile_add_to_cart
+| ADD_TO_WISHLIST | fb_mobile_add_to_wishlist
+| COMPLETE_REGISTRATION | fb_mobile_complete_registration
+| COMPLETE_TUTORIAL | fb_mobile_tutorial_completion
+| INITIATE_PURCHASE | fb_mobile_initiated_checkout
+| PURCHASE | fb_mobile_purchase
+| RATE | fb_mobile_rate
+| SEARCH | fb_mobile_search
+| SPEND_CREDITS | fb_mobile_spent_credits
+| UNLOCK_ACHIEVEMENT | fb_mobile_achievement_unlocked
+| VIEW_ITEM | fb_mobile_content_view
+
+### Mapping of Branch metadata to Facebook metadata
+
+|Branch Key-Value Pair | Facebook MMP Key-Value Pair | Facebook event(s) supported
+| --- | --- | ---
+|commerce_data.revenue | _valueToSum | fb_mobile_add_to_cart, fb_mobile_add_to_wishlist, fb_mobile_initiated_checkout, fb_mobile_purchase, fb_mobile_spent_credits, fb_mobile_content_view
+|commerce_data.currency | fb_currency | fb_mobile_add_to_cart, fb_mobile_add_to_wishlist, fb_mobile_initiated_checkout, fb_mobile_purchase, fb_mobile_content_view
+|content_items[0].$sku | fb_content_id | fb_mobile_add_to_cart, fb_mobile_add_to_wishlist, fb_mobile_tutorial_completion, fb_mobile_initiated_checkout, fb_mobile_purchase, fb_mobile_rate, fb_mobile_spent_credits, fb_mobile_content_view
+|content_items[0].$product_category | fb_content_type | fb_mobile_add_to_cart, fb_mobile_add_to_wishlist, fb_mobile_initiated_checkout, fb_mobile_purchase, fb_mobile_rate, fb_mobile_search, fb_mobile_spent_credits, fb_mobile_content_view
+|content_items[0].$quantity | fb_num_items | fb_mobile_initiated_checkout, fb_mobile_purchase
+|content_items[0].$rating | _valueToSum | fb_mobile_rate
+|content_items[0].$rating_max | fb_max_rating_value | fb_mobile_rate
+|event_data.search_query | fb_search_string | fb_mobile_search
+|content_items[0].$og_description | fb_description | fb_mobile_achievement_unlocked
+|custom_data.fb_payment_info_available | fb_payment_info_available | fb_mobile_initiated_checkout
+|custom_data.level | fb_level | fb_mobile_level_achieved
+|custom_data.fb_success | fb_success | fb_mobile_add_payment_info, fb_mobile_tutorial_completion, fb_mobile_search
+|custom_data.fb_registration_method | fb_registration_method | fb_mobile_complete_registration
+
+Currently Facebook appears to only support sending one fb_content_id (etc) per event, whereas Branch allows you to send many. To provide as much functionality as possible, we choose the first content_item and search it for key-value pairs that can be sent to Facebook.
 
 ## Sharing Facebook Data
 
