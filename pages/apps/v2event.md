@@ -97,7 +97,7 @@ This allows you to easily visualize revenue on the Dashboard, across many countr
     // Create a BranchEvent:
     let event = BranchEvent.standardEvent(.purchase)
 
-    // Add the BranchUniversalObjects with the content:
+    // Add the BranchUniversalObject with the content (do not add an empty branchUniversalObject):
     event.contentItems     = [ branchUniversalObject ]
 
     // Add relevant event data:
@@ -143,7 +143,7 @@ This allows you to easily visualize revenue on the Dashboard, across many countr
     // Create an event and add the BranchUniversalObject to it.
     BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
 
-    // Add the BranchUniversalObjects with the content:
+    // Add the BranchUniversalObjects with the content (do not add an empty branchUniversalObject):
     event.contentItems     = (id) @[ branchUniversalObject ];
 
     // Add relevant event data:
@@ -190,6 +190,8 @@ BranchUniversalObject buo = new BranchUniversalObject()
 		.setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
 	    .addKeyWord("keyword1")
 	    .addKeyWord("keyword2");
+
+//  Do not add an empty branchUniversalObject to the BranchEvent
 
 new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
         .setAffiliation("test_affiliation")

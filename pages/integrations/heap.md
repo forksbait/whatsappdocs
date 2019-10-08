@@ -16,7 +16,8 @@ This guide will walk you through how to send your Branch data to **[Heap](https:
 
 ### What Branch sends to Heap
 
-* Custom Event
+* Commerce Events
+* Custom Events
 
 ## Advanced
 

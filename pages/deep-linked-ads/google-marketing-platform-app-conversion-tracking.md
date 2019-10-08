@@ -1,8 +1,6 @@
-title: Google Marketing Platform App Conversion Tracking
-
-![image](https://cdn.branch.io/branch-assets/ad-partner-manager//gmp-logo-1557768658464.png)
-
 ## Overview
+
+![Google Marketing Platform](https://cdn.branch.io/branch-assets/ad-partner-manager//gmp-logo-1557768658464.png)
 
 Branch links can be used together with Google Marketing Platform app conversion ads, allowing you to track ad-driven app conversion (installs and in-app events) on the Branch dashboard.
 
@@ -31,7 +29,7 @@ By connecting your Google Marketing Platform and Branch accounts, the following 
 
 !!! warning "Prerequisites"
 	* [x] To track conversions from Google Marketing Platform Ads you should [integrate the Branch SDK](https://docs.branch.io/resources/native-sdks-and-plugins/) into your app, and/or if you are using S2S, ensure that advertising ID's are being passed to Branch.
-	* [x] You must request whitelisting from your Google rep for the new 'App Analytics' section of Floodlight Configuration in CM in order to generate link ID's for this integration
+	* [x] You must request whitelisting from your Google rep for the new 'App Analytics' section of Floodlight Configuration in order to generate link ID's for this integration
 
 ## Configure Branch as App Analytics Partner in Google Marketing Platform
 

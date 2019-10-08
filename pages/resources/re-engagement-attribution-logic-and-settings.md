@@ -26,10 +26,22 @@ To modify your app-level re-engagement inactivity window:
 
 ## Partner Settings for Acquisition Only Campaigns
 
-While the app-level re-engagement inactivity window is a global setting that applies to any partner you work with to market your app and can be used in re-engagement cohort analysis and postbacks, there is also a related partner-level setting. This setting allows you to attribute based on install touch only, **essentially disregarding any re-engagements for attribution**. Unlike the app-level setting, this impacts all analytics and postbacks, and can be configured on a per partner basis.
+While the app-level re-engagement inactivity window is a global setting that applies to any partner you work with to market your app and can be used in re-engagement cohort analysis and postbacks, there is also a related partner-level setting.
+
+When this setting is enabled, we will only attribute events for this partner based on the touch (click or impression) that drove the install. This is useful for ad partners that are only used for acquisition campaigns and essentially disables "re-engagement" attribution.  Other attribution windows (for example, click to conversion) still apply to the install touch.
+
+Unlike the app-level setting, this impacts all analytics and postbacks, and can be configured on a per partner basis.
 
 !!! warning "Enabling Install Touch Setting"
-	Currently the partner-level setting to disable re-engagement and attribute based on install touch only is not 	available in your Branch dashboard.  If you are interested in having enabling this setting for your account, please	contact [support@branch.io](mailto:support@branch.io).
+	Currently this setting is not available in your Branch dashboard.  If you are interested in having this setting available in your account, please contact [Support](mailto:support@branch.io).
+
+1. In the left-hand nav, click on **Ads** and then on **Partner Management**.
+2. Search for and select the partner you wish to enable install touch for.
+3. On the partner's **Attribution Windows** tab, toggle **Use ad partner attribution settings** on.
+4. At the bottom of the attribution window settings table, tick the box next to **Only attribute based on touch**.
+5. Click **Save**.
+
+![image](/_assets/img/pages/resources/matching/install-touch-setting.png)
 
 ## Viewing Re-Engagement in Reporting
 

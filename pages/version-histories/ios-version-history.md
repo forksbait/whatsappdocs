@@ -1,3 +1,17 @@
+### v0.29.1 Changes
+
+**(2019-October-04)**
+
+- Fix nullability warnings.
+
+### v0.29.0 Changes
+
+**(2019-September-26)**
+
+- Added support for Cross-Platform ID (CPID) & Last attributed touch data (LATD).
+- Fixed a race condition on slow startup.
+- Fixed a rare Keychain deadlock.
+
 ### v0.28.1
 
 **(2019-September-06)**
