@@ -1,5 +1,5 @@
 # Project
-site_name: 'Branch Docs 2'
+site_name: 'Branch Docs '
 site_description: 'Branch documentation for mobile deep linking and attribution'
 site_author: 'Branch'
 site_url: ##### # replaced with parameter by CircleCI
